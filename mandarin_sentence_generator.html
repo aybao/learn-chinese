@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Mandarin Sentence Generator — Practice Translation</title>
+<style>
+  :root{
+    --bg:#0f1724; --card:#0b1220; --accent:#6ee7b7; --accent-2:#60a5fa; --muted:#9ca3af; --glass:rgba(255,255,255,0.04);
+    --radius:14px; --shadow:0 10px 30px rgba(2,6,23,0.6);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;color:#e6eef8;background:linear-gradient(180deg,#071025 0%, #071a2a 100%);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px}
+  .app{width:960px;max-width:96%;display:grid;grid-template-columns:1fr 360px;gap:20px}
+  .panel{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:22px;border-radius:var(--radius);box-shadow:var(--shadow);backdrop-filter:blur(6px)}
+  header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+  h1{font-size:20px;margin:0;color:var(--accent)}
+  .controls{display:flex;gap:8px;align-items:center}
+  .toggle{background:var(--glass);border:1px solid rgba(255,255,255,0.04);padding:8px 10px;border-radius:10px;color:var(--muted);cursor:pointer}
+  .bigCard{background:linear-gradient(180deg,#071627, #0b2230);padding:26px;border-radius:12px;min-height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative}
+  .sentenceChars{font-size:44px;line-height:1;margin:0 0 8px 0;letter-spacing:2px;text-shadow:0 6px 30px rgba(0,0,0,0.6)}
+  .sentencePinyin{font-size:18px;color:var(--muted);margin-bottom:12px}
+  .inputRow{display:flex;gap:8px;width:100%;align-items:center;margin-top:12px}
+  input[type=text]{flex:1;padding:12px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.06);background:rgba(255,255,255,0.02);color:white;font-size:16px}
+  button.btn{padding:10px 14px;border-radius:10px;border:0;background:var(--accent-2);color:#022;cursor:pointer;font-weight:600}
+  button.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+  .reveal{margin-top:14px;padding:12px;border-radius:10px;background:linear-gradient(90deg, rgba(96,165,250,0.08), rgba(110,231,183,0.03));width:100%;color:var(--accent-2);display:flex;justify-content:space-between;align-items:center}
+  .exampleList{margin-top:12px;color:var(--muted);font-size:14px}
+  .side{display:flex;flex-direction:column;gap:12px}
+  .stats{display:flex;flex-direction:column;gap:6px}
+  .statItem{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+  .buttonsRow{display:flex;gap:10px;align-items:center;margin-top:8px}
+  .choice{flex:1;padding:10px;border-radius:8px;border:0;cursor:pointer;font-weight:700}
+  .yes{background:linear-gradient(90deg,#10b981,#6ee7b7);color:#042417}
+  .mixed{background:linear-gradient(90deg,#f59e0b,#fbbf24);color:#2b1500}
+  .no{background:linear-gradient(90deg,#ef4444,#fb7185);color:#2b0505}
+  footer.small{font-size:13px;color:var(--muted);margin-top:12px}
+
+  /* animations */
+  .fadeIn{animation:fadeIn 420ms ease-out}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .pop{animation:pop 320ms cubic-bezier(.2,.9,.3,1)}
+  @keyframes pop{0%{transform:scale(.96)}50%{transform:scale(1.02)}100%{transform:none}}
+  .glow{box-shadow:0 8px 30px rgba(99,102,241,0.12),0 2px 8px rgba(96,165,250,0.06)}
+
+  /* responsive */
+  @media (max-width:920px){ .app{grid-template-columns:1fr} .side{order:2} }
+</style>
+</head>
+<body>
+  <div class="app">
+    <div class="panel">
+      <header>
+        <h1>Mandarin Sentence Generator</h1>
+        <div class="controls">
+          <button id="toggleChars" class="toggle">Hide Characters</button>
+          <button id="togglePinyin" class="toggle">Hide Pinyin</button>
+        </div>
+      </header>
+
+      <div class="bigCard pop" id="cardArea">
+        <div id="sentenceWrap" style="width:100%;max-width:720px;text-align:center">
+          <div id="chars" class="sentenceChars fadeIn">你好</div>
+          <div id="pinyin" class="sentencePinyin fadeIn">nǐ hǎo</div>
+          <div class="inputRow" style="margin-top:8px">
+            <input id="translationInput" type="text" placeholder="Type English translation and press Enter..." autocomplete="off" />
+            <button id="enterBtn" class="btn">Enter</button>
+          </div>
+
+          <div id="revealArea" class="hidden">
+            <div class="reveal">
+              <div id="correctTranslation">Correct translation</div>
+              <div id="revealInfo" style="font-size:13px;color:var(--muted)">Press a button on the right to continue</div>
+            </div>
+            <div class="exampleList" id="exampleList"></div>
+            <div style="margin-top:10px;color:var(--muted);font-size:13px">Choose whether you were correct:</div>
+            <div class="buttonsRow">
+              <button class="choice yes" id="btnYes">Yes</button>
+              <button class="choice mixed" id="btnMixed">Mixed</button>
+              <button class="choice no" id="btnNo">No</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="small">Sentences cover basic conversational topics: greetings, directions, shopping, time, family, transport.</footer>
+    </div>
+
+    <div class="panel side">
+      <div class="stats">
+        <div class="statItem">
+          <div style="font-size:13px;color:var(--muted)">Progress</div>
+          <div id="progressBar" style="height:10px;background:rgba(255,255,255,0.03);border-radius:8px;margin-top:8px;overflow:hidden">
+            <div id="progressFill" style="height:100%;width:0%;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:8px"></div>
+          </div>
+        </div>
+        <div class="statItem">
+          <div style="display:flex;justify-content:space-between;align-items:center"><div style="font-size:13px;color:var(--muted)">Score</div><div id="scoreDisplay" style="font-weight:800">0 / 0</div></div>
+        </div>
+        <div class="statItem">
+          <div style="font-size:13px;color:var(--muted)">Upcoming</div>
+          <div id="upcomingList" style="margin-top:8px;color:var(--muted);font-size:14px"></div>
+        </div>
+      </div>
+      <div style="margin-top:12px">
+        <button id="newRandom" class="secondary" style="width:100%;padding:10px;border-radius:10px">New random sentence</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+// Sentences dataset (character, pinyin, english, examples)
+const SENTENCES = [
+  {chars:'你好', pinyin:'nǐ hǎo', eng:'hello', examples:['你好，我是李明。','你好！很高兴见到你。']},
+  {chars:'请问，厕所在哪里？', pinyin:'qǐng wèn, cè suǒ zài nǎ lǐ?', eng:'Excuse me, where is the restroom?', examples:['请问，车站在哪里？','请问，这个怎么用？']},
+  {chars:'多少钱？', pinyin:'duō shǎo qián?', eng:'How much is this?', examples:['这个多少钱？','打折后多少钱？']},
+  {chars:'我听不懂。', pinyin:'wǒ tīng bù dǒng.', eng:'I don\'t understand (what I hear).', examples:['对不起，我听不懂。','你说慢一点，我听不懂。']},
+  {chars:'我想要这个。', pinyin:'wǒ xiǎng yào zhè ge.', eng:'I want this one.', examples:['我想要这个，不要那个。','我想要一杯咖啡。']},
+  {chars:'我要去火车站。', pinyin:'wǒ yào qù huǒ chē zhàn.', eng:'I want to go to the train station.', examples:['我要去机场。','我们要去饭店。']},
+  {chars:'你叫什么名字？', pinyin:'nǐ jiào shén me míng zi?', eng:'What is your name?', examples:['你叫什么名字？','他叫什么名字？']},
+  {chars:'我来自英国。', pinyin:'wǒ lái zì yīng guó.', eng:'I come from the UK.', examples:['我来自中国。','我来自伦敦。']},
+  {chars:'今天几号？', pinyin:'jīn tiān jǐ hào?', eng:'What is the date today?', examples:['今天几号？','明天是几号？']},
+  {chars:'我可以刷卡吗？', pinyin:'wǒ kě yǐ shuā kǎ ma?', eng:'Can I pay by card?', examples:['可以刷卡吗？','这里可以用卡吗？']}
+];
+
+let indexQueue = [];
+let current = null;
+let showChars = true;
+let showPinyin = true;
+let correct = 0, total = 0;
+
+// DOM
+const charsEl = document.getElementById('chars');
+const pinyinEl = document.getElementById('pinyin');
+const inputEl = document.getElementById('translationInput');
+const enterBtn = document.getElementById('enterBtn');
+const revealArea = document.getElementById('revealArea');
+const correctTranslationEl = document.getElementById('correctTranslation');
+const exampleListEl = document.getElementById('exampleList');
+const btnYes = document.getElementById('btnYes');
+const btnMixed = document.getElementById('btnMixed');
+const btnNo = document.getElementById('btnNo');
+const toggleCharsBtn = document.getElementById('toggleChars');
+const togglePinyinBtn = document.getElementById('togglePinyin');
+const progressFill = document.getElementById('progressFill');
+const scoreDisplay = document.getElementById('scoreDisplay');
+const upcomingList = document.getElementById('upcomingList');
+const newRandom = document.getElementById('newRandom');
+
+// utilities
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}}
+function buildQueue(){ indexQueue = Array.from({length:SENTENCES.length},(_,i)=>i); shuffle(indexQueue); }
+function pickNext(){ if(indexQueue.length===0) buildQueue(); const idx = indexQueue.shift(); return SENTENCES[idx]; }
+
+function renderUpcoming(){ upcomingList.innerHTML = indexQueue.slice(0,6).map(i=> `<div>• ${SENTENCES[i].chars}</div>`).join(''); }
+
+function showSentence(sent){
+  current = sent;
+  // show/hide chars/pinyin based on toggles
+  charsEl.style.display = showChars ? 'block' : 'none';
+  pinyinEl.style.display = showPinyin ? 'block' : 'none';
+  charsEl.textContent = sent.chars;
+  pinyinEl.textContent = sent.pinyin;
+  // clear input & reveal
+  inputEl.value = '';
+  revealArea.classList.add('hidden');
+  correctTranslationEl.textContent = '';
+  exampleListEl.innerHTML = '';
+  inputEl.focus();
+  document.getElementById('cardArea').classList.add('pop');
+  setTimeout(()=>document.getElementById('cardArea').classList.remove('pop'),350);
+}
+
+function revealAnswer(){
+  correctTranslationEl.textContent = `"${current.eng}"`;
+  exampleListEl.innerHTML = '<strong>Examples:</strong><br>' + current.examples.map(e=>`<div style="margin-top:6px">${e}</div>`).join('');
+  revealArea.classList.remove('hidden');
+}
+
+function markResult(res){ // res: 'yes'|'mixed'|'no'
+  total++;
+  if(res==='yes') correct++;
+  else if(res==='mixed') correct += 0.5; // half credit
+  scoreDisplay.textContent = `${Math.round(correct*10)/10} / ${total}`;
+  // update progress
+  const prog = Math.min(100, Math.round((total / (SENTENCES.length*2)) * 100));
+  progressFill.style.width = prog + '%';
+  // next sentence
+  setTimeout(()=>{ const next = pickNext(); renderUpcoming(); showSentence(next); }, 220);
+}
+
+// events
+enterBtn.addEventListener('click', ()=>{
+  if(!current) return;
+  if(revealArea.classList.contains('hidden')){
+    revealAnswer();
+  }
+});
+inputEl.addEventListener('keydown', (e)=>{
+  if(e.key==='Enter'){
+    e.preventDefault();
+    if(revealArea.classList.contains('hidden')) revealAnswer();
+    else { /* do nothing: wait for user to mark */ }
+  }
+});
+
+btnYes.addEventListener('click', ()=>markResult('yes'));
+btnMixed.addEventListener('click', ()=>markResult('mixed'));
+btnNo.addEventListener('click', ()=>markResult('no'));
+
+toggleCharsBtn.addEventListener('click', ()=>{ showChars = !showChars; toggleCharsBtn.textContent = showChars ? 'Hide Characters' : 'Show Characters'; charsEl.style.display = showChars ? 'block' : 'none'; });
+togglePinyinBtn.addEventListener('click', ()=>{ showPinyin = !showPinyin; togglePinyinBtn.textContent = showPinyin ? 'Hide Pinyin' : 'Show Pinyin'; pinyinEl.style.display = showPinyin ? 'block' : 'none'; });
+
+newRandom.addEventListener('click', ()=>{ const next = pickNext(); renderUpcoming(); showSentence(next); });
+
+// init
+buildQueue(); renderUpcoming(); const first = pickNext(); showSentence(first);
+
+// keyboard: y/m/n for marking
+document.addEventListener('keydown', (e)=>{
+  if(!revealArea.classList.contains('hidden')){
+    if(e.key.toLowerCase()==='y') btnYes.click();
+    if(e.key.toLowerCase()==='m') btnMixed.click();
+    if(e.key.toLowerCase()==='n') btnNo.click();
+  }
+});
+
+</script>
+</body>
+</html>
