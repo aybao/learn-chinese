@@ -1,0 +1,19 @@
+:root {
+  --bg: #071025;
+  --bg-2: #20293e;
+  --card-1: rgba(256, 256, 256, 0.04);
+  --card-2: rgba(256, 256, 256, 0.06);
+  --text-1: #e6eef8;
+  --accent: #6ee7b7;
+  --accent-2: #60a5fa;
+  --muted: #9ca3af;
+  --shadow: 0 10px 30px rgba(2, 6, 23, 0.6);
+  --border: 1px solid rgba(255, 255, 255, 0.02);
+  --button-yes: linear-gradient(90deg, #10b981, #6ee7b7);
+  --button-yes-text: #042417;
+  --button-mixed:  linear-gradient(90deg, #f59e0b, #fbbf24);
+  --button-mixed-text: #2b1500;
+  --button-no: linear-gradient(90deg, #ef4444, #fb7185);
+  --button-no-text: #2b0505;
+
+}
