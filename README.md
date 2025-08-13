@@ -1,6 +1,9 @@
 # learn-chinese
 Chinese learning app for ios
 
+## Useful for pinyin info
+https://www.chinesepod.com/tools/pronunciation/section/17
+
 ## Sentence Translation:
 <img width="1313" height="625" alt="image" src="https://github.com/user-attachments/assets/f8724488-db08-45e4-81bd-31b779c3deb4" />
 
