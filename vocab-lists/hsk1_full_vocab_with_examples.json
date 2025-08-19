@@ -1,0 +1,4626 @@
+[
+  {
+    "chars": "爱",
+    "pinyin": "ài",
+    "eng": "to love; affection; to be fond of; to like",
+    "examples": [
+      {
+        "chinese": "对不起，我不爱你了，我爱她！",
+        "pinyin": "Duìbùqǐ, wǒ bù ài nǐle, wǒ ài tā!",
+        "english": "Sorry, I don’t love you anymore, I love her!"
+      },
+      {
+        "chinese": "妈妈，我爱你。",
+        "pinyin": "Māmā, wǒ ài nǐ.",
+        "english": "I love you mum."
+      },
+      {
+        "chinese": "我爱吃米饭。",
+        "pinyin": "Wǒ ài chī mǐfàn.",
+        "english": "I love rice."
+      },
+      {
+        "chinese": "我很爱穿那件白衣服。",
+        "pinyin": "Wǒ hěn ài chuān nà jiàn bái yīfú.",
+        "english": "I love wearing that white dress very much."
+      },
+      {
+        "chinese": "我最爱唱歌了，我给你们唱一个。",
+        "pinyin": "Wǒ zuì ài chànggēle, wǒ gěi nǐmen chàng yīgè.",
+        "english": "I love singing the most, I'll sing one for you."
+      }
+    ]
+  },
+  {
+    "chars": "八",
+    "pinyin": "bā",
+    "eng": "eight; 8",
+    "examples": [
+      {
+        "chinese": "我读了八本书。",
+        "pinyin": "Wǒ dúle bā běn shū.",
+        "english": "I read eight books."
+      },
+      {
+        "chinese": "他儿子今年八岁了。",
+        "pinyin": "Tā érzi jīnnián bā suìle.",
+        "english": "His son is eight years old this year."
+      },
+      {
+        "chinese": "我八点回家。",
+        "pinyin": "Wǒ bā diǎn huí jiā.",
+        "english": "I'll go home at 8 o'clock."
+      },
+      {
+        "chinese": "我们八点去上学。",
+        "pinyin": "Wǒmen bā diǎn qù shàngxué.",
+        "english": "We went to school at 8 o'clock."
+      },
+      {
+        "chinese": "今天是八月九日。",
+        "pinyin": "Jīntiān shì bā yuè jiǔ rì.",
+        "english": "Today is August 9th."
+      }
+    ]
+  },
+  {
+    "chars": "爸爸",
+    "pinyin": "bà ba",
+    "eng": "father (informal)",
+    "examples": [
+      {
+        "chinese": "爸爸喜欢喝茶。",
+        "pinyin": "bàba xǐhuān hē chá.",
+        "english": "Dad likes to drink tea."
+      },
+      {
+        "chinese": "妈妈和爸爸叫我！",
+        "pinyin": "Māmā hé bàba jiào wǒ!",
+        "english": "Mom and dad called me!"
+      },
+      {
+        "chinese": "我爸爸是医生。",
+        "pinyin": "Wǒ bàba shì yīshēng.",
+        "english": "My dad is a doctor."
+      },
+      {
+        "chinese": "爸爸和妈妈都在家。",
+        "pinyin": "Bàba hé māmā dōu zàijiā.",
+        "english": "Dad and mom are both at home."
+      },
+      {
+        "chinese": "爸爸，我想你了。",
+        "pinyin": "Bàba, wǒ xiǎng nǐle.",
+        "english": "Dad, I miss you."
+      }
+    ]
+  },
+  {
+    "chars": "杯子",
+    "pinyin": "bēi zi",
+    "eng": "cup; glass",
+    "examples": [
+      {
+        "chinese": "大杯子是我的。",
+        "pinyin": "Dà bēizi shì wǒ de.",
+        "english": "The big cup is mine."
+      },
+      {
+        "chinese": "杯子里有茶。",
+        "pinyin": "Bēizi li yǒu chá.",
+        "english": "There is tea in the cup."
+      },
+      {
+        "chinese": "桌子上有六个杯子。",
+        "pinyin": "Zhuōzi shàng yǒu liù gè bēizi.",
+        "english": "There are six cups on the table."
+      },
+      {
+        "chinese": "哪个杯子是你的？",
+        "pinyin": "Nǎge bēizi shì nǐ de?",
+        "english": "Which cup is yours?"
+      },
+      {
+        "chinese": "杯子里的水很少。",
+        "pinyin": "Bēizi lǐ de shuǐ hěn shǎo.",
+        "english": "There is very little water in the cup."
+      }
+    ]
+  },
+  {
+    "chars": "北京",
+    "pinyin": "běi jīng",
+    "eng": "Beijing, capital of People's Republic of China",
+    "examples": [
+      {
+        "chinese": "我住在北京。",
+        "pinyin": "Wǒ zhù zài Běijīng.",
+        "english": "I live in Beijing."
+      },
+      {
+        "chinese": "我明天坐飞机去北京。",
+        "pinyin": "Wǒ míngtiān zuò fēijī qù běijīng.",
+        "english": "I will take a plane to Beijing tomorrow."
+      },
+      {
+        "chinese": "我坐飞机去北京。",
+        "pinyin": "Wǒ zuò fēijī qù běijīng.",
+        "english": "I took a plane to Beijing."
+      },
+      {
+        "chinese": "我几在北京。",
+        "pinyin": "Wǒ jǐ zài běijīng.",
+        "english": "I'm in Beijing."
+      },
+      {
+        "chinese": "我今天去北京。",
+        "pinyin": "Wǒ jīntiān qù běijīng.",
+        "english": "I'm going to Beijing today."
+      }
+    ]
+  },
+  {
+    "chars": "本",
+    "pinyin": "běn",
+    "eng": "classifier for books, periodicals, files etc",
+    "examples": [
+      {
+        "chinese": "我读了八本书。",
+        "pinyin": "Wǒ dúle bā běn shū.",
+        "english": "I read eight books."
+      },
+      {
+        "chinese": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒuyī běn shū.",
+        "english": "There is a book on the table."
+      },
+      {
+        "chinese": "你看，那本书在桌子上呢。",
+        "pinyin": "Nǐ kàn, nà běn shū zài zhuōzi shàng ne.",
+        "english": "Look, that book is on the table."
+      },
+      {
+        "chinese": "这本书三十看见钱。",
+        "pinyin": "Zhè běn shū sānshí kànjiàn qián.",
+        "english": "This book shows money."
+      },
+      {
+        "chinese": "我有三本书。",
+        "pinyin": "Wǒ yǒusān běn shū.",
+        "english": "I have three books."
+      }
+    ]
+  },
+  {
+    "chars": "不客气",
+    "pinyin": "bú kè qi",
+    "eng": "you're welcome; it's my pleasure",
+    "examples": [
+      {
+        "chinese": "谢谢！不客气！",
+        "pinyin": "A: Xièxiè! B: Bùkèqì!",
+        "english": "Thanks!You're welcome!"
+      },
+      {
+        "chinese": "甲：谢谢你！乙：不客气。",
+        "pinyin": "Jiǎ: Xièxiè nǐ! Yǐ: Bù kèqì.",
+        "english": "A: Thank you!B: You're welcome."
+      },
+      {
+        "chinese": "甲：谢谢你。乙：不客气！",
+        "pinyin": "Jiǎ: Xièxiè nǐ. Yǐ: Bù kèqì!",
+        "english": "A: Thank you.B: You're welcome!"
+      }
+    ]
+  },
+  {
+    "chars": "不",
+    "pinyin": "bù",
+    "eng": "not; no",
+    "examples": [
+      {
+        "chinese": "对不起，我不爱你了，我爱她！",
+        "pinyin": "Duìbùqǐ, wǒ bù ài nǐle, wǒ ài tā!",
+        "english": "Sorry, I don’t love you anymore, I love her!"
+      },
+      {
+        "chinese": "谢谢！不客气！",
+        "pinyin": "A: Xièxiè! B: Bùkèqì!",
+        "english": "Thanks!You're welcome!"
+      },
+      {
+        "chinese": "猫不吃苹果。",
+        "pinyin": "Māo bù chī píngguǒ.",
+        "english": "Cats don't eat apples."
+      },
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "习先生怎么样不这儿了？",
+        "pinyin": "Xí xiānshēng zěnme yàng bù zhè'erle?",
+        "english": "Why is Mr. Xi not here anymore?"
+      }
+    ]
+  },
+  {
+    "chars": "菜",
+    "pinyin": "cài",
+    "eng": "dish (type of food); vegetables; cuisine",
+    "examples": [
+      {
+        "chinese": "那些菜，我都喜欢吃。",
+        "pinyin": "Nàxiē cài, wǒ dōu xǐhuān chī.",
+        "english": "I like to eat those dishes."
+      },
+      {
+        "chinese": "今天我做了三个菜。",
+        "pinyin": "Jīntiān wǒ zuòle sān gè cài.",
+        "english": "I made three dishes today."
+      },
+      {
+        "chinese": "今天妈妈坐了很多菜。",
+        "pinyin": "Jīntiān māmā zuòle hěnduō cài.",
+        "english": "My mother sat a lot of dishes today."
+      },
+      {
+        "chinese": "先生，请问您什么时候开始点菜？",
+        "pinyin": "Xiānshēng, qǐngwèn nín shénme shíhòu kāishǐ diǎn cài?",
+        "english": "Sir, when will you start ordering?"
+      },
+      {
+        "chinese": "这个菜做得还可以。",
+        "pinyin": "Zhège cài zuò dé hái kěyǐ.",
+        "english": "This dish is pretty good."
+      }
+    ]
+  },
+  {
+    "chars": "茶",
+    "pinyin": "chá",
+    "eng": "tea",
+    "examples": [
+      {
+        "chinese": "爸爸喜欢喝茶。",
+        "pinyin": "bàba xǐhuān hē chá.",
+        "english": "Dad likes to drink tea."
+      },
+      {
+        "chinese": "杯子里有茶。",
+        "pinyin": "Bēizi li yǒu chá.",
+        "english": "There is tea in the cup."
+      },
+      {
+        "chinese": "请喝杯茶吧。",
+        "pinyin": "Qǐng hē bēi chá bā.",
+        "english": "Please have a cup of tea."
+      },
+      {
+        "chinese": "您想喝咖啡，还是茶？",
+        "pinyin": "Nín xiǎng hē kāfēi, háishì chá?",
+        "english": "Do you want to have coffee or tea?"
+      },
+      {
+        "chinese": "请在沙发上坐一会儿，我去给您倒杯茶。",
+        "pinyin": "Qǐng zài shāfā shàng zuò yīhuǐ'er, wǒ qù gěi nín dào bēi chá.",
+        "english": "Please sit on the sofa for a while and I will pour you a cup of tea."
+      }
+    ]
+  },
+  {
+    "chars": "吃",
+    "pinyin": "chī",
+    "eng": "to eat",
+    "examples": [
+      {
+        "chinese": "那些菜，我都喜欢吃。",
+        "pinyin": "Nàxiē cài, wǒ dōu xǐhuān chī.",
+        "english": "I like to eat those dishes."
+      },
+      {
+        "chinese": "他吃一点。",
+        "pinyin": "Tā chī yīdiǎn.",
+        "english": "He eats a little."
+      },
+      {
+        "chinese": "狗都太喜欢吃。",
+        "pinyin": "Gǒu dōu tài xǐhuān chī.",
+        "english": "Dogs like to eat too much."
+      },
+      {
+        "chinese": "猫不吃苹果。",
+        "pinyin": "Māo bù chī píngguǒ.",
+        "english": "Cats don't eat apples."
+      },
+      {
+        "chinese": "我吃米饭，你呢？",
+        "pinyin": "Wǒ chī mǐfàn, nǐ ne?",
+        "english": "I eat rice, what about you?"
+      }
+    ]
+  },
+  {
+    "chars": "出租车",
+    "pinyin": "chū zū chē",
+    "eng": "taxi",
+    "examples": [
+      {
+        "chinese": "我坐出租车回家。",
+        "pinyin": "Wǒ zuò chūzūchē huí jiā.",
+        "english": "I took a taxi home."
+      },
+      {
+        "chinese": "我开了三年出租车了。",
+        "pinyin": "Wǒ kāile sān nián chūzū chēle.",
+        "english": "I've driven a taxi for three years."
+      },
+      {
+        "chinese": "我们坐出租车去火车站。",
+        "pinyin": "Wǒmen zuò chūzū chē qù huǒchē zhàn.",
+        "english": "We took a taxi to the train station."
+      },
+      {
+        "chinese": "这位司机开出租车 5 年多了。",
+        "pinyin": "Zhè wèi sījī kāi chūzū chē 5 nián duōle.",
+        "english": "The driver has been driving a taxi for over 5 years."
+      }
+    ]
+  },
+  {
+    "chars": "打电话",
+    "pinyin": "dǎ diàn huà",
+    "eng": "to make a phone call",
+    "examples": [
+      {
+        "chinese": "我想打电话。",
+        "pinyin": "Wǒ xiǎng dǎdiànhuà.",
+        "english": "I want to call."
+      },
+      {
+        "chinese": "他在打电话呢。",
+        "pinyin": "Tā zài dǎ diànhuà ne.",
+        "english": "He is on the phone."
+      },
+      {
+        "chinese": "我一到家就给他打电话。",
+        "pinyin": "Wǒ yī dàojiā jiù gěi tā dǎ diànhuà.",
+        "english": "I called him as soon as I got home."
+      },
+      {
+        "chinese": "有事儿请给我发短信或者打电话。",
+        "pinyin": "Yǒushì er qǐng gěi wǒ fā duǎnxìn huòzhě dǎ diànhuà.",
+        "english": "If you have any questions, please send me a text message or call me."
+      }
+    ]
+  },
+  {
+    "chars": "大",
+    "pinyin": "dà",
+    "eng": "big; huge; large",
+    "examples": [
+      {
+        "chinese": "大杯子是我的。",
+        "pinyin": "Dà bēizi shì wǒ de.",
+        "english": "The big cup is mine."
+      },
+      {
+        "chinese": "这个苹果很大。",
+        "pinyin": "Zhège píngguǒ hěn dà.",
+        "english": "This apple is big."
+      },
+      {
+        "chinese": "这是我大书。",
+        "pinyin": "Zhè shì wǒ dà shū.",
+        "english": "This is my big book."
+      },
+      {
+        "chinese": "你儿子多大了？",
+        "pinyin": "Nǐ érzi duōdàle?",
+        "english": "How old is your son?"
+      },
+      {
+        "chinese": "这个学校太大了。",
+        "pinyin": "Zhège xuéxiào tài dàle.",
+        "english": "This school is too big."
+      }
+    ]
+  },
+  {
+    "chars": "的",
+    "pinyin": "de",
+    "eng": "structural particle: of",
+    "examples": [
+      {
+        "chinese": "我的电脑里有好多的东西。",
+        "pinyin": "Wǒ de diànnǎo li yǒu hǎoduō de dōngxī.",
+        "english": "There are a lot of things in my computer."
+      },
+      {
+        "chinese": "大杯子是我的。",
+        "pinyin": "Dà bēizi shì wǒ de.",
+        "english": "The big cup is mine."
+      },
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "你的名字是什么？",
+        "pinyin": "Nǐ de míngzì shì shénme?",
+        "english": "what your name?"
+      },
+      {
+        "chinese": "现在，我的女儿四岁了。",
+        "pinyin": "Xiànzài, wǒ de nǚ'ér sì suìle.",
+        "english": "Now, my daughter is four years old."
+      }
+    ]
+  },
+  {
+    "chars": "点",
+    "pinyin": "diǎn",
+    "eng": "o’clock; a little; point",
+    "examples": [
+      {
+        "chinese": "他吃一点。",
+        "pinyin": "Tā chī yīdiǎn.",
+        "english": "He eats a little."
+      },
+      {
+        "chinese": "现在几点了？",
+        "pinyin": "Xiànzài jǐ diǎnle?",
+        "english": "What time is it now?"
+      },
+      {
+        "chinese": "请吃点儿米饭。",
+        "pinyin": "Qǐng chī diǎn er mǐfàn.",
+        "english": "Please have some rice."
+      },
+      {
+        "chinese": "现在十二点了。",
+        "pinyin": "Xiànzài shí'èr diǎnle.",
+        "english": "It's twelve o'clock now."
+      },
+      {
+        "chinese": "我八点回家。",
+        "pinyin": "Wǒ bā diǎn huí jiā.",
+        "english": "I'll go home at 8 o'clock."
+      }
+    ]
+  },
+  {
+    "chars": "电脑",
+    "pinyin": "diàn nǎo",
+    "eng": "computer",
+    "examples": [
+      {
+        "chinese": "我的电脑里有好多的东西。",
+        "pinyin": "Wǒ de diànnǎo li yǒu hǎoduō de dōngxī.",
+        "english": "There are a lot of things in my computer."
+      },
+      {
+        "chinese": "我买了个电脑。",
+        "pinyin": "Wǒ mǎile gè diànnǎo.",
+        "english": "I bought a computer."
+      },
+      {
+        "chinese": "电脑在桌子上。",
+        "pinyin": "Diànnǎo zài zhuōzi shàng.",
+        "english": "Computer on the desk."
+      },
+      {
+        "chinese": "电脑卖得贵。",
+        "pinyin": "Diànnǎo mài dé guì.",
+        "english": "Computers are expensive."
+      },
+      {
+        "chinese": "你帮我看看，这台电脑出什么问题了？",
+        "pinyin": "Nǐ bāng wǒ kàn kàn, zhè tái diànnǎo chū shénme wèntíle?",
+        "english": "Please help me see what's wrong with this computer?"
+      }
+    ]
+  },
+  {
+    "chars": "电视",
+    "pinyin": "diàn shì",
+    "eng": "television; TV",
+    "examples": [
+      {
+        "chinese": "昨天我看电视了。",
+        "pinyin": "Zuótiān wǒ kàn diànshìle.",
+        "english": "I watched TV yesterday."
+      },
+      {
+        "chinese": "妈妈在看电视。",
+        "pinyin": "Māmā zài kàn diànshì.",
+        "english": "Mom is watching TV."
+      },
+      {
+        "chinese": "他一个下午都坐在电视前。",
+        "pinyin": "Tā yīgè xiàwǔ dōu zuò zài diànshì qián.",
+        "english": "He sat in front of the TV all afternoon."
+      },
+      {
+        "chinese": "太晚了，别看电视了。",
+        "pinyin": "Tài wǎnle, bié kàn diànshìle.",
+        "english": "Too late, stop watching TV."
+      },
+      {
+        "chinese": "今天晚上我不能看电视了。",
+        "pinyin": "Jīntiān wǎnshàng wǒ bùnéng kàn diànshìle.",
+        "english": "I can't watch TV tonight."
+      }
+    ]
+  },
+  {
+    "chars": "电影",
+    "pinyin": "diàn yǐng",
+    "eng": "movie; film",
+    "examples": [
+      {
+        "chinese": "我很少看电影。",
+        "pinyin": "Wǒ hěnshǎo kàndiànyǐng.",
+        "english": "I rarely watch movies."
+      },
+      {
+        "chinese": "我喜欢看电影。",
+        "pinyin": "Wǒ xǐhuān kàn diànyǐng.",
+        "english": "I like going to the movies."
+      },
+      {
+        "chinese": "我们去看电影，怎么样？",
+        "pinyin": "Wǒmen qù kàn diànyǐng, zěnme yàng?",
+        "english": "How about we go to the movie?"
+      },
+      {
+        "chinese": "我在报纸上看到了这个电影的介绍。",
+        "pinyin": "Wǒ zài bàozhǐ shàng kàn dàole zhège diànyǐng de jièshào.",
+        "english": "I saw the introduction to this movie in the newspaper."
+      },
+      {
+        "chinese": "虽然……但下雨了，虽然……但我们还是想去看电影。",
+        "pinyin": "Suīrán……dàn xià yǔle, suīrán……dàn wǒmen háishì xiǎng qù kàn diànyǐng.",
+        "english": "Although... it's raining, although... we still want to go to the movie."
+      }
+    ]
+  },
+  {
+    "chars": "东西",
+    "pinyin": "dōng xi",
+    "eng": "thing; stuff",
+    "examples": [
+      {
+        "chinese": "我的电脑里有好多的东西。",
+        "pinyin": "Wǒ de diànnǎo li yǒu hǎoduō de dōngxī.",
+        "english": "There are a lot of things in my computer."
+      },
+      {
+        "chinese": "老师看见我在桌子上写东西。",
+        "pinyin": "Lǎoshī kànjiàn wǒ zài zhuōzi shàng xiě dōngxī.",
+        "english": "The teacher saw me writing on the table."
+      },
+      {
+        "chinese": "我在商店买了很多东西。",
+        "pinyin": "Wǒ zài shāngdiàn mǎile hěnduō dōngxī.",
+        "english": "I bought a lot of things in the store."
+      },
+      {
+        "chinese": "我们东西来了。",
+        "pinyin": "Wǒmen dōngxī láile.",
+        "english": "Our stuff is coming."
+      },
+      {
+        "chinese": "她去商店买东西了。",
+        "pinyin": "Tā qù shāngdiàn mǎi dōngxīle.",
+        "english": "She went to the store to buy things."
+      }
+    ]
+  },
+  {
+    "chars": "都",
+    "pinyin": "dōu",
+    "eng": "all, both; entirely",
+    "examples": [
+      {
+        "chinese": "那些菜，我都喜欢吃。",
+        "pinyin": "Nàxiē cài, wǒ dōu xǐhuān chī.",
+        "english": "I like to eat those dishes."
+      },
+      {
+        "chinese": "狗都太喜欢吃。",
+        "pinyin": "Gǒu dōu tài xǐhuān chī.",
+        "english": "Dogs like to eat too much."
+      },
+      {
+        "chinese": "爸爸和妈妈都在家。",
+        "pinyin": "Bàba hé māmā dōu zàijiā.",
+        "english": "Dad and mom are both at home."
+      },
+      {
+        "chinese": "我们都在学校里。",
+        "pinyin": "Wǒmen dōu zài xuéxiào lǐ.",
+        "english": "We are all in school."
+      },
+      {
+        "chinese": "我们都是学生。",
+        "pinyin": "Wǒmen dōu shì xuéshēng.",
+        "english": "We are all students."
+      }
+    ]
+  },
+  {
+    "chars": "读",
+    "pinyin": "dú",
+    "eng": "to read; to study",
+    "examples": [
+      {
+        "chinese": "我读了八本书。",
+        "pinyin": "Wǒ dúle bā běn shū.",
+        "english": "I read eight books."
+      },
+      {
+        "chinese": "你会读这个汉字吗？",
+        "pinyin": "Nǐ huì dú zhège hànzì ma?",
+        "english": "Can you read this Chinese character?"
+      },
+      {
+        "chinese": "你喜欢读书吗？",
+        "pinyin": "Nǐ xǐhuān dúshū ma?",
+        "english": "Do you like reading?"
+      },
+      {
+        "chinese": "我喜欢读书。",
+        "pinyin": "Wǒ xǐhuān dúshū.",
+        "english": "I like reading."
+      },
+      {
+        "chinese": "他 30 岁而且……读完大学。",
+        "pinyin": "Tā 30 suì érqiě……dú wán dàxué.",
+        "english": "He is 30 and… finished college."
+      }
+    ]
+  },
+  {
+    "chars": "对不起",
+    "pinyin": "duì bu qǐ",
+    "eng": "I'm sorry; excuse me",
+    "examples": [
+      {
+        "chinese": "对不起，我不爱你了，我爱她！",
+        "pinyin": "Duìbùqǐ, wǒ bù ài nǐle, wǒ ài tā!",
+        "english": "Sorry, I don’t love you anymore, I love her!"
+      },
+      {
+        "chinese": "对不起，我错了。",
+        "pinyin": "Duìbùqǐ, wǒ cuòle.",
+        "english": "Sorry, I was wrong."
+      },
+      {
+        "chinese": "对不起，我今天又迟到了。",
+        "pinyin": "Duìbùqǐ, wǒ jīntiān yòu chídàole.",
+        "english": "Sorry, I'm late again today."
+      },
+      {
+        "chinese": "请别生气，是我错了，对不起。",
+        "pinyin": "Qǐng bié shēngqì, shì wǒ cuòle, duìbùqǐ.",
+        "english": "Please don't be angry, I'm wrong, I'm sorry."
+      },
+      {
+        "chinese": "对不起，医院里不能抽烟。",
+        "pinyin": "Duìbùqǐ, yīyuàn lǐ bùnéng chōuyān.",
+        "english": "Sorry, you can't smoke in the hospital."
+      }
+    ]
+  },
+  {
+    "chars": "多",
+    "pinyin": "duō",
+    "eng": "many; much",
+    "examples": [
+      {
+        "chinese": "我的电脑里有好多的东西。",
+        "pinyin": "Wǒ de diànnǎo li yǒu hǎoduō de dōngxī.",
+        "english": "There are a lot of things in my computer."
+      },
+      {
+        "chinese": "这个衣服多少钱？",
+        "pinyin": "Zhège yīfú duōshǎo qián?",
+        "english": "How much does this clothes cost?"
+      },
+      {
+        "chinese": "我在商店买了很多东西。",
+        "pinyin": "Wǒ zài shāngdiàn mǎile hěnduō dōngxī.",
+        "english": "I bought a lot of things in the store."
+      },
+      {
+        "chinese": "这里的人很多。",
+        "pinyin": "Zhèlǐ de rén hěnduō.",
+        "english": "There are many people here."
+      },
+      {
+        "chinese": "你儿子多大了？",
+        "pinyin": "Nǐ érzi duōdàle?",
+        "english": "How old is your son?"
+      }
+    ]
+  },
+  {
+    "chars": "多少",
+    "pinyin": "duō shǎo",
+    "eng": "how much; how many",
+    "examples": [
+      {
+        "chinese": "这个衣服多少钱？",
+        "pinyin": "Zhège yīfú duōshǎo qián?",
+        "english": "How much does this clothes cost?"
+      },
+      {
+        "chinese": "你们学校有多少学生？",
+        "pinyin": "Nǐmen xuéxiào yǒu duōshǎo xuéshēng?",
+        "english": "How many students do you have in your school?"
+      },
+      {
+        "chinese": "你的房间号是多少？",
+        "pinyin": "Nǐ de fángjiān hào shì duōshǎo?",
+        "english": "What is your room number?"
+      },
+      {
+        "chinese": "咱们这个月的生活费用是多少？",
+        "pinyin": "Zánmen zhège yuè de shēnghuó fèiyòng shì duōshǎo?",
+        "english": "How much is our living expenses this month?"
+      }
+    ]
+  },
+  {
+    "chars": "儿子",
+    "pinyin": "ér zi",
+    "eng": "son",
+    "examples": [
+      {
+        "chinese": "你有几个儿子？",
+        "pinyin": "Nǐ yǒu jǐgè erzi?",
+        "english": "How many sons do you have?"
+      },
+      {
+        "chinese": "他儿子今年八岁了。",
+        "pinyin": "Tā érzi jīnnián bā suìle.",
+        "english": "His son is eight years old this year."
+      },
+      {
+        "chinese": "你儿子多大了？",
+        "pinyin": "Nǐ érzi duōdàle?",
+        "english": "How old is your son?"
+      },
+      {
+        "chinese": "我儿子三岁了。",
+        "pinyin": "Wǒ érzi sān suìle.",
+        "english": "My son is three years old."
+      },
+      {
+        "chinese": "儿子在睡觉呢。",
+        "pinyin": "Érzi zài shuìjiào ne.",
+        "english": "My son is sleeping."
+      }
+    ]
+  },
+  {
+    "chars": "二",
+    "pinyin": "èr",
+    "eng": "two; 2",
+    "examples": [
+      {
+        "chinese": "今年二月天气很冷。",
+        "pinyin": "Jīnnián èr yuè tiānqì hěn lěng.",
+        "english": "The weather was very cold this February."
+      },
+      {
+        "chinese": "现在十二点了。",
+        "pinyin": "Xiànzài shí'èr diǎnle.",
+        "english": "It's twelve o'clock now."
+      },
+      {
+        "chinese": "星期二同学请我去饭馆吃饭。",
+        "pinyin": "Xīngqí'èr tóngxué qǐng wǒ qù fànguǎn chīfàn.",
+        "english": "On Tuesday, my classmates invited me to a restaurant for dinner."
+      },
+      {
+        "chinese": "今年是二零一二年。",
+        "pinyin": "Jīnnián shì èr líng yī'èr nián.",
+        "english": "This year is 2012."
+      },
+      {
+        "chinese": "二十块零五分",
+        "pinyin": "Èrshí kuài líng wǔ fēn",
+        "english": "Twenty yuan, five points"
+      }
+    ]
+  },
+  {
+    "chars": "饭店",
+    "pinyin": "fàn diàn",
+    "eng": "restaurant; hotel",
+    "examples": [
+      {
+        "chinese": "有三个饭店。",
+        "pinyin": "Yǒu sāngè fànguǎn.",
+        "english": "There are three hotels."
+      },
+      {
+        "chinese": "中午我们去饭店吃吧。",
+        "pinyin": "Zhōngwǔ wǒmen qù fàndiàn chī ba.",
+        "english": "We'll go to the restaurant for lunch."
+      },
+      {
+        "chinese": "在这家饭店吃饭，饮料免费。",
+        "pinyin": "Zài zhè jiā fàndiàn chīfàn, yǐnliào miǎnfèi.",
+        "english": "Eat in this restaurant, drinks are free."
+      },
+      {
+        "chinese": "这是一家很高级的饭店。",
+        "pinyin": "Zhè shì yījiā hěn gāojí de fàndiàn.",
+        "english": "This is a very high-end restaurant."
+      }
+    ]
+  },
+  {
+    "chars": "飞机",
+    "pinyin": "fēi jī",
+    "eng": "airplane",
+    "examples": [
+      {
+        "chinese": "我明天坐飞机去北京。",
+        "pinyin": "Wǒ míngtiān zuò fēijī qù běijīng.",
+        "english": "I will take a plane to Beijing tomorrow."
+      },
+      {
+        "chinese": "我是坐飞机来中国的。",
+        "pinyin": "Wǒ shì zuò fēijī lái zhōngguó de.",
+        "english": "I came to China by plane."
+      },
+      {
+        "chinese": "我坐飞机去北京。",
+        "pinyin": "Wǒ zuò fēijī qù běijīng.",
+        "english": "I took a plane to Beijing."
+      },
+      {
+        "chinese": "他在下飞机呢。",
+        "pinyin": "Tā zàixià fēijī ne.",
+        "english": "He is getting off the plane."
+      },
+      {
+        "chinese": "我坐飞机去中国。",
+        "pinyin": "Wǒ zuò fēijī qù zhōngguó.",
+        "english": "I took a plane to China."
+      }
+    ]
+  },
+  {
+    "chars": "分钟",
+    "pinyin": "fēn zhōng",
+    "eng": "minute",
+    "examples": [
+      {
+        "chinese": "几分钟？",
+        "pinyin": "Jǐ fēnzhōng?",
+        "english": "How many minutes?"
+      },
+      {
+        "chinese": "我想休息几分钟。",
+        "pinyin": "Wǒ xiǎng xiūxí jǐ fēnzhōng.",
+        "english": "I want to take a few minutes off."
+      },
+      {
+        "chinese": "从我家到公司，开车要 20 分钟。",
+        "pinyin": "Cóng wǒjiā dào gōngsī, kāichē yào 20 fēnzhōng.",
+        "english": "It takes 20 minutes to drive from my house to the company."
+      },
+      {
+        "chinese": "你还要再等我 10 分钟。",
+        "pinyin": "Nǐ hái yào zài děng wǒ 10 fēnzhōng.",
+        "english": "You have to wait for me for another 10 minutes."
+      },
+      {
+        "chinese": "坐公共汽车去，要 20 分钟。",
+        "pinyin": "Zuò gōnggòng qìchē qù, yào 20 fēnzhōng.",
+        "english": "It takes 20 minutes to go by bus."
+      }
+    ]
+  },
+  {
+    "chars": "高兴",
+    "pinyin": "gāo xìng",
+    "eng": "happy; glad",
+    "examples": [
+      {
+        "chinese": "认识你我很高兴！",
+        "pinyin": "Rènshí nǐ wǒ hěn gāoxìng!",
+        "english": "I'm very happy to know you!"
+      },
+      {
+        "chinese": "今天我很高兴。",
+        "pinyin": "Jīntiān wǒ hěn gāoxìng.",
+        "english": "I'm very happy today."
+      },
+      {
+        "chinese": "认识你很高兴。",
+        "pinyin": "Rènshí nǐ hěn gāoxìng.",
+        "english": "Nice to meet you."
+      },
+      {
+        "chinese": "他越说越高兴。",
+        "pinyin": "Tā yuè shuō yuè gāoxìng.",
+        "english": "The more he spoke, the happier he became."
+      },
+      {
+        "chinese": "你怎么了？不高兴了？为什么低着头？",
+        "pinyin": "Nǐ zěnmeliǎo? Bù gāoxìngle? Wèishéme dīzhe tóu?",
+        "english": "What’s wrong with you?Unhappy?Why lower your head?"
+      }
+    ]
+  },
+  {
+    "chars": "个",
+    "pinyin": "gè",
+    "eng": "classifier for people or objects in general",
+    "examples": [
+      {
+        "chinese": "你有几个儿子？",
+        "pinyin": "Nǐ yǒu jǐgè erzi?",
+        "english": "How many sons do you have?"
+      },
+      {
+        "chinese": "有三个饭店。",
+        "pinyin": "Yǒu sāngè fànguǎn.",
+        "english": "There are three hotels."
+      },
+      {
+        "chinese": "妈妈买了九个水果。",
+        "pinyin": "Māmā mǎile jiǔ gè shuǐguǒ.",
+        "english": "My mother bought nine fruits."
+      },
+      {
+        "chinese": "这个衣服多少钱？",
+        "pinyin": "Zhège yīfú duōshǎo qián?",
+        "english": "How much does this clothes cost?"
+      },
+      {
+        "chinese": "我的医生是一个好人。",
+        "pinyin": "Wǒ de yīshēng shì yīgè hǎorén.",
+        "english": "My doctor is a good person."
+      }
+    ]
+  },
+  {
+    "chars": "工作",
+    "pinyin": "gōng zuò",
+    "eng": "job; work",
+    "examples": [
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "我很喜欢现在的工作。",
+        "pinyin": "Wǒ hěn xǐhuān xiànzài de gōngzuò.",
+        "english": "I really like my current job."
+      },
+      {
+        "chinese": "我在医院工作。",
+        "pinyin": "Wǒ zài yīyuàn gōngzuò.",
+        "english": "I work in the hospital."
+      },
+      {
+        "chinese": "你是做什么工作的？",
+        "pinyin": "Nǐ shì zuò shénme gōngzuò de?",
+        "english": "What's your job?"
+      },
+      {
+        "chinese": "我在机场工作了三年了。",
+        "pinyin": "Wǒ zài jīchǎng gōngzuòle sān niánle.",
+        "english": "I've worked in the airport for three years."
+      }
+    ]
+  },
+  {
+    "chars": "狗",
+    "pinyin": "gǒu",
+    "eng": "dog",
+    "examples": [
+      {
+        "chinese": "狗都太喜欢吃。",
+        "pinyin": "Gǒu dōu tài xǐhuān chī.",
+        "english": "Dogs like to eat too much."
+      },
+      {
+        "chinese": "小狗在椅子下面呢。",
+        "pinyin": "Xiǎo gǒu zài yǐzi xiàmiàn ne.",
+        "english": "The puppy is under the chair."
+      },
+      {
+        "chinese": "女儿很喜欢小狗。",
+        "pinyin": "Nǚ'ér hěn xǐhuān xiǎo gǒu.",
+        "english": "My daughter likes puppies very much."
+      },
+      {
+        "chinese": "小狗突然跑了出来。",
+        "pinyin": "Xiǎo gǒu túrán pǎole chūlái.",
+        "english": "The puppy suddenly ran out."
+      },
+      {
+        "chinese": "散步的时候，小狗一直跟在我身后。",
+        "pinyin": "Sànbù de shíhòu, xiǎo gǒu yīzhí gēn zài wǒ shēnhòu.",
+        "english": "During the walk, the puppy was always following me."
+      }
+    ]
+  },
+  {
+    "chars": "汉语",
+    "pinyin": "hàn yǔ",
+    "eng": "Chinese language",
+    "examples": [
+      {
+        "chinese": "我会说汉语。",
+        "pinyin": "Wǒ huì shuō hànyǔ.",
+        "english": "I can speak Chinese."
+      },
+      {
+        "chinese": "中国人说汉语。",
+        "pinyin": "Zhōngguó rén shuō hànyǔ.",
+        "english": "Chinese people speak Chinese."
+      },
+      {
+        "chinese": "他在学习汉语。",
+        "pinyin": "Tā zài xuéxí hànyǔ.",
+        "english": "He is learning Chinese."
+      },
+      {
+        "chinese": "今天天气很汉语。",
+        "pinyin": "Jīntiān tiānqì hěn hànyǔ.",
+        "english": "The weather is very Chinese today."
+      },
+      {
+        "chinese": "我学会了汉语。",
+        "pinyin": "Wǒ xuéhuìle hànyǔ.",
+        "english": "I learned Chinese."
+      }
+    ]
+  },
+  {
+    "chars": "好",
+    "pinyin": "hǎo",
+    "eng": "good; well",
+    "examples": [
+      {
+        "chinese": "我的电脑里有好多的东西。",
+        "pinyin": "Wǒ de diànnǎo li yǒu hǎoduō de dōngxī.",
+        "english": "There are a lot of things in my computer."
+      },
+      {
+        "chinese": "好漂亮的女儿！",
+        "pinyin": "Hǎo piàoliang de nǚ'ér!",
+        "english": "What a beautiful daughter!"
+      },
+      {
+        "chinese": "我的医生是一个好人。",
+        "pinyin": "Wǒ de yīshēng shì yīgè hǎorén.",
+        "english": "My doctor is a good person."
+      },
+      {
+        "chinese": "你听我说，好吗？",
+        "pinyin": "Nǐ tīng wǒ shuō, hǎo ma?",
+        "english": "Listen to me, okay?"
+      },
+      {
+        "chinese": "他是我的好朋友。",
+        "pinyin": "Tā shì wǒ de hǎo péngyǒu.",
+        "english": "He is my good friend."
+      }
+    ]
+  },
+  {
+    "chars": "号",
+    "pinyin": "hào",
+    "eng": "day of a month; number",
+    "examples": [
+      {
+        "chinese": "今天是 2002 年 1 月 1号。",
+        "pinyin": "Jīntiān shì 2002 nián 1 yuè 1 hào.",
+        "english": "Today is January 1, 2002."
+      },
+      {
+        "chinese": "四号去教室。",
+        "pinyin": "Sì hào qù jiàoshì.",
+        "english": "Go to the classroom on the fourth."
+      },
+      {
+        "chinese": "你的房间号是多少？",
+        "pinyin": "Nǐ de fángjiān hào shì duōshǎo?",
+        "english": "What is your room number?"
+      }
+    ]
+  },
+  {
+    "chars": "喝",
+    "pinyin": "hē",
+    "eng": "to drink",
+    "examples": [
+      {
+        "chinese": "爸爸喜欢喝茶。",
+        "pinyin": "bàba xǐhuān hē chá.",
+        "english": "Dad likes to drink tea."
+      },
+      {
+        "chinese": "我想喝水。",
+        "pinyin": "Wǒ xiǎng hē shuǐ.",
+        "english": "I want to drink water."
+      },
+      {
+        "chinese": "但是我觉得您可以喝咖啡。",
+        "pinyin": "Dànshì wǒ juédé nín kěyǐ hē kāfēi.",
+        "english": "But I think you can have coffee."
+      },
+      {
+        "chinese": "牛奶不好喝。",
+        "pinyin": "niúnǎi bù hǎo hē",
+        "english": "Milk is not good to drink."
+      },
+      {
+        "chinese": "请喝杯茶吧。",
+        "pinyin": "Qǐng hē bēi chá bā.",
+        "english": "Please have a cup of tea."
+      }
+    ]
+  },
+  {
+    "chars": "和",
+    "pinyin": "hé",
+    "eng": "and; with",
+    "examples": [
+      {
+        "chinese": "妈妈和爸爸叫我！",
+        "pinyin": "Māmā hé bàba jiào wǒ!",
+        "english": "Mom and dad called me!"
+      },
+      {
+        "chinese": "爸爸和妈妈都在家。",
+        "pinyin": "Bàba hé māmā dōu zàijiā.",
+        "english": "Dad and mom are both at home."
+      },
+      {
+        "chinese": "我家有妈妈、爸爸、妹妹和我。",
+        "pinyin": "Wǒjiā yǒu māmā, bàba, mèimei hé wǒ.",
+        "english": "My family has mom, dad, sister and me."
+      },
+      {
+        "chinese": "和弟弟跑步吧。",
+        "pinyin": "Hé dìdì pǎobù ba.",
+        "english": "Run with your younger brother."
+      },
+      {
+        "chinese": "我和同学们在踢足球。",
+        "pinyin": "Wǒ hé tóngxuémen zài tī zúqiú.",
+        "english": "My classmates and I were playing football."
+      }
+    ]
+  },
+  {
+    "chars": "很",
+    "pinyin": "hěn",
+    "eng": "very; quite",
+    "examples": [
+      {
+        "chinese": "我很少看电影。",
+        "pinyin": "Wǒ hěnshǎo kàndiànyǐng.",
+        "english": "I rarely watch movies."
+      },
+      {
+        "chinese": "认识你我很高兴！",
+        "pinyin": "Rènshí nǐ wǒ hěn gāoxìng!",
+        "english": "I'm very happy to know you!"
+      },
+      {
+        "chinese": "今年二月天气很冷。",
+        "pinyin": "Jīnnián èr yuè tiānqì hěn lěng.",
+        "english": "The weather was very cold this February."
+      },
+      {
+        "chinese": "这个苹果很大。",
+        "pinyin": "Zhège píngguǒ hěn dà.",
+        "english": "This apple is big."
+      },
+      {
+        "chinese": "我在商店买了很多东西。",
+        "pinyin": "Wǒ zài shāngdiàn mǎile hěnduō dōngxī.",
+        "english": "I bought a lot of things in the store."
+      }
+    ]
+  },
+  {
+    "chars": "后面",
+    "pinyin": "hòu miàn",
+    "eng": "rear; back; behind",
+    "examples": [
+      {
+        "chinese": "商店在学校后面。",
+        "pinyin": "Shāngdiàn zài xuéxiào hòumiàn.",
+        "english": "The shop is behind the school."
+      },
+      {
+        "chinese": "我去火车站后面。",
+        "pinyin": "Wǒ qù huǒchē zhàn hòumiàn.",
+        "english": "I went to the back of the train station."
+      },
+      {
+        "chinese": "关于这个问题，后面我还会详细说。",
+        "pinyin": "Guānyú zhège wèntí, hòumiàn wǒ hái huì xiángxì shuō.",
+        "english": "I will talk about this issue in detail later."
+      }
+    ]
+  },
+  {
+    "chars": "回",
+    "pinyin": "huí",
+    "eng": "to go back; to return",
+    "examples": [
+      {
+        "chinese": "我坐出租车回家。",
+        "pinyin": "Wǒ zuò chūzūchē huí jiā.",
+        "english": "I took a taxi home."
+      },
+      {
+        "chinese": "再见！我回家！",
+        "pinyin": "Zàijiàn! Wǒ huí jiā!",
+        "english": "goodbye!I'll go home!"
+      },
+      {
+        "chinese": "你什么时候回来？",
+        "pinyin": "Nǐ shénme shíhòu huílái?",
+        "english": "When will you come back?"
+      },
+      {
+        "chinese": "我八点回家。",
+        "pinyin": "Wǒ bā diǎn huí jiā.",
+        "english": "I'll go home at 8 o'clock."
+      },
+      {
+        "chinese": "我回开车。",
+        "pinyin": "Wǒ huí kāichē.",
+        "english": "I'll drive back."
+      }
+    ]
+  },
+  {
+    "chars": "会",
+    "pinyin": "huì",
+    "eng": "can; be able to; will",
+    "examples": [
+      {
+        "chinese": "我会说汉语。",
+        "pinyin": "Wǒ huì shuō hànyǔ.",
+        "english": "I can speak Chinese."
+      },
+      {
+        "chinese": "你会读这个汉字吗？",
+        "pinyin": "Nǐ huì dú zhège hànzì ma?",
+        "english": "Can you read this Chinese character?"
+      },
+      {
+        "chinese": "我学会了汉语。",
+        "pinyin": "Wǒ xuéhuìle hànyǔ.",
+        "english": "I learned Chinese."
+      },
+      {
+        "chinese": "明天是不会下雨的。",
+        "pinyin": "Míngtiān shì bù huì xià yǔ de.",
+        "english": "It won't rain tomorrow."
+      },
+      {
+        "chinese": "我们在开会。",
+        "pinyin": "Wǒmen zài kāihuì.",
+        "english": "We are having a meeting."
+      }
+    ]
+  },
+  {
+    "chars": "几",
+    "pinyin": "jǐ",
+    "eng": "how many; several",
+    "examples": [
+      {
+        "chinese": "你有几个儿子？",
+        "pinyin": "Nǐ yǒu jǐgè erzi?",
+        "english": "How many sons do you have?"
+      },
+      {
+        "chinese": "几分钟？",
+        "pinyin": "Jǐ fēnzhōng?",
+        "english": "How many minutes?"
+      },
+      {
+        "chinese": "现在几点了？",
+        "pinyin": "Xiànzài jǐ diǎnle?",
+        "english": "What time is it now?"
+      },
+      {
+        "chinese": "我几在北京。",
+        "pinyin": "Wǒ jǐ zài běijīng.",
+        "english": "I'm in Beijing."
+      },
+      {
+        "chinese": "我想休息几分钟。",
+        "pinyin": "Wǒ xiǎng xiūxí jǐ fēnzhōng.",
+        "english": "I want to take a few minutes off."
+      }
+    ]
+  },
+  {
+    "chars": "家",
+    "pinyin": "jiā",
+    "eng": "home; family",
+    "examples": [
+      {
+        "chinese": "我坐出租车回家。",
+        "pinyin": "Wǒ zuò chūzūchē huí jiā.",
+        "english": "I took a taxi home."
+      },
+      {
+        "chinese": "再见！我回家！",
+        "pinyin": "Zàijiàn! Wǒ huí jiā!",
+        "english": "goodbye!I'll go home!"
+      },
+      {
+        "chinese": "爸爸和妈妈都在家。",
+        "pinyin": "Bàba hé māmā dōu zàijiā.",
+        "english": "Dad and mom are both at home."
+      },
+      {
+        "chinese": "我八点回家。",
+        "pinyin": "Wǒ bā diǎn huí jiā.",
+        "english": "I'll go home at 8 o'clock."
+      },
+      {
+        "chinese": "我妈妈不在家。",
+        "pinyin": "Wǒ māmā bù zàijiā.",
+        "english": "My mom is not at home."
+      }
+    ]
+  },
+  {
+    "chars": "叫",
+    "pinyin": "jiào",
+    "eng": "to call; to be called",
+    "examples": [
+      {
+        "chinese": "妈妈和爸爸叫我！",
+        "pinyin": "Māmā hé bàba jiào wǒ!",
+        "english": "Mom and dad called me!"
+      },
+      {
+        "chinese": "小姐，你叫什么名字？",
+        "pinyin": "Xiǎojiě, nǐ jiào shénme míngzì?",
+        "english": "Miss, what's your name?"
+      },
+      {
+        "chinese": "我的名字叫李明。",
+        "pinyin": "Wǒ de míngzì jiào lǐ míng.",
+        "english": "My name is Li Ming."
+      }
+    ]
+  },
+  {
+    "chars": "今天",
+    "pinyin": "jīn tiān",
+    "eng": "today",
+    "examples": [
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "今天我做了三个菜。",
+        "pinyin": "Jīntiān wǒ zuòle sān gè cài.",
+        "english": "I made three dishes today."
+      },
+      {
+        "chinese": "今天我很高兴。",
+        "pinyin": "Jīntiān wǒ hěn gāoxìng.",
+        "english": "I'm very happy today."
+      },
+      {
+        "chinese": "今天天气很汉语。",
+        "pinyin": "Jīntiān tiānqì hěn hànyǔ.",
+        "english": "The weather is very Chinese today."
+      },
+      {
+        "chinese": "今天是 2002 年 1 月 1号。",
+        "pinyin": "Jīntiān shì 2002 nián 1 yuè 1 hào.",
+        "english": "Today is January 1, 2002."
+      }
+    ]
+  },
+  {
+    "chars": "九",
+    "pinyin": "jiǔ",
+    "eng": "nine; 9",
+    "examples": [
+      {
+        "chinese": "妈妈买了九个水果。",
+        "pinyin": "Māmā mǎile jiǔ gè shuǐguǒ.",
+        "english": "My mother bought nine fruits."
+      },
+      {
+        "chinese": "今天是八月九日。",
+        "pinyin": "Jīntiān shì bā yuè jiǔ rì.",
+        "english": "Today is August 9th."
+      },
+      {
+        "chinese": "电影九点半才开始，还来得及。",
+        "pinyin": "Diànyǐng jiǔ diǎn bàn cái kāishǐ, hái láidéjí.",
+        "english": "The movie starts at half past nine, and it's still time."
+      }
+    ]
+  },
+  {
+    "chars": "开",
+    "pinyin": "kāi",
+    "eng": "to open; to start",
+    "examples": [
+      {
+        "chinese": "昨天上午商店开了。",
+        "pinyin": "Zuótiān shàngwǔ shāngdiàn kāile.",
+        "english": "The store opened yesterday morning."
+      },
+      {
+        "chinese": "我回开车。",
+        "pinyin": "Wǒ huí kāichē.",
+        "english": "I'll drive back."
+      },
+      {
+        "chinese": "我们在开会。",
+        "pinyin": "Wǒmen zài kāihuì.",
+        "english": "We are having a meeting."
+      },
+      {
+        "chinese": "我开了三年出租车了。",
+        "pinyin": "Wǒ kāile sān nián chūzū chēle.",
+        "english": "I've driven a taxi for three years."
+      },
+      {
+        "chinese": "先生，请问您什么时候开始点菜？",
+        "pinyin": "Xiānshēng, qǐngwèn nín shénme shíhòu kāishǐ diǎn cài?",
+        "english": "Sir, when will you start ordering?"
+      }
+    ]
+  },
+  {
+    "chars": "看",
+    "pinyin": "kàn",
+    "eng": "to look at",
+    "examples": [
+      {
+        "chinese": "我很少看电影。",
+        "pinyin": "Wǒ hěnshǎo kàndiànyǐng.",
+        "english": "I rarely watch movies."
+      },
+      {
+        "chinese": "昨天我看电视了。",
+        "pinyin": "Zuótiān wǒ kàn diànshìle.",
+        "english": "I watched TV yesterday."
+      },
+      {
+        "chinese": "老师看见我在桌子上写东西。",
+        "pinyin": "Lǎoshī kànjiàn wǒ zài zhuōzi shàng xiě dōngxī.",
+        "english": "The teacher saw me writing on the table."
+      },
+      {
+        "chinese": "妈妈在看电视。",
+        "pinyin": "Māmā zài kàn diànshì.",
+        "english": "Mom is watching TV."
+      },
+      {
+        "chinese": "我喜欢看电影。",
+        "pinyin": "Wǒ xǐhuān kàn diànyǐng.",
+        "english": "I like going to the movies."
+      }
+    ]
+  },
+  {
+    "chars": "看见",
+    "pinyin": "kàn jiàn",
+    "eng": "to see; to catch sight of",
+    "examples": [
+      {
+        "chinese": "老师看见我在桌子上写东西。",
+        "pinyin": "Lǎoshī kànjiàn wǒ zài zhuōzi shàng xiě dōngxī.",
+        "english": "The teacher saw me writing on the table."
+      },
+      {
+        "chinese": "我没看见他。",
+        "pinyin": "Wǒ méi kànjiàn tā.",
+        "english": "I didn't see him."
+      },
+      {
+        "chinese": "这本书三十看见钱。",
+        "pinyin": "Zhè běn shū sānshí kànjiàn qián.",
+        "english": "This book shows money."
+      },
+      {
+        "chinese": "你看见了什么？",
+        "pinyin": "Nǐ kànjiànle shénme?",
+        "english": "What did you see?"
+      },
+      {
+        "chinese": "我穿过房间看见一个女人。",
+        "pinyin": "wǒ chuānguò fángjiān kànjiàn yīgè nǚrén.",
+        "english": "I walked through the room and saw a woman."
+      }
+    ]
+  },
+  {
+    "chars": "块",
+    "pinyin": "kuài",
+    "eng": "unit of currency; piece",
+    "examples": [
+      {
+        "chinese": "一个苹果三块钱。",
+        "pinyin": "Yīgè píngguǒ sān kuài qián.",
+        "english": "An apple costs three dollars."
+      },
+      {
+        "chinese": "来吃块西瓜吧。",
+        "pinyin": "Lái chī kuài xīguā ba.",
+        "english": "Come and eat a watermelon."
+      },
+      {
+        "chinese": "这块手表很贵。",
+        "pinyin": "Zhè kuài shǒubiǎo hěn guì.",
+        "english": "This watch is very expensive."
+      },
+      {
+        "chinese": "这块手表非常漂亮。",
+        "pinyin": "Zhè kuài shǒubiǎo fēicháng piàoliang.",
+        "english": "This watch is very beautiful."
+      },
+      {
+        "chinese": "请吃块儿西瓜。",
+        "pinyin": "Qǐng chī kuài er xīguā.",
+        "english": "Please eat a piece of watermelon."
+      }
+    ]
+  },
+  {
+    "chars": "来",
+    "pinyin": "lái",
+    "eng": "to come",
+    "examples": [
+      {
+        "chinese": "他想来吗？",
+        "pinyin": "Tā xiǎng lái ma?",
+        "english": "Does he want to come?"
+      },
+      {
+        "chinese": "你什么时候回来？",
+        "pinyin": "Nǐ shénme shíhòu huílái?",
+        "english": "When will you come back?"
+      },
+      {
+        "chinese": "我是坐飞机来中国的。",
+        "pinyin": "Wǒ shì zuò fēijī lái zhōngguó de.",
+        "english": "I came to China by plane."
+      },
+      {
+        "chinese": "我们东西来了。",
+        "pinyin": "Wǒmen dōngxī láile.",
+        "english": "Our stuff is coming."
+      },
+      {
+        "chinese": "他是昨天来这儿的。",
+        "pinyin": "Tā shì zuótiān lái zhè'er de.",
+        "english": "He came here yesterday."
+      }
+    ]
+  },
+  {
+    "chars": "老师",
+    "pinyin": "lǎo shī",
+    "eng": "teacher",
+    "examples": [
+      {
+        "chinese": "老师看见我在桌子上写东西。",
+        "pinyin": "Lǎoshī kànjiàn wǒ zài zhuōzi shàng xiě dōngxī.",
+        "english": "The teacher saw me writing on the table."
+      },
+      {
+        "chinese": "那些学生不听老师。",
+        "pinyin": "Nàxiē xuéshēng bù tīng lǎoshī.",
+        "english": "Those students don't listen to the teacher."
+      },
+      {
+        "chinese": "昨天下雨老师。",
+        "pinyin": "Zuótiān xià yǔ lǎoshī.",
+        "english": "It rained yesterday."
+      },
+      {
+        "chinese": "他是我们的老师。",
+        "pinyin": "Tā shì wǒmen de lǎoshī.",
+        "english": "He is our teacher."
+      },
+      {
+        "chinese": "老师。",
+        "pinyin": "lǎoshī.",
+        "english": "teacher."
+      }
+    ]
+  },
+  {
+    "chars": "了",
+    "pinyin": "le",
+    "eng": "(completed action marker)",
+    "examples": [
+      {
+        "chinese": "我读了八本书。",
+        "pinyin": "Wǒ dúle bā běn shū.",
+        "english": "I read eight books."
+      },
+      {
+        "chinese": "对不起，我不爱你了，我爱她！",
+        "pinyin": "Duìbùqǐ, wǒ bù ài nǐle, wǒ ài tā!",
+        "english": "Sorry, I don’t love you anymore, I love her!"
+      },
+      {
+        "chinese": "昨天我看电视了。",
+        "pinyin": "Zuótiān wǒ kàn diànshìle.",
+        "english": "I watched TV yesterday."
+      },
+      {
+        "chinese": "昨天上午商店开了。",
+        "pinyin": "Zuótiān shàngwǔ shāngdiàn kāile.",
+        "english": "The store opened yesterday morning."
+      },
+      {
+        "chinese": "妈妈买了九个水果。",
+        "pinyin": "Māmā mǎile jiǔ gè shuǐguǒ.",
+        "english": "My mother bought nine fruits."
+      }
+    ]
+  },
+  {
+    "chars": "冷",
+    "pinyin": "lěng",
+    "eng": "cold",
+    "examples": [
+      {
+        "chinese": "上午冷，下午热。",
+        "pinyin": "Shàngwǔ lěng, xiàwǔ rè.",
+        "english": "It's cold in the morning and hot in the afternoon."
+      },
+      {
+        "chinese": "今年二月天气很冷。",
+        "pinyin": "Jīnnián èr yuè tiānqì hěn lěng.",
+        "english": "The weather was very cold this February."
+      },
+      {
+        "chinese": "今天太冷了。",
+        "pinyin": "Jīntiān tài lěngle.",
+        "english": "It's too cold today."
+      },
+      {
+        "chinese": "星期日很冷。",
+        "pinyin": "Xīngqírì hěn lěng.",
+        "english": "It was very cold on Sunday."
+      },
+      {
+        "chinese": "天冷了，多穿些衣服吧。",
+        "pinyin": "Tiān lěngle, duō chuān xiē yīfú ba.",
+        "english": "It's cold, wear more clothes."
+      }
+    ]
+  },
+  {
+    "chars": "里",
+    "pinyin": "lǐ",
+    "eng": "inside",
+    "examples": [
+      {
+        "chinese": "我的电脑里有好多的东西。",
+        "pinyin": "Wǒ de diànnǎo li yǒu hǎoduō de dōngxī.",
+        "english": "There are a lot of things in my computer."
+      },
+      {
+        "chinese": "杯子里有茶。",
+        "pinyin": "Bēizi li yǒu chá.",
+        "english": "There is tea in the cup."
+      },
+      {
+        "chinese": "这里的人很多。",
+        "pinyin": "Zhèlǐ de rén hěnduō.",
+        "english": "There are many people here."
+      },
+      {
+        "chinese": "我们都在学校里。",
+        "pinyin": "Wǒmen dōu zài xuéxiào lǐ.",
+        "english": "We are all in school."
+      },
+      {
+        "chinese": "我家里没有人。",
+        "pinyin": "Wǒjiālǐ méiyǒu rén.",
+        "english": "There is no one in my family."
+      }
+    ]
+  },
+  {
+    "chars": "六",
+    "pinyin": "liù",
+    "eng": "six; 6",
+    "examples": [
+      {
+        "chinese": "桌子上有六个杯子。",
+        "pinyin": "Zhuōzi shàng yǒu liù gè bēizi.",
+        "english": "There are six cups on the table."
+      },
+      {
+        "chinese": "我现在星期六去北京。",
+        "pinyin": "Wǒ xiànzài xīngqíliù qù běijīng.",
+        "english": "I'm going to Beijing on Saturday now."
+      },
+      {
+        "chinese": "我要买六七个椅子。",
+        "pinyin": "Wǒ yāo mǎi liùqī gè yǐzi.",
+        "english": "I'm going to buy six or seven chairs."
+      },
+      {
+        "chinese": "爷爷六十岁了，但是看起来一点儿也不老。",
+        "pinyin": "Yéyé liùshí suìle, dànshì kàn qǐlái yīdiǎn er yě bùlǎo.",
+        "english": "Grandpa is sixty years old, but he doesn't look old at all."
+      }
+    ]
+  },
+  {
+    "chars": "吗",
+    "pinyin": "ma",
+    "eng": "question particle",
+    "examples": [
+      {
+        "chinese": "他想来吗？",
+        "pinyin": "Tā xiǎng lái ma?",
+        "english": "Does he want to come?"
+      },
+      {
+        "chinese": "你会读这个汉字吗？",
+        "pinyin": "Nǐ huì dú zhège hànzì ma?",
+        "english": "Can you read this Chinese character?"
+      },
+      {
+        "chinese": "你喜欢读书吗？",
+        "pinyin": "Nǐ xǐhuān dúshū ma?",
+        "english": "Do you like reading?"
+      },
+      {
+        "chinese": "你听我说，好吗？",
+        "pinyin": "Nǐ tīng wǒ shuō, hǎo ma?",
+        "english": "Listen to me, okay?"
+      },
+      {
+        "chinese": "你是中国人吗？",
+        "pinyin": "Nǐ shì zhōngguó rén ma?",
+        "english": "Are you Chinese?"
+      }
+    ]
+  },
+  {
+    "chars": "妈妈",
+    "pinyin": "mā ma",
+    "eng": "mother",
+    "examples": [
+      {
+        "chinese": "妈妈和爸爸叫我！",
+        "pinyin": "Māmā hé bàba jiào wǒ!",
+        "english": "Mom and dad called me!"
+      },
+      {
+        "chinese": "妈妈买了九个水果。",
+        "pinyin": "Māmā mǎile jiǔ gè shuǐguǒ.",
+        "english": "My mother bought nine fruits."
+      },
+      {
+        "chinese": "妈妈，我爱你。",
+        "pinyin": "Māmā, wǒ ài nǐ.",
+        "english": "I love you mom."
+      },
+      {
+        "chinese": "妈妈在看电视。",
+        "pinyin": "Māmā zài kàn diànshì.",
+        "english": "Mom is watching TV."
+      },
+      {
+        "chinese": "爸爸和妈妈都在家。",
+        "pinyin": "Bàba hé māmā dōu zàijiā.",
+        "english": "Dad and mom are both at home."
+      }
+    ]
+  },
+  {
+    "chars": "买",
+    "pinyin": "mǎi",
+    "eng": "to buy",
+    "examples": [
+      {
+        "chinese": "妈妈买了九个水果。",
+        "pinyin": "Māmā mǎile jiǔ gè shuǐguǒ.",
+        "english": "My mother bought nine fruits."
+      },
+      {
+        "chinese": "我买了个电脑。",
+        "pinyin": "Wǒ mǎile gè diànnǎo.",
+        "english": "I bought a computer."
+      },
+      {
+        "chinese": "我在商店买了很多东西。",
+        "pinyin": "Wǒ zài shāngdiàn mǎile hěnduō dōngxī.",
+        "english": "I bought a lot of things in the store."
+      },
+      {
+        "chinese": "我买了一些苹果。",
+        "pinyin": "Wǒ mǎile yīxiē píngguǒ.",
+        "english": "I bought some apples."
+      },
+      {
+        "chinese": "她去商店买东西了。",
+        "pinyin": "Tā qù shāngdiàn mǎi dōngxīle.",
+        "english": "She went to the store to buy things."
+      }
+    ]
+  },
+  {
+    "chars": "猫",
+    "pinyin": "māo",
+    "eng": "cat",
+    "examples": [
+      {
+        "chinese": "猫不吃苹果。",
+        "pinyin": "Māo bù chī píngguǒ.",
+        "english": "Cats don't eat apples."
+      },
+      {
+        "chinese": "小猫在桌子喜欢面。",
+        "pinyin": "Xiǎo māo zài zhuōzi xǐhuān miàn.",
+        "english": "Kitten likes noodles at the table."
+      },
+      {
+        "chinese": "你的小猫去哪儿了？",
+        "pinyin": "Nǐ de xiǎo māo qù nǎ'erle?",
+        "english": "Where did your kitten go?"
+      },
+      {
+        "chinese": "小猫跑到房间里去了。",
+        "pinyin": "Xiǎo māo pǎo dào fángjiān lǐ qùle.",
+        "english": "The kitten ran into the room."
+      },
+      {
+        "chinese": "我知道小猫在哪儿，它在桌子下面。",
+        "pinyin": "Wǒ zhīdào xiǎo māo zài nǎ'er, tā zài zhuōzi xiàmiàn.",
+        "english": "I know where the kitten is, it is under the table."
+      }
+    ]
+  },
+  {
+    "chars": "没关系",
+    "pinyin": "méi guān xi",
+    "eng": "it doesn't matter",
+    "examples": [
+      {
+        "chinese": "没关系，你睡觉！",
+        "pinyin": "Méiguānxì, nǐ shuìjiào!",
+        "english": "It doesn't matter, you go to bed!"
+      },
+      {
+        "chinese": "这件事，跟我没关系。",
+        "pinyin": "Zhè jiàn shì, gēn wǒ méiguānxì.",
+        "english": "This matter has nothing to do with me."
+      },
+      {
+        "chinese": "甲：对不起。乙：没关系。",
+        "pinyin": "Jiǎ: Duìbùqǐ. Yǐ: Méiguānxì.",
+        "english": "A: I'm sorry.B: It doesn’t matter."
+      },
+      {
+        "chinese": "甲：对不起！乙：没关系。",
+        "pinyin": "Jiǎ: Duìbùqǐ! Yǐ: Méiguānxì.",
+        "english": "A: I'm sorry!B: It doesn’t matter."
+      }
+    ]
+  },
+  {
+    "chars": "没有",
+    "pinyin": "méi yǒu",
+    "eng": "haven't; not have",
+    "examples": [
+      {
+        "chinese": "我家里没有人。",
+        "pinyin": "Wǒjiālǐ méiyǒu rén.",
+        "english": "There is no one in my family."
+      },
+      {
+        "chinese": "我没有他高。",
+        "pinyin": "Wǒ méiyǒu tā gāo.",
+        "english": "I'm not as tall as him."
+      },
+      {
+        "chinese": "他在玩，没有学习。",
+        "pinyin": "Tā zài wán, méiyǒu xuéxí.",
+        "english": "He was playing, not studying."
+      },
+      {
+        "chinese": "我还没有结婚的打算。",
+        "pinyin": "Wǒ hái méiyǒu jiéhūn de dǎsuàn.",
+        "english": "I have no plans to get married yet."
+      },
+      {
+        "chinese": "这件事和她没有关系。",
+        "pinyin": "Zhè jiàn shì hé tā méiyǒu guānxì.",
+        "english": "This matter has nothing to do with her."
+      }
+    ]
+  },
+  {
+    "chars": "米饭",
+    "pinyin": "mǐ fàn",
+    "eng": "(cooked) rice",
+    "examples": [
+      {
+        "chinese": "我吃米饭，你呢？",
+        "pinyin": "Wǒ chī mǐfàn, nǐ ne?",
+        "english": "I eat rice, what about you?"
+      },
+      {
+        "chinese": "我爱吃米饭。",
+        "pinyin": "Wǒ ài chī mǐfàn.",
+        "english": "I love rice."
+      },
+      {
+        "chinese": "请吃点儿米饭。",
+        "pinyin": "Qǐng chī diǎn er mǐfàn.",
+        "english": "Please have some rice."
+      },
+      {
+        "chinese": "我去热一下米饭。",
+        "pinyin": "Wǒ qù rè yīxià mǐfàn.",
+        "english": "I'll go and heat the rice."
+      },
+      {
+        "chinese": "您做的米饭真好吃。",
+        "pinyin": "Nín zuò de mǐfàn zhēn hào chī.",
+        "english": "The rice you make is so delicious."
+      }
+    ]
+  },
+  {
+    "chars": "名字",
+    "pinyin": "míng zi",
+    "eng": "name",
+    "examples": [
+      {
+        "chinese": "你的名字是什么？",
+        "pinyin": "Nǐ de míngzì shì shénme?",
+        "english": "what your name?"
+      },
+      {
+        "chinese": "小姐，你叫什么名字？",
+        "pinyin": "Xiǎojiě, nǐ jiào shénme míngzì?",
+        "english": "Miss, what's your name?"
+      },
+      {
+        "chinese": "中国人的姓在名字的前面。",
+        "pinyin": "Zhōngguó rén de xìng zài míngzì de qiánmiàn.",
+        "english": "The Chinese surname is in front of the name."
+      },
+      {
+        "chinese": "我的名字叫李明。",
+        "pinyin": "Wǒ de míngzì jiào lǐ míng.",
+        "english": "My name is Li Ming."
+      }
+    ]
+  },
+  {
+    "chars": "明天",
+    "pinyin": "míng tiān",
+    "eng": "tomorrow",
+    "examples": [
+      {
+        "chinese": "我明天坐飞机去北京。",
+        "pinyin": "Wǒ míngtiān zuò fēijī qù běijīng.",
+        "english": "I will take a plane to Beijing tomorrow."
+      },
+      {
+        "chinese": "明天下午下雨。",
+        "pinyin": "Míngtiān xiàwǔ xià yǔ.",
+        "english": "It will rain tomorrow afternoon."
+      },
+      {
+        "chinese": "明天是不会下雨的。",
+        "pinyin": "Míngtiān shì bù huì xià yǔ de.",
+        "english": "It won't rain tomorrow."
+      },
+      {
+        "chinese": "今天星期日，明天是星期一。",
+        "pinyin": "Jīntiān xīngqírì, míngtiān shì xīngqí yī.",
+        "english": "Today is Sunday, tomorrow is Monday."
+      },
+      {
+        "chinese": "我们决定明天去爬山。",
+        "pinyin": "Wǒmen juédìng míngtiān qù páshān.",
+        "english": "We decided to go hiking tomorrow."
+      }
+    ]
+  },
+  {
+    "chars": "哪",
+    "pinyin": "nǎ",
+    "eng": "which?",
+    "examples": [
+      {
+        "chinese": "你住在哪儿？我住在那儿！",
+        "pinyin": "Nǐ zhù zài nǎ'er? Wǒ zhù zài nà'er!",
+        "english": "Where do you live?I live there!"
+      },
+      {
+        "chinese": "哪个杯子是你的？",
+        "pinyin": "Nǎge bēizi shì nǐ de?",
+        "english": "Which cup is yours?"
+      },
+      {
+        "chinese": "你家在哪儿？",
+        "pinyin": "Nǐ jiā zài nǎ'er?",
+        "english": "Where is your home?"
+      },
+      {
+        "chinese": "你的小猫去哪儿了？",
+        "pinyin": "Nǐ de xiǎo māo qù nǎ'erle?",
+        "english": "Where did your kitten go?"
+      },
+      {
+        "chinese": "我知道小猫在哪儿，它在桌子下面。",
+        "pinyin": "Wǒ zhīdào xiǎo māo zài nǎ'er, tā zài zhuōzi xiàmiàn.",
+        "english": "I know where the kitten is, it is under the table."
+      }
+    ]
+  },
+  {
+    "chars": "哪儿",
+    "pinyin": "nǎ er",
+    "eng": "where?",
+    "examples": [
+      {
+        "chinese": "你住在哪儿？我住在那儿！",
+        "pinyin": "Nǐ zhù zài nǎ'er? Wǒ zhù zài nà'er!",
+        "english": "Where do you live?I live there!"
+      },
+      {
+        "chinese": "你家在哪儿？",
+        "pinyin": "Nǐ jiā zài nǎ'er?",
+        "english": "Where is your home?"
+      },
+      {
+        "chinese": "你的小猫去哪儿了？",
+        "pinyin": "Nǐ de xiǎo māo qù nǎ'erle?",
+        "english": "Where did your kitten go?"
+      },
+      {
+        "chinese": "我知道小猫在哪儿，它在桌子下面。",
+        "pinyin": "Wǒ zhīdào xiǎo māo zài nǎ'er, tā zài zhuōzi xiàmiàn.",
+        "english": "I know where the kitten is, it is under the table."
+      },
+      {
+        "chinese": "你们家住在哪儿啊？",
+        "pinyin": "Nǐmen jiāzhù zài nǎ'er a?",
+        "english": "Where do you live in?"
+      }
+    ]
+  },
+  {
+    "chars": "那",
+    "pinyin": "nà",
+    "eng": "that; those",
+    "examples": [
+      {
+        "chinese": "那些菜，我都喜欢吃。",
+        "pinyin": "Nàxiē cài, wǒ dōu xǐhuān chī.",
+        "english": "I like to eat those dishes."
+      },
+      {
+        "chinese": "你住在哪儿？我住在那儿！",
+        "pinyin": "Nǐ zhù zài nǎ'er? Wǒ zhù zài nà'er!",
+        "english": "Where do you live?I live there!"
+      },
+      {
+        "chinese": "那些学生不听老师。",
+        "pinyin": "Nàxiē xuéshēng bù tīng lǎoshī.",
+        "english": "Those students don't listen to the teacher."
+      },
+      {
+        "chinese": "你看，那本书在桌子上呢。",
+        "pinyin": "Nǐ kàn, nà běn shū zài zhuōzi shàng ne.",
+        "english": "Look, that book is on the table."
+      },
+      {
+        "chinese": "我们的车在那（那儿）。",
+        "pinyin": "Wǒmen de jū zài nà (nà'er).",
+        "english": "Our car is there (there)."
+      }
+    ]
+  },
+  {
+    "chars": "呢",
+    "pinyin": "ne",
+    "eng": "question particle",
+    "examples": [
+      {
+        "chinese": "我吃米饭，你呢？",
+        "pinyin": "Wǒ chī mǐfàn, nǐ ne?",
+        "english": "I eat rice, what about you?"
+      },
+      {
+        "chinese": "他在打电话呢。",
+        "pinyin": "Tā zài dǎ diànhuà ne.",
+        "english": "He is on the phone."
+      },
+      {
+        "chinese": "你看，那本书在桌子上呢。",
+        "pinyin": "Nǐ kàn, nà běn shū zài zhuōzi shàng ne.",
+        "english": "Look, that book is on the table."
+      },
+      {
+        "chinese": "我在看书呢。",
+        "pinyin": "Wǒ zài kànshū ne.",
+        "english": "I'm reading a book."
+      },
+      {
+        "chinese": "我在睡觉呢。",
+        "pinyin": "Wǒ zài shuìjiào ne.",
+        "english": "I'm sleeping."
+      }
+    ]
+  },
+  {
+    "chars": "能",
+    "pinyin": "néng",
+    "eng": "can; be able to",
+    "examples": [
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "我能坐在这儿吗？",
+        "pinyin": "Wǒ néng zuò zài zhè'er ma?",
+        "english": "Can I sit here?"
+      },
+      {
+        "chinese": "我能坐在这（这儿）儿吗？",
+        "pinyin": "Wǒ néng zuò zài zhè (zhè'er) er ma?",
+        "english": "Can I sit here?"
+      },
+      {
+        "chinese": "我能懂你。",
+        "pinyin": "Wǒ néng dǒng nǐ.",
+        "english": "I can understand you."
+      },
+      {
+        "chinese": "可能他正在忙。",
+        "pinyin": "Kěnéng tā zhèngzài máng.",
+        "english": "Maybe he is busy."
+      }
+    ]
+  },
+  {
+    "chars": "你",
+    "pinyin": "nǐ",
+    "eng": "you",
+    "examples": [
+      {
+        "chinese": "对不起，我不爱你了，我爱她！",
+        "pinyin": "Duìbùqǐ, wǒ bù ài nǐle, wǒ ài tā!",
+        "english": "Sorry, I don’t love you anymore, I love her!"
+      },
+      {
+        "chinese": "你有几个儿子？",
+        "pinyin": "Nǐ yǒu jǐgè erzi?",
+        "english": "How many sons do you have?"
+      },
+      {
+        "chinese": "认识你我很高兴！",
+        "pinyin": "Rènshí nǐ wǒ hěn gāoxìng!",
+        "english": "I'm very happy to know you!"
+      },
+      {
+        "chinese": "你的名字是什么？",
+        "pinyin": "Nǐ de míngzì shì shénme?",
+        "english": "what your name?"
+      },
+      {
+        "chinese": "你住在哪儿？我住在那儿！",
+        "pinyin": "Nǐ zhù zài nǎ'er? Wǒ zhù zài nà'er!",
+        "english": "Where do you live?I live there!"
+      }
+    ]
+  },
+  {
+    "chars": "年",
+    "pinyin": "nián",
+    "eng": "year",
+    "examples": [
+      {
+        "chinese": "今年二月天气很冷。",
+        "pinyin": "Jīnnián èr yuè tiānqì hěn lěng.",
+        "english": "The weather was very cold this February."
+      },
+      {
+        "chinese": "他儿子今年八岁了。",
+        "pinyin": "Tā érzi jīnnián bā suìle.",
+        "english": "His son is eight years old this year."
+      },
+      {
+        "chinese": "今天是 2002 年 1 月 1号。",
+        "pinyin": "Jīntiān shì 2002 nián 1 yuè 1 hào.",
+        "english": "Today is January 1, 2002."
+      },
+      {
+        "chinese": "我开了三年出租车了。",
+        "pinyin": "Wǒ kāile sān nián chūzū chēle.",
+        "english": "I've driven a taxi for three years."
+      },
+      {
+        "chinese": "我在中国住了三年。",
+        "pinyin": "Wǒ zài zhōngguó zhùle sān nián.",
+        "english": "I lived in China for three years."
+      }
+    ]
+  },
+  {
+    "chars": "女儿",
+    "pinyin": "nǚ ér",
+    "eng": "daughter",
+    "examples": [
+      {
+        "chinese": "现在，我的女儿四岁了。",
+        "pinyin": "Xiànzài, wǒ de nǚ'ér sì suìle.",
+        "english": "Now, my daughter is four years old."
+      },
+      {
+        "chinese": "好漂亮的女儿！",
+        "pinyin": "Hǎo piàoliang de nǚ'ér!",
+        "english": "What a beautiful daughter!"
+      },
+      {
+        "chinese": "我有一个女儿。",
+        "pinyin": "Wǒ yǒu yīgè nǚ'ér.",
+        "english": "I have a daughter."
+      },
+      {
+        "chinese": "女儿很喜欢小狗。",
+        "pinyin": "Nǚ'ér hěn xǐhuān xiǎo gǒu.",
+        "english": "My daughter likes puppies very much."
+      },
+      {
+        "chinese": "我女儿 9 个月就会走了。",
+        "pinyin": "Wǒ nǚ'ér 9 gè yuè jiù huì zǒule.",
+        "english": "My daughter will be gone in 9 months."
+      }
+    ]
+  },
+  {
+    "chars": "朋友",
+    "pinyin": "péng you",
+    "eng": "friend",
+    "examples": [
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "他是我的好朋友。",
+        "pinyin": "Tā shì wǒ de hǎo péngyǒu.",
+        "english": "He is my good friend."
+      },
+      {
+        "chinese": "我来介绍一下我的朋友。",
+        "pinyin": "Wǒ lái jièshào yīxià wǒ de péngyǒu.",
+        "english": "Let me introduce my friends."
+      },
+      {
+        "chinese": "我去送一个朋友。",
+        "pinyin": "Wǒ qù sòng yīgè péngyǒu.",
+        "english": "I'll send a friend."
+      },
+      {
+        "chinese": "今天我过生日，朋友们都来了。",
+        "pinyin": "Jīntiān wǒguò shēngrì, péngyǒumen dōu láile.",
+        "english": "Today I celebrated my birthday and my friends are here."
+      }
+    ]
+  },
+  {
+    "chars": "漂亮",
+    "pinyin": "piào liang",
+    "eng": "pretty; beautiful",
+    "examples": [
+      {
+        "chinese": "好漂亮的女儿！",
+        "pinyin": "Hǎo piàoliang de nǚ'ér!",
+        "english": "What a beautiful daughter!"
+      },
+      {
+        "chinese": "你写的字很漂亮。",
+        "pinyin": "Nǐ xiě de zì hěn piàoliang.",
+        "english": "The words you write are beautiful."
+      },
+      {
+        "chinese": "漂亮的女人是谁？",
+        "pinyin": "Piàoliang de nǚrén shì shuí?",
+        "english": "Who is a beautiful woman?"
+      },
+      {
+        "chinese": "房间非常漂亮。",
+        "pinyin": "Fángjiān fēicháng piàoliang.",
+        "english": "The room was very beautiful."
+      },
+      {
+        "chinese": "你的衣服真漂亮。",
+        "pinyin": "Nǐ de yīfú zhēn piàoliang.",
+        "english": "Your clothes are so beautiful."
+      }
+    ]
+  },
+  {
+    "chars": "苹果",
+    "pinyin": "píng guǒ",
+    "eng": "apple",
+    "examples": [
+      {
+        "chinese": "猫不吃苹果。",
+        "pinyin": "Māo bù chī píngguǒ.",
+        "english": "Cats don't eat apples."
+      },
+      {
+        "chinese": "这个苹果很大。",
+        "pinyin": "Zhège píngguǒ hěn dà.",
+        "english": "This apple is big."
+      },
+      {
+        "chinese": "我买了一些苹果。",
+        "pinyin": "Wǒ mǎile yīxiē píngguǒ.",
+        "english": "I bought some apples."
+      },
+      {
+        "chinese": "你想不想吃个苹果？",
+        "pinyin": "Nǐ xiǎng bùxiǎng chī gè píngguǒ?",
+        "english": "Do you want to eat an apple?"
+      },
+      {
+        "chinese": "一个苹果三块钱。",
+        "pinyin": "Yīgè píngguǒ sān kuài qián.",
+        "english": "An apple costs three dollars."
+      }
+    ]
+  },
+  {
+    "chars": "七",
+    "pinyin": "qī",
+    "eng": "seven; 7",
+    "examples": [
+      {
+        "chinese": "一个星期有七天。",
+        "pinyin": "Yīgè xīngqí yǒu qītiān.",
+        "english": "There are seven days in a week."
+      },
+      {
+        "chinese": "我要买六七个椅子。",
+        "pinyin": "Wǒ yāo mǎi liùqī gè yǐzi.",
+        "english": "I'm going to buy six or seven chairs."
+      },
+      {
+        "chinese": "我早上七点起床。",
+        "pinyin": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+        "english": "I get up at 7 a.m."
+      },
+      {
+        "chinese": "我七点半去上班。",
+        "pinyin": "Wǒ qī diǎn bàn qù shàngbān.",
+        "english": "I'll go to work at half past seven."
+      },
+      {
+        "chinese": "我每天晚上七点都看新闻。",
+        "pinyin": "Wǒ měitiān wǎnshàng qī diǎn dōu kàn xīnwén.",
+        "english": "I read the news every night at 7 o'clock."
+      }
+    ]
+  },
+  {
+    "chars": "前面",
+    "pinyin": "qián miàn",
+    "eng": "ahead; in front",
+    "examples": [
+      {
+        "chinese": "他在学校前面。",
+        "pinyin": "Tā zài xuéxiào qiánmiàn.",
+        "english": "He is in front of the school."
+      },
+      {
+        "chinese": "前面坐在椅子上。",
+        "pinyin": "Qiánmiàn zuò zài yǐzi shàng.",
+        "english": "Sitting in front of the chair."
+      },
+      {
+        "chinese": "中国人的姓在名字的前面。",
+        "pinyin": "Zhōngguó rén de xìng zài míngzì de qiánmiàn.",
+        "english": "The Chinese surname is in front of the name."
+      },
+      {
+        "chinese": "前面第一个路口向左转，你就能看到医院了。",
+        "pinyin": "Qiánmiàn dì yī gè lùkǒu xiàng zuǒ zhuǎn, nǐ jiù néng kàn dào yīyuànle.",
+        "english": "Turn left at the first intersection in front and you will see the hospital."
+      },
+      {
+        "chinese": "前面那个人是我的同学。",
+        "pinyin": "Qiánmiàn nàgèrén shì wǒ de tóngxué.",
+        "english": "The person in front is my classmate."
+      }
+    ]
+  },
+  {
+    "chars": "钱",
+    "pinyin": "qián",
+    "eng": "money",
+    "examples": [
+      {
+        "chinese": "这个衣服多少钱？",
+        "pinyin": "Zhège yīfú duōshǎo qián?",
+        "english": "How much does this clothes cost?"
+      },
+      {
+        "chinese": "这本书三十看见钱。",
+        "pinyin": "Zhè běn shū sānshí kànjiàn qián.",
+        "english": "This book shows money."
+      },
+      {
+        "chinese": "一个苹果三块钱。",
+        "pinyin": "Yīgè píngguǒ sān kuài qián.",
+        "english": "An apple costs three dollars."
+      },
+      {
+        "chinese": "我只有一点儿钱。",
+        "pinyin": "Wǒ zhǐyǒu yīdiǎn er qián.",
+        "english": "I only have a little money."
+      },
+      {
+        "chinese": "苹果两块钱一斤。",
+        "pinyin": "Píngguǒ liǎng kuài qián yī jīn.",
+        "english": "Apple costs two yuan per pound."
+      }
+    ]
+  },
+  {
+    "chars": "请",
+    "pinyin": "qǐng",
+    "eng": "please; to invite",
+    "examples": [
+      {
+        "chinese": "请吃点儿米饭。",
+        "pinyin": "Qǐng chī diǎn er mǐfàn.",
+        "english": "Please have some rice."
+      },
+      {
+        "chinese": "他想请我吃饭。",
+        "pinyin": "Tā xiǎng qǐng wǒ chīfàn.",
+        "english": "He wanted to treat me to a meal."
+      },
+      {
+        "chinese": "我星期三请中国。",
+        "pinyin": "Wǒ xīngqísān qǐng zhōngguó.",
+        "english": "I invite China on Wednesday."
+      },
+      {
+        "chinese": "星期二同学请我去饭馆吃饭。",
+        "pinyin": "Xīngqí'èr tóngxué qǐng wǒ qù fànguǎn chīfàn.",
+        "english": "On Tuesday, my classmates invited me to a restaurant for dinner."
+      },
+      {
+        "chinese": "喂？你请说话！",
+        "pinyin": "Wèi? Nǐ qǐng shuōhuà!",
+        "english": "Hello?Please speak!"
+      }
+    ]
+  },
+  {
+    "chars": "去",
+    "pinyin": "qù",
+    "eng": "to go",
+    "examples": [
+      {
+        "chinese": "我明天坐飞机去北京。",
+        "pinyin": "Wǒ míngtiān zuò fēijī qù běijīng.",
+        "english": "I will take a plane to Beijing tomorrow."
+      },
+      {
+        "chinese": "我坐飞机去北京。",
+        "pinyin": "Wǒ zuò fēijī qù běijīng.",
+        "english": "I took a plane to Beijing."
+      },
+      {
+        "chinese": "我今天去北京。",
+        "pinyin": "Wǒ jīntiān qù běijīng.",
+        "english": "I'm going to Beijing today."
+      },
+      {
+        "chinese": "她去商店买东西了。",
+        "pinyin": "Tā qù shāngdiàn mǎi dōngxīle.",
+        "english": "She went to the store to buy things."
+      },
+      {
+        "chinese": "我们八点去上学。",
+        "pinyin": "Wǒmen bā diǎn qù shàngxué.",
+        "english": "We went to school at 8 o'clock."
+      }
+    ]
+  },
+  {
+    "chars": "热",
+    "pinyin": "rè",
+    "eng": "hot",
+    "examples": [
+      {
+        "chinese": "上午冷，下午热。",
+        "pinyin": "Shàngwǔ lěng, xiàwǔ rè.",
+        "english": "It's cold in the morning and hot in the afternoon."
+      },
+      {
+        "chinese": "今天很热。",
+        "pinyin": "Jīntiān hěn rè.",
+        "english": "It's very hot today."
+      },
+      {
+        "chinese": "我去热一下米饭。",
+        "pinyin": "Wǒ qù rè yīxià mǐfàn.",
+        "english": "I'll go and heat the rice."
+      },
+      {
+        "chinese": "太热了，请把空调打开。",
+        "pinyin": "Tài rèle, qǐng bǎ kòngtiáo dǎkāi.",
+        "english": "It's too hot, please turn on the air conditioner."
+      },
+      {
+        "chinese": "秋天最舒服，不冷也不热。",
+        "pinyin": "Qiūtiān zuì shūfú, bù lěng yě bù rè.",
+        "english": "Autumn is the most comfortable, neither cold nor hot."
+      }
+    ]
+  },
+  {
+    "chars": "人",
+    "pinyin": "rén",
+    "eng": "person; people",
+    "examples": [
+      {
+        "chinese": "我的医生是一个好人。",
+        "pinyin": "Wǒ de yīshēng shì yīgè hǎorén.",
+        "english": "My doctor is a good person."
+      },
+      {
+        "chinese": "中国人说汉语。",
+        "pinyin": "Zhōngguó rén shuō hànyǔ.",
+        "english": "Chinese people speak Chinese."
+      },
+      {
+        "chinese": "这里的人很多。",
+        "pinyin": "Zhèlǐ de rén hěnduō.",
+        "english": "There are many people here."
+      },
+      {
+        "chinese": "你是中国人吗？",
+        "pinyin": "Nǐ shì zhōngguó rén ma?",
+        "english": "Are you Chinese?"
+      },
+      {
+        "chinese": "我家里没有人。",
+        "pinyin": "Wǒjiālǐ méiyǒu rén.",
+        "english": "There is no one in my family."
+      }
+    ]
+  },
+  {
+    "chars": "认识",
+    "pinyin": "rèn shi",
+    "eng": "to know; to recognize",
+    "examples": [
+      {
+        "chinese": "认识你我很高兴！",
+        "pinyin": "Rènshí nǐ wǒ hěn gāoxìng!",
+        "english": "I'm very happy to know you!"
+      },
+      {
+        "chinese": "认识你很高兴。",
+        "pinyin": "Rènshí nǐ hěn gāoxìng.",
+        "english": "Nice to meet you."
+      },
+      {
+        "chinese": "我认识她的妈妈。",
+        "pinyin": "Wǒ rènshí tā de māmā.",
+        "english": "I know her mother."
+      },
+      {
+        "chinese": "这个字你认识吗？",
+        "pinyin": "Zhège zì nǐ rènshí ma?",
+        "english": "Do you know this word?"
+      },
+      {
+        "chinese": "我不认识那个男人。",
+        "pinyin": "Wǒ bù rènshí nàgè nánrén.",
+        "english": "I don't know that man."
+      }
+    ]
+  },
+  {
+    "chars": "三",
+    "pinyin": "sān",
+    "eng": "three; 3",
+    "examples": [
+      {
+        "chinese": "有三个饭店。",
+        "pinyin": "Yǒu sāngè fànguǎn.",
+        "english": "There are three hotels."
+      },
+      {
+        "chinese": "今天我做了三个菜。",
+        "pinyin": "Jīntiān wǒ zuòle sān gè cài.",
+        "english": "I made three dishes today."
+      },
+      {
+        "chinese": "我儿子三岁了。",
+        "pinyin": "Wǒ érzi sān suìle.",
+        "english": "My son is three years old."
+      },
+      {
+        "chinese": "我开了三年出租车了。",
+        "pinyin": "Wǒ kāile sān nián chūzū chēle.",
+        "english": "I've driven a taxi for three years."
+      },
+      {
+        "chinese": "这本书三十看见钱。",
+        "pinyin": "Zhè běn shū sānshí kànjiàn qián.",
+        "english": "This book shows money."
+      }
+    ]
+  },
+  {
+    "chars": "商店",
+    "pinyin": "shāng diàn",
+    "eng": "store; shop",
+    "examples": [
+      {
+        "chinese": "昨天上午商店开了。",
+        "pinyin": "Zuótiān shàngwǔ shāngdiàn kāile.",
+        "english": "The store opened yesterday morning."
+      },
+      {
+        "chinese": "我在商店买了很多东西。",
+        "pinyin": "Wǒ zài shāngdiàn mǎile hěnduō dōngxī.",
+        "english": "I bought a lot of things in the store."
+      },
+      {
+        "chinese": "商店在学校后面。",
+        "pinyin": "Shāngdiàn zài xuéxiào hòumiàn.",
+        "english": "The shop is behind the school."
+      },
+      {
+        "chinese": "商店里有很多人。",
+        "pinyin": "Shāngdiàn li yǒu hěnduō rén.",
+        "english": "There are a lot of people in the store."
+      },
+      {
+        "chinese": "她去商店买东西了。",
+        "pinyin": "Tā qù shāngdiàn mǎi dōngxīle.",
+        "english": "She went to the store to buy things."
+      }
+    ]
+  },
+  {
+    "chars": "上",
+    "pinyin": "shàng",
+    "eng": "on; above",
+    "examples": [
+      {
+        "chinese": "昨天上午商店开了。",
+        "pinyin": "Zuótiān shàngwǔ shāngdiàn kāile.",
+        "english": "The store opened yesterday morning."
+      },
+      {
+        "chinese": "老师看见我在桌子上写东西。",
+        "pinyin": "Lǎoshī kànjiàn wǒ zài zhuōzi shàng xiě dōngxī.",
+        "english": "The teacher saw me writing on the table."
+      },
+      {
+        "chinese": "上午冷，下午热。",
+        "pinyin": "Shàngwǔ lěng, xiàwǔ rè.",
+        "english": "It's cold in the morning and hot in the afternoon."
+      },
+      {
+        "chinese": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒuyī běn shū.",
+        "english": "There is a book on the table."
+      },
+      {
+        "chinese": "你看，那本书在桌子上呢。",
+        "pinyin": "Nǐ kàn, nà běn shū zài zhuōzi shàng ne.",
+        "english": "Look, that book is on the table."
+      }
+    ]
+  },
+  {
+    "chars": "上午",
+    "pinyin": "shàng wǔ",
+    "eng": "morning",
+    "examples": [
+      {
+        "chinese": "昨天上午商店开了。",
+        "pinyin": "Zuótiān shàngwǔ shāngdiàn kāile.",
+        "english": "The store opened yesterday morning."
+      },
+      {
+        "chinese": "上午冷，下午热。",
+        "pinyin": "Shàngwǔ lěng, xiàwǔ rè.",
+        "english": "It's cold in the morning and hot in the afternoon."
+      },
+      {
+        "chinese": "现在是上午10 点。",
+        "pinyin": "Xiànzài shì shàngwǔ 10 diǎn.",
+        "english": "It's 10 a.m."
+      },
+      {
+        "chinese": "李大夫，您明天上午在医院吗？",
+        "pinyin": "Lǐ dàfū, nín míngtiān shàngwǔ zài yīyuàn ma?",
+        "english": "Dr. Li, are you in the hospital tomorrow morning?"
+      }
+    ]
+  },
+  {
+    "chars": "少",
+    "pinyin": "shǎo",
+    "eng": "few; little",
+    "examples": [
+      {
+        "chinese": "我很少看电影。",
+        "pinyin": "Wǒ hěnshǎo kàndiànyǐng.",
+        "english": "I rarely watch movies."
+      },
+      {
+        "chinese": "这个衣服多少钱？",
+        "pinyin": "Zhège yīfú duōshǎo qián?",
+        "english": "How much does this clothes cost?"
+      },
+      {
+        "chinese": "你们学校有多少学生？",
+        "pinyin": "Nǐmen xuéxiào yǒu duōshǎo xuéshēng?",
+        "english": "How many students do you have in your school?"
+      },
+      {
+        "chinese": "杯子里的水很少。",
+        "pinyin": "Bēizi lǐ de shuǐ hěn shǎo.",
+        "english": "There is very little water in the cup."
+      },
+      {
+        "chinese": "你的房间号是多少？",
+        "pinyin": "Nǐ de fángjiān hào shì duōshǎo?",
+        "english": "What is your room number?"
+      }
+    ]
+  },
+  {
+    "chars": "谁",
+    "pinyin": "shéi",
+    "eng": "who",
+    "examples": [
+      {
+        "chinese": "你听，谁来了？",
+        "pinyin": "Nǐ tīng, shuí láile?",
+        "english": "Listen, who is here?"
+      },
+      {
+        "chinese": "漂亮的女人是谁？",
+        "pinyin": "Piàoliang de nǚrén shì shuí?",
+        "english": "Who is a beautiful woman?"
+      },
+      {
+        "chinese": "刚才是谁来的电话？",
+        "pinyin": "Gāngcái shì shuí lái de diànhuà?",
+        "english": "Who called just now?"
+      },
+      {
+        "chinese": "现在是谁管理这座房子？",
+        "pinyin": "Xiànzài shì shuí guǎnlǐ zhè zuò fángzi?",
+        "english": "Who manages the house now?"
+      },
+      {
+        "chinese": "有谁想参加乒乓球比赛？",
+        "pinyin": "Yǒu shuí xiǎng cānjiā pīngpāng qiú bǐsài?",
+        "english": "Does anyone want to participate in a table tennis competition?"
+      }
+    ]
+  },
+  {
+    "chars": "什么",
+    "pinyin": "shén me",
+    "eng": "what?",
+    "examples": [
+      {
+        "chinese": "你的名字是什么？",
+        "pinyin": "Nǐ de míngzì shì shénme?",
+        "english": "what your name?"
+      },
+      {
+        "chinese": "你什么时候回来？",
+        "pinyin": "Nǐ shénme shíhòu huílái?",
+        "english": "When will you come back?"
+      },
+      {
+        "chinese": "你看见了什么？",
+        "pinyin": "Nǐ kànjiànle shénme?",
+        "english": "What did you see?"
+      },
+      {
+        "chinese": "你在说什么？",
+        "pinyin": "Nǐ zài shuō shénme?",
+        "english": "What are you talking about?"
+      },
+      {
+        "chinese": "妈妈，你在想什么呢？",
+        "pinyin": "Māmā, nǐ zài xiǎng shénme ne?",
+        "english": "Mom, what are you thinking?"
+      }
+    ]
+  },
+  {
+    "chars": "十",
+    "pinyin": "shí",
+    "eng": "ten; 10",
+    "examples": [
+      {
+        "chinese": "现在十二点了。",
+        "pinyin": "Xiànzài shí'èr diǎnle.",
+        "english": "It's twelve o'clock now."
+      },
+      {
+        "chinese": "这本书三十看见钱。",
+        "pinyin": "Zhè běn shū sānshí kànjiàn qián.",
+        "english": "This book shows money."
+      },
+      {
+        "chinese": "现在是十月。",
+        "pinyin": "Xiànzài shì shí yuè.",
+        "english": "It's October now."
+      },
+      {
+        "chinese": "我们从第十课开始学习。",
+        "pinyin": "Wǒmen cóng dì shí kè kāishǐ xuéxí.",
+        "english": "We start learning from lesson 10."
+      },
+      {
+        "chinese": "二十块零五分",
+        "pinyin": "Èrshí kuài líng wǔ fēn",
+        "english": "Twenty yuan, five points"
+      }
+    ]
+  },
+  {
+    "chars": "时候",
+    "pinyin": "shí hou",
+    "eng": "time; moment",
+    "examples": [
+      {
+        "chinese": "你什么时候回来？",
+        "pinyin": "Nǐ shénme shíhòu huílái?",
+        "english": "When will you come back?"
+      },
+      {
+        "chinese": "我回家的时候，他在睡觉。",
+        "pinyin": "Wǒ huí jiā de shíhòu, tā zài shuìjiào.",
+        "english": "When I got home, he was sleeping."
+      },
+      {
+        "chinese": "先生，请问您什么时候开始点菜？",
+        "pinyin": "Xiānshēng, qǐngwèn nín shénme shíhòu kāishǐ diǎn cài?",
+        "english": "Sir, when will you start ordering?"
+      },
+      {
+        "chinese": "上下班的时候，我都要经过这条街道。",
+        "pinyin": "Shàng xiàbān de shíhòu, wǒ dū yào jīngguò zhè tiáo jiēdào.",
+        "english": "When I go to and from get off work, I have to pass through this street."
+      },
+      {
+        "chinese": "这是我小时候的照片。",
+        "pinyin": "Zhè shì wǒ xiǎoshíhòu de zhàopiàn.",
+        "english": "This is a photo of me when I was a kid."
+      }
+    ]
+  },
+  {
+    "chars": "是",
+    "pinyin": "shì",
+    "eng": "to be",
+    "examples": [
+      {
+        "chinese": "大杯子是我的。",
+        "pinyin": "Dà bēizi shì wǒ de.",
+        "english": "The big cup is mine."
+      },
+      {
+        "chinese": "你的名字是什么？",
+        "pinyin": "Nǐ de míngzì shì shénme?",
+        "english": "what your name?"
+      },
+      {
+        "chinese": "我的医生是一个好人。",
+        "pinyin": "Wǒ de yīshēng shì yīgè hǎorén.",
+        "english": "My doctor is a good person."
+      },
+      {
+        "chinese": "我爸爸是医生。",
+        "pinyin": "Wǒ bàba shì yīshēng.",
+        "english": "My dad is a doctor."
+      },
+      {
+        "chinese": "我不是学生。",
+        "pinyin": "Wǒ bùshì xuéshēng.",
+        "english": "I'm not a student."
+      }
+    ]
+  },
+  {
+    "chars": "书",
+    "pinyin": "shū",
+    "eng": "book",
+    "examples": [
+      {
+        "chinese": "我读了八本书。",
+        "pinyin": "Wǒ dúle bā běn shū.",
+        "english": "I read eight books."
+      },
+      {
+        "chinese": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒuyī běn shū.",
+        "english": "There is a book on the table."
+      },
+      {
+        "chinese": "这是我大书。",
+        "pinyin": "Zhè shì wǒ dà shū.",
+        "english": "This is my big book."
+      },
+      {
+        "chinese": "你喜欢读书吗？",
+        "pinyin": "Nǐ xǐhuān dúshū ma?",
+        "english": "Do you like reading?"
+      },
+      {
+        "chinese": "你看，那本书在桌子上呢。",
+        "pinyin": "Nǐ kàn, nà běn shū zài zhuōzi shàng ne.",
+        "english": "Look, that book is on the table."
+      }
+    ]
+  },
+  {
+    "chars": "水",
+    "pinyin": "shuǐ",
+    "eng": "water",
+    "examples": [
+      {
+        "chinese": "妈妈买了九个水果。",
+        "pinyin": "Māmā mǎile jiǔ gè shuǐguǒ.",
+        "english": "My mother bought nine fruits."
+      },
+      {
+        "chinese": "我想喝水。",
+        "pinyin": "Wǒ xiǎng hē shuǐ.",
+        "english": "I want to drink water."
+      },
+      {
+        "chinese": "水果在桌子上。",
+        "pinyin": "Shuǐguǒ zài zhuōzi shàng.",
+        "english": "Fruit on the table."
+      },
+      {
+        "chinese": "杯子里的水很少。",
+        "pinyin": "Bēizi lǐ de shuǐ hěn shǎo.",
+        "english": "There is very little water in the cup."
+      },
+      {
+        "chinese": "我想去商店买水果。",
+        "pinyin": "Wǒ xiǎng qù shāngdiàn mǎi shuǐguǒ.",
+        "english": "I want to go to the store to buy fruit."
+      }
+    ]
+  },
+  {
+    "chars": "水果",
+    "pinyin": "shuǐ guǒ",
+    "eng": "fruit",
+    "examples": [
+      {
+        "chinese": "妈妈买了九个水果。",
+        "pinyin": "Māmā mǎile jiǔ gè shuǐguǒ.",
+        "english": "My mother bought nine fruits."
+      },
+      {
+        "chinese": "水果在桌子上。",
+        "pinyin": "Shuǐguǒ zài zhuōzi shàng.",
+        "english": "Fruit on the table."
+      },
+      {
+        "chinese": "我想去商店买水果。",
+        "pinyin": "Wǒ xiǎng qù shāngdiàn mǎi shuǐguǒ.",
+        "english": "I want to go to the store to buy fruit."
+      },
+      {
+        "chinese": "再来点儿水果，怎么样？",
+        "pinyin": "Zàilái diǎn er shuǐguǒ, zěnme yàng?",
+        "english": "How about some more fruit?"
+      },
+      {
+        "chinese": "你还是吃点儿水果吧，别喝啤酒了。",
+        "pinyin": "Nǐ háishì chī diǎn er shuǐguǒ ba, bié hē píjiǔle.",
+        "english": "You'd better eat some fruit and stop drinking beer."
+      }
+    ]
+  },
+  {
+    "chars": "睡觉",
+    "pinyin": "shuì jiào",
+    "eng": "to sleep",
+    "examples": [
+      {
+        "chinese": "没关系，你睡觉！",
+        "pinyin": "Méiguānxì, nǐ shuìjiào!",
+        "english": "It doesn't matter, you go to bed!"
+      },
+      {
+        "chinese": "我在睡觉呢。",
+        "pinyin": "Wǒ zài shuìjiào ne.",
+        "english": "I'm sleeping."
+      },
+      {
+        "chinese": "我回家的时候，他在睡觉。",
+        "pinyin": "Wǒ huí jiā de shíhòu, tā zài shuìjiào.",
+        "english": "When I got home, he was sleeping."
+      },
+      {
+        "chinese": "儿子在睡觉呢。",
+        "pinyin": "Érzi zài shuìjiào ne.",
+        "english": "My son is sleeping."
+      },
+      {
+        "chinese": "睡觉前喝杯牛奶吧。",
+        "pinyin": "Shuìjiào qián hē bēi niúnǎi ba.",
+        "english": "Have a glass of milk before going to bed."
+      }
+    ]
+  },
+  {
+    "chars": "说",
+    "pinyin": "shuō",
+    "eng": "to speak; to say",
+    "examples": [
+      {
+        "chinese": "我会说汉语。",
+        "pinyin": "Wǒ huì shuō hànyǔ.",
+        "english": "I can speak Chinese."
+      },
+      {
+        "chinese": "中国人说汉语。",
+        "pinyin": "Zhōngguó rén shuō hànyǔ.",
+        "english": "Chinese people speak Chinese."
+      },
+      {
+        "chinese": "你听我说，好吗？",
+        "pinyin": "Nǐ tīng wǒ shuō, hǎo ma?",
+        "english": "Listen to me, okay?"
+      },
+      {
+        "chinese": "你在说什么？",
+        "pinyin": "Nǐ zài shuō shénme?",
+        "english": "What are you talking about?"
+      },
+      {
+        "chinese": "喂？你请说话！",
+        "pinyin": "Wèi? Nǐ qǐng shuōhuà!",
+        "english": "Hello?Please speak!"
+      }
+    ]
+  },
+  {
+    "chars": "四",
+    "pinyin": "sì",
+    "eng": "four; 4",
+    "examples": [
+      {
+        "chinese": "现在，我的女儿四岁了。",
+        "pinyin": "Xiànzài, wǒ de nǚ'ér sì suìle.",
+        "english": "Now, my daughter is four years old."
+      },
+      {
+        "chinese": "四号去教室。",
+        "pinyin": "Sì hào qù jiàoshì.",
+        "english": "Go to the classroom on the fourth."
+      },
+      {
+        "chinese": "房间里有四把椅子。",
+        "pinyin": "Fángjiān li yǒu sì bǎ yǐzi.",
+        "english": "There are four chairs in the room."
+      },
+      {
+        "chinese": "一年有四个季节。",
+        "pinyin": "Yī nián yǒu sì gè jìjié.",
+        "english": "There are four seasons a year."
+      },
+      {
+        "chinese": "这条街道很长，有四千多米。",
+        "pinyin": "Zhè tiáo jiēdào hěn zhǎng, yǒu sìqiān duō mǐ.",
+        "english": "This street is very long, more than 4,000 meters."
+      }
+    ]
+  },
+  {
+    "chars": "岁",
+    "pinyin": "suì",
+    "eng": "year (of age)",
+    "examples": [
+      {
+        "chinese": "现在，我的女儿四岁了。",
+        "pinyin": "Xiànzài, wǒ de nǚ'ér sì suìle.",
+        "english": "Now, my daughter is four years old."
+      },
+      {
+        "chinese": "他儿子今年八岁了。",
+        "pinyin": "Tā érzi jīnnián bā suìle.",
+        "english": "His son is eight years old this year."
+      },
+      {
+        "chinese": "我儿子三岁了。",
+        "pinyin": "Wǒ érzi sān suìle.",
+        "english": "My son is three years old."
+      },
+      {
+        "chinese": "他 30 岁而且……读完大学。",
+        "pinyin": "Tā 30 suì érqiě……dú wán dàxué.",
+        "english": "He is 30 and… finished college."
+      },
+      {
+        "chinese": "妈妈 50 岁了，看起来还很年轻。",
+        "pinyin": "Māmā 50 suìle, kàn qǐlái hái hěn niánqīng.",
+        "english": "Mom is 50 years old and looks very young."
+      }
+    ]
+  },
+  {
+    "chars": "他",
+    "pinyin": "tā",
+    "eng": "he; him",
+    "examples": [
+      {
+        "chinese": "他吃一点。",
+        "pinyin": "Tā chī yīdiǎn.",
+        "english": "He eats a little."
+      },
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "他想来吗？",
+        "pinyin": "Tā xiǎng lái ma?",
+        "english": "Does he want to come?"
+      },
+      {
+        "chinese": "他在学校前面。",
+        "pinyin": "Tā zài xuéxiào qiánmiàn.",
+        "english": "He is in front of the school."
+      },
+      {
+        "chinese": "他儿子今年八岁了。",
+        "pinyin": "Tā érzi jīnnián bā suìle.",
+        "english": "His son is eight years old this year."
+      }
+    ]
+  },
+  {
+    "chars": "她",
+    "pinyin": "tā",
+    "eng": "she",
+    "examples": [
+      {
+        "chinese": "对不起，我不爱你了，我爱她！",
+        "pinyin": "Duìbùqǐ, wǒ bù ài nǐle, wǒ ài tā!",
+        "english": "Sorry, I don’t love you anymore, I love her!"
+      },
+      {
+        "chinese": "她去商店买东西了。",
+        "pinyin": "Tā qù shāngdiàn mǎi dōngxīle.",
+        "english": "She went to the store to buy things."
+      },
+      {
+        "chinese": "我认识她的妈妈。",
+        "pinyin": "Wǒ rènshí tā de māmā.",
+        "english": "I know her mother."
+      },
+      {
+        "chinese": "这件事和她没有关系。",
+        "pinyin": "Zhè jiàn shì hé tā méiyǒu guānxì.",
+        "english": "This matter has nothing to do with her."
+      },
+      {
+        "chinese": "今天是妈妈的生日，我们送一些花给她吧。",
+        "pinyin": "Jīntiān shì māmā de shēngrì, wǒmen sòng yīxiē huā gěi tā ba.",
+        "english": "Today is my mother’s birthday, let’s give her some flowers."
+      }
+    ]
+  },
+  {
+    "chars": "太",
+    "pinyin": "tài",
+    "eng": "too; very",
+    "examples": [
+      {
+        "chinese": "狗都太喜欢吃。",
+        "pinyin": "Gǒu dōu tài xǐhuān chī.",
+        "english": "Dogs like to eat too much."
+      },
+      {
+        "chinese": "今天太冷了。",
+        "pinyin": "Jīntiān tài lěngle.",
+        "english": "It's too cold today."
+      },
+      {
+        "chinese": "这个学校太大了。",
+        "pinyin": "Zhège xuéxiào tài dàle.",
+        "english": "This school is too big."
+      },
+      {
+        "chinese": "这个苹果太想了。",
+        "pinyin": "Zhège píngguǒ tài xiǎngle.",
+        "english": "This Apple is thinking too much."
+      },
+      {
+        "chinese": "这个苹果太大，我吃不完。",
+        "pinyin": "Zhège píngguǒ tài dà, wǒ chī bù wán.",
+        "english": "This apple is too big to eat."
+      }
+    ]
+  },
+  {
+    "chars": "天气",
+    "pinyin": "tiān qì",
+    "eng": "weather",
+    "examples": [
+      {
+        "chinese": "今年二月天气很冷。",
+        "pinyin": "Jīnnián èr yuè tiānqì hěn lěng.",
+        "english": "The weather was very cold this February."
+      },
+      {
+        "chinese": "今天天气很汉语。",
+        "pinyin": "Jīntiān tiānqì hěn hànyǔ.",
+        "english": "The weather is very Chinese today."
+      },
+      {
+        "chinese": "今天天气晴/阴。",
+        "pinyin": "Jīntiān tiānqì qíng/yīn.",
+        "english": "The weather is sunny/cloud today."
+      },
+      {
+        "chinese": "今天的天气非常好。",
+        "pinyin": "Jīntiān de tiānqì fēicháng hǎo.",
+        "english": "The weather today was very good."
+      },
+      {
+        "chinese": "今天天气比较冷。",
+        "pinyin": "Jīntiān tiānqì bǐjiào lěng.",
+        "english": "The weather is relatively cold today."
+      }
+    ]
+  },
+  {
+    "chars": "听",
+    "pinyin": "tīng",
+    "eng": "to listen",
+    "examples": [
+      {
+        "chinese": "那些学生不听老师。",
+        "pinyin": "Nàxiē xuéshēng bù tīng lǎoshī.",
+        "english": "Those students don't listen to the teacher."
+      },
+      {
+        "chinese": "你听我说，好吗？",
+        "pinyin": "Nǐ tīng wǒ shuō, hǎo ma?",
+        "english": "Listen to me, okay?"
+      },
+      {
+        "chinese": "你听，谁来了？",
+        "pinyin": "Nǐ tīng, shuí láile?",
+        "english": "Listen, who is here?"
+      },
+      {
+        "chinese": "这件事儿，我听你的。",
+        "pinyin": "Zhè jiàn shì er, wǒ tīng nǐ de.",
+        "english": "I'll listen to you about this."
+      },
+      {
+        "chinese": "听到他这么说，我们都笑了。",
+        "pinyin": "Tīng dào tā zhème shuō, wǒmen dōu xiàole.",
+        "english": "We all laughed when we heard him say this."
+      }
+    ]
+  },
+  {
+    "chars": "同学",
+    "pinyin": "tóng xué",
+    "eng": "classmate",
+    "examples": [
+      {
+        "chinese": "同学们，你们好！",
+        "pinyin": "Tóngxuémen, nǐmen hǎo!",
+        "english": "Hello, classmates!"
+      },
+      {
+        "chinese": "星期二同学请我去饭馆吃饭。",
+        "pinyin": "Xīngqí'èr tóngxué qǐng wǒ qù fànguǎn chīfàn.",
+        "english": "On Tuesday, my classmates invited me to a restaurant for dinner."
+      },
+      {
+        "chinese": "我和同学们在踢足球。",
+        "pinyin": "Wǒ hé tóngxuémen zài tī zúqiú.",
+        "english": "My classmates and I were playing football."
+      },
+      {
+        "chinese": "同学们，下面我们开始做练习。",
+        "pinyin": "Tóngxuémen, xiàmiàn wǒmen kāishǐ zuò liànxí.",
+        "english": "Students, let’s start practicing."
+      },
+      {
+        "chinese": "这个同学学习很认真，很努力。",
+        "pinyin": "Zhège tóngxué xuéxí hěn rènzhēn, hěn nǔlì.",
+        "english": "This student studied very seriously and worked hard."
+      }
+    ]
+  },
+  {
+    "chars": "喂",
+    "pinyin": "wèi",
+    "eng": "hello (on the phone)",
+    "examples": [
+      "喂...",
+      "这是喂。"
+    ]
+  },
+  {
+    "chars": "我",
+    "pinyin": "wǒ",
+    "eng": "I; me",
+    "examples": [
+      {
+        "chinese": "我读了八本书。",
+        "pinyin": "Wǒ dúle bā běn shū.",
+        "english": "I read eight books."
+      },
+      {
+        "chinese": "对不起，我不爱你了，我爱她！",
+        "pinyin": "Duìbùqǐ, wǒ bù ài nǐle, wǒ ài tā!",
+        "english": "Sorry, I don’t love you anymore, I love her!"
+      },
+      {
+        "chinese": "我坐出租车回家。",
+        "pinyin": "Wǒ zuò chūzūchē huí jiā.",
+        "english": "I took a taxi home."
+      },
+      {
+        "chinese": "那些菜，我都喜欢吃。",
+        "pinyin": "Nàxiē cài, wǒ dōu xǐhuān chī.",
+        "english": "I like to eat those dishes."
+      },
+      {
+        "chinese": "我住在北京。",
+        "pinyin": "Wǒ zhù zài Běijīng.",
+        "english": "I live in Beijing."
+      }
+    ]
+  },
+  {
+    "chars": "我们",
+    "pinyin": "wǒ men",
+    "eng": "we; us",
+    "examples": [
+      {
+        "chinese": "我们东西来了。",
+        "pinyin": "Wǒmen dōngxī láile.",
+        "english": "Our stuff is coming."
+      },
+      {
+        "chinese": "我们在开会。",
+        "pinyin": "Wǒmen zài kāihuì.",
+        "english": "We are having a meeting."
+      },
+      {
+        "chinese": "我们都在学校里。",
+        "pinyin": "Wǒmen dōu zài xuéxiào lǐ.",
+        "english": "We are all in school."
+      },
+      {
+        "chinese": "我们的车在那（那儿）。",
+        "pinyin": "Wǒmen de jū zài nà (nà'er).",
+        "english": "Our car is there (there)."
+      },
+      {
+        "chinese": "我们八点去上学。",
+        "pinyin": "Wǒmen bā diǎn qù shàngxué.",
+        "english": "We went to school at 8 o'clock."
+      }
+    ]
+  },
+  {
+    "chars": "五",
+    "pinyin": "wǔ",
+    "eng": "five; 5",
+    "examples": [
+      {
+        "chinese": "今天星期五。",
+        "pinyin": "Jīntiān xīngqíwǔ.",
+        "english": "Today is Friday."
+      },
+      {
+        "chinese": "今年我有五门课。",
+        "pinyin": "Jīnnián wǒ yǒu wǔ mén kè.",
+        "english": "I have five courses this year."
+      },
+      {
+        "chinese": "二十块零五分",
+        "pinyin": "Èrshí kuài líng wǔ fēn",
+        "english": "Twenty yuan, five points"
+      },
+      {
+        "chinese": "这个自行车五百多元。",
+        "pinyin": "Zhège zìxíngchē wǔbǎi duō yuán.",
+        "english": "This bicycle costs more than 500 yuan."
+      },
+      {
+        "chinese": "桌子上有五角钱。",
+        "pinyin": "Zhuōzi shàng yǒu wǔjiǎo qián.",
+        "english": "There is a five cent on the table."
+      }
+    ]
+  },
+  {
+    "chars": "喜欢",
+    "pinyin": "xǐ huan",
+    "eng": "to like",
+    "examples": [
+      {
+        "chinese": "爸爸喜欢喝茶。",
+        "pinyin": "bàba xǐhuān hē chá.",
+        "english": "Dad likes to drink tea."
+      },
+      {
+        "chinese": "那些菜，我都喜欢吃。",
+        "pinyin": "Nàxiē cài, wǒ dōu xǐhuān chī.",
+        "english": "I like to eat those dishes."
+      },
+      {
+        "chinese": "狗都太喜欢吃。",
+        "pinyin": "Gǒu dōu tài xǐhuān chī.",
+        "english": "Dogs like to eat too much."
+      },
+      {
+        "chinese": "我喜欢看电影。",
+        "pinyin": "Wǒ xǐhuān kàn diànyǐng.",
+        "english": "I like going to the movies."
+      },
+      {
+        "chinese": "你喜欢读书吗？",
+        "pinyin": "Nǐ xǐhuān dúshū ma?",
+        "english": "Do you like reading?"
+      }
+    ]
+  },
+  {
+    "chars": "下",
+    "pinyin": "xià",
+    "eng": "down; below; next",
+    "examples": [
+      {
+        "chinese": "明天下午下雨。",
+        "pinyin": "Míngtiān xiàwǔ xià yǔ.",
+        "english": "It will rain tomorrow afternoon."
+      },
+      {
+        "chinese": "上午冷，下午热。",
+        "pinyin": "Shàngwǔ lěng, xiàwǔ rè.",
+        "english": "It's cold in the morning and hot in the afternoon."
+      },
+      {
+        "chinese": "现在是下午 3的20。",
+        "pinyin": "Xiànzài shì xiàwǔ 3 de 20.",
+        "english": "It's 3pm now at 20pm."
+      },
+      {
+        "chinese": "明天是不会下雨的。",
+        "pinyin": "Míngtiān shì bù huì xià yǔ de.",
+        "english": "It won't rain tomorrow."
+      },
+      {
+        "chinese": "昨天下雨老师。",
+        "pinyin": "Zuótiān xià yǔ lǎoshī.",
+        "english": "It rained yesterday."
+      }
+    ]
+  },
+  {
+    "chars": "下午",
+    "pinyin": "xià wǔ",
+    "eng": "afternoon",
+    "examples": [
+      {
+        "chinese": "明天下午下雨。",
+        "pinyin": "Míngtiān xiàwǔ xià yǔ.",
+        "english": "It will rain tomorrow afternoon."
+      },
+      {
+        "chinese": "上午冷，下午热。",
+        "pinyin": "Shàngwǔ lěng, xiàwǔ rè.",
+        "english": "It's cold in the morning and hot in the afternoon."
+      },
+      {
+        "chinese": "现在是下午 3的20。",
+        "pinyin": "Xiànzài shì xiàwǔ 3 de 20.",
+        "english": "It's 3pm now at 20pm."
+      },
+      {
+        "chinese": "我今天下午不去学校了。",
+        "pinyin": "Wǒ jīntiān xiàwǔ bù qù xuéxiàole.",
+        "english": "I won't go to school this afternoon."
+      },
+      {
+        "chinese": "他一个下午都坐在电视前。",
+        "pinyin": "Tā yīgè xiàwǔ dōu zuò zài diànshì qián.",
+        "english": "He sat in front of the TV all afternoon."
+      }
+    ]
+  },
+  {
+    "chars": "下雨",
+    "pinyin": "xià yǔ",
+    "eng": "to rain",
+    "examples": [
+      {
+        "chinese": "明天下午下雨。",
+        "pinyin": "Míngtiān xiàwǔ xià yǔ.",
+        "english": "It will rain tomorrow afternoon."
+      },
+      {
+        "chinese": "明天是不会下雨的。",
+        "pinyin": "Míngtiān shì bù huì xià yǔ de.",
+        "english": "It won't rain tomorrow."
+      },
+      {
+        "chinese": "昨天下雨老师。",
+        "pinyin": "Zuótiān xià yǔ lǎoshī.",
+        "english": "It rained yesterday."
+      },
+      {
+        "chinese": "昨天下雨了。",
+        "pinyin": "Zuótiān xià yǔle.",
+        "english": "It rained yesterday."
+      },
+      {
+        "chinese": "虽然……但下雨了，虽然……但我们还是想去看电影。",
+        "pinyin": "Suīrán……dàn xià yǔle, suīrán……dàn wǒmen háishì xiǎng qù kàn diànyǐng.",
+        "english": "Although... it's raining, although... we still want to go to the movie."
+      }
+    ]
+  },
+  {
+    "chars": "先生",
+    "pinyin": "xiān sheng",
+    "eng": "Mister (Mr.); husband",
+    "examples": [
+      {
+        "chinese": "习先生怎么样不这儿了？",
+        "pinyin": "Xí xiānshēng zěnme yàng bù zhè'erle?",
+        "english": "Why is Mr. Xi not here anymore?"
+      },
+      {
+        "chinese": "先生，请问您什么时候开始点菜？",
+        "pinyin": "Xiānshēng, qǐngwèn nín shénme shíhòu kāishǐ diǎn cài?",
+        "english": "Sir, when will you start ordering?"
+      },
+      {
+        "chinese": "刚才我在街上遇到了张先生。",
+        "pinyin": "Gāngcái wǒ zài jiē shàng yù dàole zhāng xiānshēng.",
+        "english": "I just met Mr. Zhang on the street."
+      },
+      {
+        "chinese": "他和王先生说话呢。",
+        "pinyin": "Tā hé wáng xiānshēng shuōhuà ne.",
+        "english": "He was talking to Mr. Wang."
+      },
+      {
+        "chinese": "你也认识王先生？",
+        "pinyin": "Nǐ yě rènshí wáng xiānshēng?",
+        "english": "Do you know Mr. Wang too?"
+      }
+    ]
+  },
+  {
+    "chars": "现在",
+    "pinyin": "xiàn zài",
+    "eng": "now",
+    "examples": [
+      {
+        "chinese": "现在，我的女儿四岁了。",
+        "pinyin": "Xiànzài, wǒ de nǚ'ér sì suìle.",
+        "english": "Now, my daughter is four years old."
+      },
+      {
+        "chinese": "现在几点了？",
+        "pinyin": "Xiànzài jǐ diǎnle?",
+        "english": "What time is it now?"
+      },
+      {
+        "chinese": "现在是下午 3的20。",
+        "pinyin": "Xiànzài shì xiàwǔ 3 de 20.",
+        "english": "It's 3pm now at 20pm."
+      },
+      {
+        "chinese": "现在十二点了。",
+        "pinyin": "Xiànzài shí'èr diǎnle.",
+        "english": "It's twelve o'clock now."
+      },
+      {
+        "chinese": "我很喜欢现在的工作。",
+        "pinyin": "Wǒ hěn xǐhuān xiànzài de gōngzuò.",
+        "english": "I really like my current job."
+      }
+    ]
+  },
+  {
+    "chars": "想",
+    "pinyin": "xiǎng",
+    "eng": "to think; to want",
+    "examples": [
+      {
+        "chinese": "我想打电话。",
+        "pinyin": "Wǒ xiǎng dǎdiànhuà.",
+        "english": "I want to call."
+      },
+      {
+        "chinese": "他想来吗？",
+        "pinyin": "Tā xiǎng lái ma?",
+        "english": "Does he want to come?"
+      },
+      {
+        "chinese": "我想喝水。",
+        "pinyin": "Wǒ xiǎng hē shuǐ.",
+        "english": "I want to drink water."
+      },
+      {
+        "chinese": "你想不想吃个苹果？",
+        "pinyin": "Nǐ xiǎng bùxiǎng chī gè píngguǒ?",
+        "english": "Do you want to eat an apple?"
+      },
+      {
+        "chinese": "他想请我吃饭。",
+        "pinyin": "Tā xiǎng qǐng wǒ chīfàn.",
+        "english": "He wanted to treat me to a meal."
+      }
+    ]
+  },
+  {
+    "chars": "小",
+    "pinyin": "xiǎo",
+    "eng": "small; little",
+    "examples": [
+      {
+        "chinese": "小姐学习怎么做衣服。",
+        "pinyin": "Xiǎojiě xuéxí zěnme zuò yīfú.",
+        "english": "Miss learn how to make clothes."
+      },
+      {
+        "chinese": "小猫在桌子喜欢面。",
+        "pinyin": "Xiǎo māo zài zhuōzi xǐhuān miàn.",
+        "english": "Kitten likes noodles at the table."
+      },
+      {
+        "chinese": "小姐，你叫什么名字？",
+        "pinyin": "Xiǎojiě, nǐ jiào shénme míngzì?",
+        "english": "Miss, what's your name?"
+      },
+      {
+        "chinese": "小狗在椅子下面呢。",
+        "pinyin": "Xiǎo gǒu zài yǐzi xiàmiàn ne.",
+        "english": "The puppy is under the chair."
+      },
+      {
+        "chinese": "女儿很喜欢小狗。",
+        "pinyin": "Nǚ'ér hěn xǐhuān xiǎo gǒu.",
+        "english": "My daughter likes puppies very much."
+      }
+    ]
+  },
+  {
+    "chars": "小姐",
+    "pinyin": "xiǎo jie",
+    "eng": "Miss; young lady",
+    "examples": [
+      {
+        "chinese": "小姐学习怎么做衣服。",
+        "pinyin": "Xiǎojiě xuéxí zěnme zuò yīfú.",
+        "english": "Miss learn how to make clothes."
+      },
+      {
+        "chinese": "小姐，你叫什么名字？",
+        "pinyin": "Xiǎojiě, nǐ jiào shénme míngzì?",
+        "english": "Miss, what's your name?"
+      },
+      {
+        "chinese": "李小姐很漂亮。",
+        "pinyin": "Lǐ xiǎojiě hěn piàoliang.",
+        "english": "Miss Li is very beautiful."
+      }
+    ]
+  },
+  {
+    "chars": "些",
+    "pinyin": "xiē",
+    "eng": "some; few",
+    "examples": [
+      {
+        "chinese": "那些菜，我都喜欢吃。",
+        "pinyin": "Nàxiē cài, wǒ dōu xǐhuān chī.",
+        "english": "I like to eat those dishes."
+      },
+      {
+        "chinese": "那些学生不听老师。",
+        "pinyin": "Nàxiē xuéshēng bù tīng lǎoshī.",
+        "english": "Those students don't listen to the teacher."
+      },
+      {
+        "chinese": "我买了一些苹果。",
+        "pinyin": "Wǒ mǎile yīxiē píngguǒ.",
+        "english": "I bought some apples."
+      },
+      {
+        "chinese": "我买了些苹果。",
+        "pinyin": "Wǒ mǎile xiē píngguǒ.",
+        "english": "I bought some apples."
+      },
+      {
+        "chinese": "我的病好些了。",
+        "pinyin": "Wǒ de bìng hǎoxiēle.",
+        "english": "My illness is getting better."
+      }
+    ]
+  },
+  {
+    "chars": "写",
+    "pinyin": "xiě",
+    "eng": "to write",
+    "examples": [
+      {
+        "chinese": "老师看见我在桌子上写东西。",
+        "pinyin": "Lǎoshī kànjiàn wǒ zài zhuōzi shàng xiě dōngxī.",
+        "english": "The teacher saw me writing on the table."
+      },
+      {
+        "chinese": "你写的字很漂亮。",
+        "pinyin": "Nǐ xiě de zì hěn piàoliang.",
+        "english": "The words you write are beautiful."
+      },
+      {
+        "chinese": "我要先写完作业，然后再看电视。",
+        "pinyin": "Wǒ yào xiān xiě wán zuòyè, ránhòu zài kàn diànshì.",
+        "english": "I have to finish my homework first and then watch TV."
+      },
+      {
+        "chinese": "今天的作业你写完了吗？",
+        "pinyin": "Jīntiān de zuòyè nǐ xiě wánliǎo ma?",
+        "english": "Have you finished today's homework?"
+      },
+      {
+        "chinese": "老师讲的内容，我都写在笔记本上了。",
+        "pinyin": "Lǎoshī jiǎng de nèiróng, wǒ dū xiě zài bǐjìběn shàngle.",
+        "english": "I wrote all the contents of the teacher in my notebook."
+      }
+    ]
+  },
+  {
+    "chars": "谢谢",
+    "pinyin": "xiè xie",
+    "eng": "to thank",
+    "examples": [
+      {
+        "chinese": "谢谢！不客气！",
+        "pinyin": "A: Xièxiè! B: Bùkèqì!",
+        "english": "Thanks!You're welcome!"
+      },
+      {
+        "chinese": "谢谢你的关心，我的身体好多了。",
+        "pinyin": "Xièxiè nǐ de guānxīn, wǒ de shēntǐ hǎoduōle.",
+        "english": "Thank you for your concern, I am much better."
+      },
+      {
+        "chinese": "谢谢你指出了我的错误。",
+        "pinyin": "Xièxiè nǐ zhǐchūle wǒ de cuòwù.",
+        "english": "Thank you for pointing out my mistake."
+      },
+      {
+        "chinese": "谢谢你及时赶来帮助我。",
+        "pinyin": "Xièxiè nǐ jíshí gǎn lái bāngzhù wǒ.",
+        "english": "Thank you for coming to help me in time."
+      },
+      {
+        "chinese": "甲：谢谢你！乙：不客气。",
+        "pinyin": "Jiǎ: Xièxiè nǐ! Yǐ: Bù kèqì.",
+        "english": "A: Thank you!B: You're welcome."
+      }
+    ]
+  },
+  {
+    "chars": "星期",
+    "pinyin": "xīng qī",
+    "eng": "week",
+    "examples": [
+      {
+        "chinese": "一个星期有七天。",
+        "pinyin": "Yīgè xīngqí yǒu qītiān.",
+        "english": "There are seven days in a week."
+      },
+      {
+        "chinese": "我星期三请中国。",
+        "pinyin": "Wǒ xīngqísān qǐng zhōngguó.",
+        "english": "I invite China on Wednesday."
+      },
+      {
+        "chinese": "今天星期五。",
+        "pinyin": "Jīntiān xīngqíwǔ.",
+        "english": "Today is Friday."
+      },
+      {
+        "chinese": "我现在星期六去北京。",
+        "pinyin": "Wǒ xiànzài xīngqíliù qù běijīng.",
+        "english": "I'm going to Beijing on Saturday now."
+      },
+      {
+        "chinese": "星期二同学请我去饭馆吃饭。",
+        "pinyin": "Xīngqí'èr tóngxué qǐng wǒ qù fànguǎn chīfàn.",
+        "english": "On Tuesday, my classmates invited me to a restaurant for dinner."
+      }
+    ]
+  },
+  {
+    "chars": "学生",
+    "pinyin": "xué sheng",
+    "eng": "student",
+    "examples": [
+      {
+        "chinese": "那些学生不听老师。",
+        "pinyin": "Nàxiē xuéshēng bù tīng lǎoshī.",
+        "english": "Those students don't listen to the teacher."
+      },
+      {
+        "chinese": "我不是学生。",
+        "pinyin": "Wǒ bùshì xuéshēng.",
+        "english": "I'm not a student."
+      },
+      {
+        "chinese": "你们学校有多少学生？",
+        "pinyin": "Nǐmen xuéxiào yǒu duōshǎo xuéshēng?",
+        "english": "How many students do you have in your school?"
+      },
+      {
+        "chinese": "我是一个学生。",
+        "pinyin": "Wǒ shì yīgè xuéshēng.",
+        "english": "I am a student."
+      },
+      {
+        "chinese": "我们都是学生。",
+        "pinyin": "Wǒmen dōu shì xuéshēng.",
+        "english": "We are all students."
+      }
+    ]
+  },
+  {
+    "chars": "学习",
+    "pinyin": "xué xí",
+    "eng": "to learn; to study",
+    "examples": [
+      {
+        "chinese": "小姐学习怎么做衣服。",
+        "pinyin": "Xiǎojiě xuéxí zěnme zuò yīfú.",
+        "english": "Miss learn how to make clothes."
+      },
+      {
+        "chinese": "他在学习汉语。",
+        "pinyin": "Tā zài xuéxí hànyǔ.",
+        "english": "He is learning Chinese."
+      },
+      {
+        "chinese": "你喜欢学习汉语吗？",
+        "pinyin": "Nǐ xǐhuān xuéxí hànyǔ ma?",
+        "english": "Do you like to learn Chinese?"
+      },
+      {
+        "chinese": "我们从第十课开始学习。",
+        "pinyin": "Wǒmen cóng dì shí kè kāishǐ xuéxí.",
+        "english": "We start learning from lesson 10."
+      },
+      {
+        "chinese": "今天我们学习第一课。",
+        "pinyin": "Jīntiān wǒmen xuéxí dì yī kè.",
+        "english": "Today we will learn the first lesson."
+      }
+    ]
+  },
+  {
+    "chars": "学校",
+    "pinyin": "xué xiào",
+    "eng": "school",
+    "examples": [
+      {
+        "chinese": "他在学校前面。",
+        "pinyin": "Tā zài xuéxiào qiánmiàn.",
+        "english": "He is in front of the school."
+      },
+      {
+        "chinese": "你们学校有多少学生？",
+        "pinyin": "Nǐmen xuéxiào yǒu duōshǎo xuéshēng?",
+        "english": "How many students do you have in your school?"
+      },
+      {
+        "chinese": "商店在学校后面。",
+        "pinyin": "Shāngdiàn zài xuéxiào hòumiàn.",
+        "english": "The shop is behind the school."
+      },
+      {
+        "chinese": "我们都在学校里。",
+        "pinyin": "Wǒmen dōu zài xuéxiào lǐ.",
+        "english": "We are all in school."
+      },
+      {
+        "chinese": "这个学校太大了。",
+        "pinyin": "Zhège xuéxiào tài dàle.",
+        "english": "This school is too big."
+      }
+    ]
+  },
+  {
+    "chars": "一",
+    "pinyin": "yī",
+    "eng": "one; 1",
+    "examples": [
+      {
+        "chinese": "他吃一点。",
+        "pinyin": "Tā chī yīdiǎn.",
+        "english": "He eats a little."
+      },
+      {
+        "chinese": "我的医生是一个好人。",
+        "pinyin": "Wǒ de yīshēng shì yīgè hǎorén.",
+        "english": "My doctor is a good person."
+      },
+      {
+        "chinese": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒuyī běn shū.",
+        "english": "There is a book on the table."
+      },
+      {
+        "chinese": "我是一个学生。",
+        "pinyin": "Wǒ shì yīgè xuéshēng.",
+        "english": "I am a student."
+      },
+      {
+        "chinese": "我买了一些苹果。",
+        "pinyin": "Wǒ mǎile yīxiē píngguǒ.",
+        "english": "I bought some apples."
+      }
+    ]
+  },
+  {
+    "chars": "一点儿",
+    "pinyin": "yī diǎn er",
+    "eng": "a little (bit)",
+    "examples": [
+      {
+        "chinese": "我只有一点儿钱。",
+        "pinyin": "Wǒ zhǐyǒu yīdiǎn er qián.",
+        "english": "I only have a little money."
+      },
+      {
+        "chinese": "爷爷六十岁了，但是看起来一点儿也不老。",
+        "pinyin": "Yéyé liùshí suìle, dànshì kàn qǐlái yīdiǎn er yě bùlǎo.",
+        "english": "Grandpa is sixty years old, but he doesn't look old at all."
+      },
+      {
+        "chinese": "这个帽子太小了，有大一点儿的吗？",
+        "pinyin": "Zhège màozi tài xiǎole, yǒu dà yīdiǎn er de ma?",
+        "english": "This hat is too small, is there a little bigger one?"
+      },
+      {
+        "chinese": "走了这么多路，我累得一点儿力气都没有了。",
+        "pinyin": "Zǒule zhème duō lù, wǒ lèi dé yīdiǎn er lìqì dōu méiyǒule.",
+        "english": "After walking so many roads, I was so tired that I had no strength at all."
+      }
+    ]
+  },
+  {
+    "chars": "医生",
+    "pinyin": "yī shēng",
+    "eng": "doctor",
+    "examples": [
+      {
+        "chinese": "我的医生是一个好人。",
+        "pinyin": "Wǒ de yīshēng shì yīgè hǎorén.",
+        "english": "My doctor is a good person."
+      },
+      {
+        "chinese": "我爸爸是医生。",
+        "pinyin": "Wǒ bàba shì yīshēng.",
+        "english": "My dad is a doctor."
+      },
+      {
+        "chinese": "他是这个医院里的医生。",
+        "pinyin": "Tā shì zhège yīyuàn lǐ de yīshēng.",
+        "english": "He is the doctor in this hospital."
+      },
+      {
+        "chinese": "李医生今年 40岁。",
+        "pinyin": "Lǐ yīshēng jīnnián 40 suì.",
+        "english": "Dr. Li is 40 years old this year."
+      },
+      {
+        "chinese": "几年不见，她现在已经成为了一名医生。",
+        "pinyin": "Jǐ nián bùjiàn, tā xiànzài yǐjīng chéngwéile yī míng yīshēng.",
+        "english": "After not seeing each other for a few years, she has now become a doctor."
+      }
+    ]
+  },
+  {
+    "chars": "医院",
+    "pinyin": "yī yuàn",
+    "eng": "hospital",
+    "examples": [
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "我在医院工作。",
+        "pinyin": "Wǒ zài yīyuàn gōngzuò.",
+        "english": "I work in the hospital."
+      },
+      {
+        "chinese": "他是这个医院里的医生。",
+        "pinyin": "Tā shì zhège yīyuàn lǐ de yīshēng.",
+        "english": "He is the doctor in this hospital."
+      },
+      {
+        "chinese": "这是一个大医院。",
+        "pinyin": "Zhè shì yīgè dà yīyuàn.",
+        "english": "This is a big hospital."
+      },
+      {
+        "chinese": "我丈夫在医院工作。",
+        "pinyin": "Wǒ zhàngfū zài yīyuàn gōngzuò.",
+        "english": "My husband works in the hospital."
+      }
+    ]
+  },
+  {
+    "chars": "衣服",
+    "pinyin": "yī fu",
+    "eng": "clothes",
+    "examples": [
+      {
+        "chinese": "这个衣服多少钱？",
+        "pinyin": "Zhège yīfú duōshǎo qián?",
+        "english": "How much does this clothes cost?"
+      },
+      {
+        "chinese": "小姐学习怎么做衣服。",
+        "pinyin": "Xiǎojiě xuéxí zěnme zuò yīfú.",
+        "english": "Miss learn how to make clothes."
+      },
+      {
+        "chinese": "我在商店买了很多衣服。",
+        "pinyin": "Wǒ zài shāngdiàn mǎile hěnduō yīfú.",
+        "english": "I bought a lot of clothes in the store."
+      },
+      {
+        "chinese": "穿红衣服的是服务员。",
+        "pinyin": "Chuān hóng yīfú de shì fúwùyuán.",
+        "english": "The waiter is wearing red clothes."
+      },
+      {
+        "chinese": "我卖了一百件衣服",
+        "pinyin": "Wǒ màile yībǎi jiàn yīfú",
+        "english": "I've sold a hundred clothes"
+      }
+    ]
+  },
+  {
+    "chars": "椅子",
+    "pinyin": "yǐ zi",
+    "eng": "chair",
+    "examples": [
+      {
+        "chinese": "前面坐在椅子上。",
+        "pinyin": "Qiánmiàn zuò zài yǐzi shàng.",
+        "english": "Sitting in front of the chair."
+      },
+      {
+        "chinese": "小狗在椅子下面呢。",
+        "pinyin": "Xiǎo gǒu zài yǐzi xiàmiàn ne.",
+        "english": "The puppy is under the chair."
+      },
+      {
+        "chinese": "我要买六七个椅子。",
+        "pinyin": "Wǒ yāo mǎi liùqī gè yǐzi.",
+        "english": "I'm going to buy six or seven chairs."
+      },
+      {
+        "chinese": "房间里有四把椅子。",
+        "pinyin": "Fángjiān li yǒu sì bǎ yǐzi.",
+        "english": "There are four chairs in the room."
+      }
+    ]
+  },
+  {
+    "chars": "有",
+    "pinyin": "yǒu",
+    "eng": "to have; there is",
+    "examples": [
+      {
+        "chinese": "我的电脑里有好多的东西。",
+        "pinyin": "Wǒ de diànnǎo li yǒu hǎoduō de dōngxī.",
+        "english": "There are a lot of things in my computer."
+      },
+      {
+        "chinese": "你有几个儿子？",
+        "pinyin": "Nǐ yǒu jǐgè erzi?",
+        "english": "How many sons do you have?"
+      },
+      {
+        "chinese": "有三个饭店。",
+        "pinyin": "Yǒu sāngè fànguǎn.",
+        "english": "There are three hotels."
+      },
+      {
+        "chinese": "杯子里有茶。",
+        "pinyin": "Bēizi li yǒu chá.",
+        "english": "There is tea in the cup."
+      },
+      {
+        "chinese": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒuyī běn shū.",
+        "english": "There is a book on the table."
+      }
+    ]
+  },
+  {
+    "chars": "月",
+    "pinyin": "yuè",
+    "eng": "month; moon",
+    "examples": [
+      {
+        "chinese": "今年二月天气很冷。",
+        "pinyin": "Jīnnián èr yuè tiānqì hěn lěng.",
+        "english": "The weather was very cold this February."
+      },
+      {
+        "chinese": "今天是 2002 年 1 月 1号。",
+        "pinyin": "Jīntiān shì 2002 nián 1 yuè 1 hào.",
+        "english": "Today is January 1, 2002."
+      },
+      {
+        "chinese": "现在是十月。",
+        "pinyin": "Xiànzài shì shí yuè.",
+        "english": "It's October now."
+      },
+      {
+        "chinese": "我下个月去北京。",
+        "pinyin": "Wǒ xià gè yuè qù běijīng.",
+        "english": "I'll go to Beijing next month."
+      },
+      {
+        "chinese": "一年有 12 个月。",
+        "pinyin": "Yī nián yǒu 12 gè yuè.",
+        "english": "There are 12 months in a year."
+      }
+    ]
+  },
+  {
+    "chars": "再见",
+    "pinyin": "zài jiàn",
+    "eng": "goodbye",
+    "examples": [
+      {
+        "chinese": "再见！我回家！",
+        "pinyin": "Zàijiàn! Wǒ huí jiā!",
+        "english": "goodbye!I'll go home!"
+      },
+      {
+        "chinese": "妈妈，我去学校了，再见。",
+        "pinyin": "Māmā, wǒ qù xuéxiàole, zàijiàn.",
+        "english": "Mom, I'm going to school, goodbye."
+      },
+      {
+        "chinese": "我走了，再见！",
+        "pinyin": "Wǒ zǒule, zàijiàn!",
+        "english": "I'm leaving, goodbye!"
+      }
+    ]
+  },
+  {
+    "chars": "在",
+    "pinyin": "zài",
+    "eng": "at; in; on",
+    "examples": [
+      {
+        "chinese": "我住在北京。",
+        "pinyin": "Wǒ zhù zài Běijīng.",
+        "english": "I live in Beijing."
+      },
+      {
+        "chinese": "今天我的朋友不能工作，他在医院！",
+        "pinyin": "jīntiān wǒ de péngyǒu bùnéng gōngzuò, tā zài yīyuàn!",
+        "english": "My friend can't work today, he's in the hospital!"
+      },
+      {
+        "chinese": "老师看见我在桌子上写东西。",
+        "pinyin": "Lǎoshī kànjiàn wǒ zài zhuōzi shàng xiě dōngxī.",
+        "english": "The teacher saw me writing on the table."
+      },
+      {
+        "chinese": "你住在哪儿？我住在那儿！",
+        "pinyin": "Nǐ zhù zài nǎ'er? Wǒ zhù zài nà'er!",
+        "english": "Where do you live?I live there!"
+      },
+      {
+        "chinese": "现在，我的女儿四岁了。",
+        "pinyin": "Xiànzài, wǒ de nǚ'ér sì suìle.",
+        "english": "Now, my daughter is four years old."
+      }
+    ]
+  },
+  {
+    "chars": "怎么",
+    "pinyin": "zěn me",
+    "eng": "how?",
+    "examples": [
+      {
+        "chinese": "习先生怎么样不这儿了？",
+        "pinyin": "Xí xiānshēng zěnme yàng bù zhè'erle?",
+        "english": "Why is Mr. Xi not here anymore?"
+      },
+      {
+        "chinese": "小姐学习怎么做衣服。",
+        "pinyin": "Xiǎojiě xuéxí zěnme zuò yīfú.",
+        "english": "Miss learn how to make clothes."
+      },
+      {
+        "chinese": "你怎么去北京？",
+        "pinyin": "Nǐ zěnme qù běijīng?",
+        "english": "How did you go to Beijing?"
+      },
+      {
+        "chinese": "我们去看电影，怎么样？",
+        "pinyin": "Wǒmen qù kàn diànyǐng, zěnme yàng?",
+        "english": "How about we go to the movie?"
+      },
+      {
+        "chinese": "再来点儿水果，怎么样？",
+        "pinyin": "Zàilái diǎn er shuǐguǒ, zěnme yàng?",
+        "english": "How about some more fruit?"
+      }
+    ]
+  },
+  {
+    "chars": "怎么样",
+    "pinyin": "zěn me yàng",
+    "eng": "how about?",
+    "examples": [
+      {
+        "chinese": "习先生怎么样不这儿了？",
+        "pinyin": "Xí xiānshēng zěnme yàng bù zhè'erle?",
+        "english": "Why is Mr. Xi not here anymore?"
+      },
+      {
+        "chinese": "我们去看电影，怎么样？",
+        "pinyin": "Wǒmen qù kàn diànyǐng, zěnme yàng?",
+        "english": "How about we go to the movie?"
+      },
+      {
+        "chinese": "再来点儿水果，怎么样？",
+        "pinyin": "Zàilái diǎn er shuǐguǒ, zěnme yàng?",
+        "english": "How about some more fruit?"
+      },
+      {
+        "chinese": "你觉得这本书怎么样？",
+        "pinyin": "Nǐ juédé zhè běn shū zěnme yàng?",
+        "english": "What do you think of this book?"
+      },
+      {
+        "chinese": "不管天怎么样，我都要爬山。",
+        "pinyin": "Bùguǎn tiān zěnme yàng, wǒ dū yào páshān.",
+        "english": "No matter what the weather is, I have to climb the mountain."
+      }
+    ]
+  },
+  {
+    "chars": "这",
+    "pinyin": "zhè",
+    "eng": "this",
+    "examples": [
+      {
+        "chinese": "这个衣服多少钱？",
+        "pinyin": "Zhège yīfú duōshǎo qián?",
+        "english": "How much does this clothes cost?"
+      },
+      {
+        "chinese": "习先生怎么样不这儿了？",
+        "pinyin": "Xí xiānshēng zěnme yàng bù zhè'erle?",
+        "english": "Why is Mr. Xi not here anymore?"
+      },
+      {
+        "chinese": "这个苹果很大。",
+        "pinyin": "Zhège píngguǒ hěn dà.",
+        "english": "This apple is big."
+      },
+      {
+        "chinese": "这是我大书。",
+        "pinyin": "Zhè shì wǒ dà shū.",
+        "english": "This is my big book."
+      },
+      {
+        "chinese": "你会读这个汉字吗？",
+        "pinyin": "Nǐ huì dú zhège hànzì ma?",
+        "english": "Can you read this Chinese character?"
+      }
+    ]
+  },
+  {
+    "chars": "中国",
+    "pinyin": "zhōng guó",
+    "eng": "China",
+    "examples": [
+      {
+        "chinese": "中国人说汉语。",
+        "pinyin": "Zhōngguó rén shuō hànyǔ.",
+        "english": "Chinese people speak Chinese."
+      },
+      {
+        "chinese": "我是坐飞机来中国的。",
+        "pinyin": "Wǒ shì zuò fēijī lái zhōngguó de.",
+        "english": "I came to China by plane."
+      },
+      {
+        "chinese": "你是中国人吗？",
+        "pinyin": "Nǐ shì zhōngguó rén ma?",
+        "english": "Are you Chinese?"
+      },
+      {
+        "chinese": "我在中国住了三年。",
+        "pinyin": "Wǒ zài zhōngguó zhùle sān nián.",
+        "english": "I lived in China for three years."
+      },
+      {
+        "chinese": "我星期三请中国。",
+        "pinyin": "Wǒ xīngqísān qǐng zhōngguó.",
+        "english": "I invite China on Wednesday."
+      }
+    ]
+  },
+  {
+    "chars": "中午",
+    "pinyin": "zhōng wǔ",
+    "eng": "noon; midday",
+    "examples": [
+      {
+        "chinese": "他中午去饭馆。",
+        "pinyin": "Tā zhōngwǔ qù fànguǎn.",
+        "english": "He went to the restaurant at noon."
+      },
+      {
+        "chinese": "中午我们去饭店吃吧。",
+        "pinyin": "Zhōngwǔ wǒmen qù fàndiàn chī ba.",
+        "english": "We'll go to the restaurant for lunch."
+      },
+      {
+        "chinese": "我今天中午去火车站。",
+        "pinyin": "Wǒ jīntiān zhōngwǔ qù huǒchē zhàn.",
+        "english": "I went to the train station at noon today."
+      }
+    ]
+  },
+  {
+    "chars": "住",
+    "pinyin": "zhù",
+    "eng": "to live; to stay",
+    "examples": [
+      {
+        "chinese": "我住在北京。",
+        "pinyin": "Wǒ zhù zài Běijīng.",
+        "english": "I live in Beijing."
+      },
+      {
+        "chinese": "你住在哪儿？我住在那儿！",
+        "pinyin": "Nǐ zhù zài nǎ'er? Wǒ zhù zài nà'er!",
+        "english": "Where do you live?I live there!"
+      },
+      {
+        "chinese": "我在中国住了三年。",
+        "pinyin": "Wǒ zài zhōngguó zhùle sān nián.",
+        "english": "I lived in China for three years."
+      },
+      {
+        "chinese": "他在北京住了很多年。",
+        "pinyin": "Tā zài běijīng zhùle hěnduō nián.",
+        "english": "He lived in Beijing for many years."
+      },
+      {
+        "chinese": "这是我们这儿最大的宾馆，可以住 300 个客人。",
+        "pinyin": "Zhè shì wǒmen zhè'er zuìdà de bīnguǎn, kěyǐ zhù 300 gè kèrén.",
+        "english": "This is the largest hotel here, with 300 guests."
+      }
+    ]
+  },
+  {
+    "chars": "桌子",
+    "pinyin": "zhuō zi",
+    "eng": "table; desk",
+    "examples": [
+      {
+        "chinese": "老师看见我在桌子上写东西。",
+        "pinyin": "Lǎoshī kànjiàn wǒ zài zhuōzi shàng xiě dōngxī.",
+        "english": "The teacher saw me writing on the table."
+      },
+      {
+        "chinese": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒuyī běn shū.",
+        "english": "There is a book on the table."
+      },
+      {
+        "chinese": "你看，那本书在桌子上呢。",
+        "pinyin": "Nǐ kàn, nà běn shū zài zhuōzi shàng ne.",
+        "english": "Look, that book is on the table."
+      },
+      {
+        "chinese": "桌子上有六个杯子。",
+        "pinyin": "Zhuōzi shàng yǒu liù gè bēizi.",
+        "english": "There are six cups on the table."
+      },
+      {
+        "chinese": "水果在桌子上。",
+        "pinyin": "Shuǐguǒ zài zhuōzi shàng.",
+        "english": "Fruit on the table."
+      }
+    ]
+  },
+  {
+    "chars": "字",
+    "pinyin": "zì",
+    "eng": "character; word",
+    "examples": [
+      {
+        "chinese": "你的名字是什么？",
+        "pinyin": "Nǐ de míngzì shì shénme?",
+        "english": "what your name?"
+      },
+      {
+        "chinese": "你会读这个汉字吗？",
+        "pinyin": "Nǐ huì dú zhège hànzì ma?",
+        "english": "Can you read this Chinese character?"
+      },
+      {
+        "chinese": "小姐，你叫什么名字？",
+        "pinyin": "Xiǎojiě, nǐ jiào shénme míngzì?",
+        "english": "Miss, what's your name?"
+      },
+      {
+        "chinese": "你写的字很漂亮。",
+        "pinyin": "Nǐ xiě de zì hěn piàoliang.",
+        "english": "The words you write are beautiful."
+      },
+      {
+        "chinese": "这个字你认识吗？",
+        "pinyin": "Zhège zì nǐ rènshí ma?",
+        "english": "Do you know this word?"
+      }
+    ]
+  },
+  {
+    "chars": "昨天",
+    "pinyin": "zuó tiān",
+    "eng": "yesterday",
+    "examples": [
+      {
+        "chinese": "昨天我看电视了。",
+        "pinyin": "Zuótiān wǒ kàn diànshìle.",
+        "english": "I watched TV yesterday."
+      },
+      {
+        "chinese": "昨天上午商店开了。",
+        "pinyin": "Zuótiān shàngwǔ shāngdiàn kāile.",
+        "english": "The store opened yesterday morning."
+      },
+      {
+        "chinese": "他是昨天来这儿的。",
+        "pinyin": "Tā shì zuótiān lái zhè'er de.",
+        "english": "He came here yesterday."
+      },
+      {
+        "chinese": "昨天下雨老师。",
+        "pinyin": "Zuótiān xià yǔ lǎoshī.",
+        "english": "It rained yesterday."
+      },
+      {
+        "chinese": "昨天下雨了。",
+        "pinyin": "Zuótiān xià yǔle.",
+        "english": "It rained yesterday."
+      }
+    ]
+  },
+  {
+    "chars": "做",
+    "pinyin": "zuò",
+    "eng": "to do; to make",
+    "examples": [
+      "做...",
+      "这是做。"
+    ]
+  },
+  {
+    "chars": "坐",
+    "pinyin": "zuò",
+    "eng": "to sit",
+    "examples": [
+      {
+        "chinese": "我坐出租车回家。",
+        "pinyin": "Wǒ zuò chūzūchē huí jiā.",
+        "english": "I took a taxi home."
+      },
+      {
+        "chinese": "我明天坐飞机去北京。",
+        "pinyin": "Wǒ míngtiān zuò fēijī qù běijīng.",
+        "english": "I will take a plane to Beijing tomorrow."
+      },
+      {
+        "chinese": "我是坐飞机来中国的。",
+        "pinyin": "Wǒ shì zuò fēijī lái zhōngguó de.",
+        "english": "I came to China by plane."
+      },
+      {
+        "chinese": "我坐飞机去北京。",
+        "pinyin": "Wǒ zuò fēijī qù běijīng.",
+        "english": "I took a plane to Beijing."
+      },
+      {
+        "chinese": "我能坐在这儿吗？",
+        "pinyin": "Wǒ néng zuò zài zhè'er ma?",
+        "english": "Can I sit here?"
+      }
+    ]
+  }
+]
