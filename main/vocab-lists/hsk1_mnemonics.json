@@ -1,0 +1,1583 @@
+{
+  "爱": {
+    "definition": "love, be fond of, like",
+    "mnemonic": "<ul><li>a friend 友 with wide 冖 open hands ⺤</li><li>love is a force (the claw 爫) keeping friends 友 in the same house 冖</li><li>two big hands 爫冖 protecting two small hands 友 from rain and falling rocks ... that must be love.</li></ul>",
+    "radicals": [
+      "心",
+      "冖",
+      "⺤",
+      "夂",
+      "友",
+      "冖",
+      "⺤",
+      "爫",
+      "友",
+      "冖",
+      "爫",
+      "冖",
+      "友"
+    ]
+  },
+  "八": {
+    "definition": "eight, all around, all sides",
+    "mnemonic": "<ul><li>eight can be separated in two: two diverging branches  → 八<li>con.: several, even, divide</li></li></ul>",
+    "radicals": [
+      "八"
+    ]
+  },
+  "爸": {
+    "definition": "father, papa",
+    "mnemonic": "<ul><li>a father 父 desiring 巴 children</li></ul>",
+    "radicals": [
+      "父",
+      "巴"
+    ]
+  },
+  "杯": {
+    "definition": "cup, glass",
+    "mnemonic": "<ul><li>wood 木 which has a negative 不 hole in it</li></ul>",
+    "radicals": [
+      "木",
+      "不"
+    ]
+  },
+  "子": {
+    "definition": "offspring, child, fruit, seed of, 1st terrestrial branch",
+    "mnemonic": "<ul><li>㜽 → 子</li><li>: child 子 being washed in the river 巛</li></ul>",
+    "radicals": [
+      "子",
+      "㜽",
+      "子",
+      "巛"
+    ]
+  },
+  "北": {
+    "definition": "north, northern, northward",
+    "mnemonic": "<ul><li>two men 匕匕 back to back: they have cold and stand close because the wind comes from the north</li></ul>",
+    "radicals": [
+      "匕",
+      "匕"
+    ]
+  },
+  "京": {
+    "definition": "capital city",
+    "mnemonic": "<ul><li>city with covered places 亠 where small 小 talk 口 is of great importance</li></ul>",
+    "radicals": [
+      "亠",
+      "口",
+      "小"
+    ]
+  },
+  "本": {
+    "definition": "root, origin, source, basis, book",
+    "mnemonic": "<ul><li>at the base 一 of the tree 木 lie its roots and its origin; the basis of all knowledge is in books</li></ul>",
+    "radicals": [
+      "木",
+      "一"
+    ]
+  },
+  "不": {
+    "definition": "no, not; un-; negative prefix",
+    "mnemonic": "<ul><li>person spreading arms in objection </li><li>the roots of a plant: the roots can not be pulled out</li></ul>",
+    "radicals": [
+      "不"    ]
+  },
+  "客": {
+    "definition": "guest, traveller, customer",
+    "mnemonic": "<ul><li>person 各 staying in your house 宀</li></ul>",
+    "radicals": [
+      "宀",
+      "各"    ]
+  },
+  "气": {
+    "definition": "steam, vapor, spirit,rad.84",
+    "mnemonic": "<ul><li>rising steam  or mist 气</li></ul>",
+    "radicals": [
+      "气"
+    ]
+  },
+  "菜": {
+    "definition": "vegetables, dish, order, food",
+    "mnemonic": "<ul><li>plucked 采 plants 艹: edible plants</li></ul>",
+    "radicals": [
+      "艹",
+      "采"    ]
+  },
+  "茶": {
+    "definition": "tea",
+    "mnemonic": "<ul><li>fresh leafs 艹 gathered 亼 from tea bush 木</li></ul>",
+    "radicals": [
+      "艹",
+      "亼",
+      "木"
+    ]
+  },
+  "吃": {
+    "definition": "eat, drink, suffer, endure, bear",
+    "mnemonic": "<ul><li>person 𠂉 putting fished 乙 animals in his mouth 口; the animal has suffered a lot</li></ul>",
+    "radicals": [
+      "口",
+      "𠂉",
+      "乙"    
+    ]
+  },
+  "出": {
+    "definition": "go out, send out, stand, produce",
+    "mnemonic": "<ul><li>sprout 屮 coming out of a receptacle 凵</li></ul>",
+    "radicals": [
+      "屮",
+      "凵"
+    ]
+  },
+  "租": {
+    "definition": "rent, lease, rental, tax",
+    "mnemonic": "<ul><li>rice 禾 brought to the table 且 of the tax bureau</li></ul>",
+    "radicals": [
+      "禾",
+      "且"
+    ]
+  },
+  "车": {
+    "definition": "cart, vehicle, carry in cart, machine",
+    "mnemonic": "<ul><li> wheel holder (from 車)</li></ul>",
+    "radicals": [
+      "车"
+    ]
+  },
+  "打": {
+    "definition": "strike, hit, beat, fight, attack",
+    "mnemonic": "<ul><li>the hand 扌 of a robust man 丁 can fight and strike well</li></ul>",
+    "radicals": [
+      "扌",
+      "丁"
+    ]
+  },
+  "电": {
+    "definition": "electricity, electric, lightning",
+    "mnemonic": "<ul><li>looks like a bolt of lighting 乚 striking through a cloud 日</li></ul>",
+    "radicals": [
+      "日",
+      "乚"
+    ]
+  },
+  "话": {
+    "definition": "speech, talk, language, dialect",
+    "mnemonic": "<ul><li>use your tongue 舌 for speaking 讠</li></ul>",
+    "radicals": [
+      "讠",
+      "舌"
+    ]
+  },
+  "大": {
+    "definition": "big, great, vast, large, high,",
+    "mnemonic": "<ul><li>a man 人 spreading his arms 一 wide to take something big</li></ul>",
+    "radicals": [
+      "一",
+      "人"
+    ]
+  },
+  "的": {
+    "definition": "possessive, adjectival suffix, mark, target, object",
+    "mnemonic": "<ul><li>somebody who clearly 白 has his arms wrapped 勺 around something  possesses it; he has its place clearly marked in his mind</li></ul>",
+    "radicals": [
+      "白",
+      "勺"
+    ]
+  },
+  "点": {
+    "definition": "dot, speck, spot, point, degree",
+    "mnemonic": "<ul><li>observing 占 spots after burning 灬 something</li></ul>",
+    "radicals": [
+      "占",
+      "灬"
+    ]
+  },
+  "脑": {
+    "definition": "brain",
+    "mnemonic": "<ul><li>a man ⺼ who covers 亠 bad 凶 ideas and improves them uses his brain</li>li>the meat 月 that controls 乂 us from a box 凵 on the head 亠</li></ul>",
+    "radicals": [
+      "月",
+      "亠",
+      "乂",
+      "凵"    ]
+  },
+  "视": {
+    "definition": "look at, inspect, observe, see",
+    "mnemonic": "<ul><li>look 见 at the altar 礻(radical form of 示)</li></ul>",
+    "radicals": [
+      "礻",
+      "见"
+    ]
+  },
+  "影": {
+    "definition": "shadow, image, reflection, photograph",
+    "mnemonic": "<ul><li>the sun 日 over Beijing 京, what a nice view. But the hair 彡 of who shot the photograph seems like a shadow in the image</li></ul>",
+    "radicals": [
+      "日",
+      "京",
+      "彡"
+    ]
+  },
+  "东": {
+    "definition": "east, eastern, eastward",
+    "mnemonic": "<ul><li>the car's axle broke (車 → 车), and we headed back east 东</li></ul>",
+    "radicals": [
+      "车",
+      "东"
+    ]
+  },
+  " 西": {
+    "definition": "west, western, westward, occident,rad.146",
+    "mnemonic": "<ul><li>lit.: bird (animal 一 with high legs 儿) sitting on top of a nest 口: it is evening, the sun sets in the west</li><li>a bat has 2 large ears, hangs upside down from the ceiling and flies away when the sun sets in the west</li></ul>",
+    "radicals": [
+      "一",
+      "儿",
+      "口"
+    ]
+  },
+  "都": {
+    "definition": "metropolis, capital, all, the whole, elegant, refined",
+    "mnemonic": "<ul><li>all the people 者 of the city 阝 elegantly dressed up</li></ul>",
+    "radicals": [
+      "者",
+      "阝"
+    ]
+  },
+  "读": {
+    "definition": "read, study, pronounce",
+    "mnemonic": "<ul><li>read and study to sell 卖 words 讠</li></ul>",
+    "radicals": [
+      "讠",
+      "卖"
+    ]
+  },
+  "对": {
+    "definition": "correct, right, facing, opposed",
+    "mnemonic": "<ul><li>correct again 又 therefore deserve a thumbs up 寸</li></ul>",
+    "radicals": [
+      "又",
+      "寸"
+    ]
+  },
+  "起": {
+    "definition": "rise, stand up, go up, begin",
+    "mnemonic": "<ul><li>done right before walking 走 by oneself 己</li></ul>",
+    "radicals": [
+      "走",
+      "己"
+    ]
+  },
+  "多": {
+    "definition": "much, many, more than, over",
+    "mnemonic": "<ul><li>if one sees the moon twice 夕夕 you have drunk too much</li></ul>",
+    "radicals": [
+      "夕",
+      "夕"    ]
+  },
+  "少": {
+    "definition": "few, less, inadequate",
+    "mnemonic": "<ul><li>something small 小 slashed 丿 to make it even smaller</li></ul>",
+    "radicals": [
+      "小",
+      "丿"    ]
+  },
+  "儿": {
+    "definition": "son, child, oneself, final part,rad.10",
+    "mnemonic": "<ul><li>from (person) 人 →  儿</li><li>if one sees his child, one sees a part of oneself</li></ul>",
+    "radicals": [
+      "人",
+      "儿"
+    ]
+  },
+  "二": {
+    "definition": "two, twice",
+    "mnemonic": "<ul><li>twice one 一</li></ul>",
+    "radicals": [
+      "一"
+    ]
+  },
+  "饭": {
+    "definition": "cooked rice, food, meal",
+    "mnemonic": "<ul><li>meal 饣 eaten as an antidote against 反 hunger</li></ul>",
+    "radicals": [
+      "饣",
+      "反"
+    ]
+  },
+  "店": {
+    "definition": "shop, store, inn, hotel",
+    "mnemonic": "<ul><li>building 广 where the fortuneteller 占 sells his stuff</li></ul>",
+    "radicals": [
+      "广",
+      "占"
+    ]
+  },
+  "飞": {
+    "definition": "fly, go quickly, dart, high",
+    "mnemonic": "<ul><li>flying bird with wings</li></ul>",
+    "radicals": [
+      "飞"    ]
+  },
+  "机": {
+    "definition": "desk",
+    "mnemonic": "<ul><li>lit. wooden 木 table 几</li></ul>",
+    "radicals": [
+      "木",
+      "几"
+    ]
+  },
+  "分": {
+    "definition": "divide, small unit of time etc.",
+    "mnemonic": "<ul><li>something cut 刀 in equal 八 parts; an hour divided in equal parts</li></ul>",
+    "radicals": [
+      "刀",
+      "八"
+    ]
+  },
+  "钟": {
+    "definition": "clock, bell",
+    "mnemonic": "<ul><li> metal 钅 object with an opening 口 and a clapper 丨</li></ul>",
+    "radicals": [
+      "钅",
+      "口",
+      "丨"
+    ]
+  },
+  "高": {
+    "definition": "high, tall, lofty, elevated",
+    "mnemonic": "<ul><li>high house visible in the open country 冂 with one room 口 above another 口 and a roof 亠 on top</li></ul>",
+    "radicals": [
+      "亠",
+      "口",
+      "冂",
+      "口"    ]
+  },
+  "兴": {
+    "definition": "thrive, prosper, flourish, rise",
+    "mnemonic": "<ul><li>RS. hands lifting 舁 together 同: the group rises, thrives and is prosperous<li>ⓢ modf. 興 → 兴</li></li></ul>",
+    "radicals": [
+      "兴"
+    ]
+  },
+  "个": {
+    "definition": "numerary adjunct, piece, single, individual",
+    "mnemonic": "<ul><li>person 丨 having his own roof 𠆢</li></li></ul>",
+    "radicals": [
+      "𠆢",
+      "丨"
+    ]
+  },
+  "工": {
+    "definition": "labor, work, worker, laborer",
+    "mnemonic": "<ul><li>looks like an I-beam that is used in construction work</li></ul>",
+    "radicals": [
+      "工"
+    ]
+  },
+  "作": {
+    "definition": "make, work, compose, write, act, perform",
+    "mnemonic": "<ul><li>person 亻 watching another person being thrown in the air 乍: quite an act which is hard work but makes for a good performance</li></ul>",
+    "radicals": [
+      "亻",
+      "乍"
+    ]
+  },
+  "狗": {
+    "definition": "dog, canis familiaris",
+    "mnemonic": "<ul><li>animal 犭 making a lot of noise 句: all the neighbours talk about it 句</li></ul>",
+    "radicals": [
+      "犭",
+      "句"
+    ]
+  },
+  "汉": {
+    "definition": "the Chinese people, Chinese language, Han Chinese",
+    "mnemonic": "<ul><li>people living near the Han-river 氵 with skilful hands 又</li></ul>",
+    "radicals": [
+      "氵",
+      "又"
+    ]
+  },
+  "语": {
+    "definition": "language, words, saying, expression",
+    "mnemonic": "<ul><li>that which is transferred by words 讠 spoken by the mouth or the hand 吾</li></ul>",
+    "radicals": [
+      "讠",
+      "吾"
+    ]
+  },
+  "好": {
+    "definition": "good, excellent, fine, well; love",
+    "mnemonic": "<ul><li>a woman 女 should have a good relation with her child 子; a woman loving her child 子</li></ul>",
+    "radicals": [
+      "女",
+      "子"
+    ]
+  },
+  "号": {
+    "definition": "mark, sign, symbol, number, howl",
+    "mnemonic": "<ul><li>mouth 口 stops breathing 丂 in amazement at the sign in the sky<li>the breathing stops 丂, bluish-gray color circles the mouth 口: signs of death, the nurse writes down the name, date and number of the health plan, while the family howls</li></li></ul>",
+    "radicals": [
+      "口",
+      "丂"
+    ]
+  },
+  "喝": {
+    "definition": "drink, shout, call out",
+    "mnemonic": "<ul><li>beggar 曷 shouting with his mouth 口: he's drunk</li></ul>",
+    "radicals": [
+      "口",
+      "曷"
+    ]
+  },
+  "和": {
+    "definition": "harmony, peace, peaceful, calm",
+    "mnemonic": "<ul><li>countryside: where one can eat 口 one's rice 禾 in peace and harmony</li></ul>",
+    "radicals": [
+      "禾",
+      "口"
+    ]
+  },
+  "很": {
+    "definition": "very, quite, much",
+    "mnemonic": "<ul><li>one covers quite a distance when walking 彳 good 艮</li></ul>",
+    "radicals": [
+      "彳",
+      "艮"
+    ]
+  },
+  "后": {
+    "definition": "behind, rear, after, descendants",
+    "mnemonic": "<ul><li>eating one 一 mouthful 口 after work at the factory 厂</li></li></ul>",
+    "radicals": [
+      "厂",
+      "一",
+      "口"    ]
+  },
+  "面": {
+    "definition": "face, surface, plane, side, dimension",
+    "mnemonic": "<ul><li>head 𦣻 with a mouth 口</li></ul>",
+    "radicals": [
+      "𦣻",
+      "口"
+    ]
+  },
+  "回": {
+    "definition": "return, turn around, a time",
+    "mnemonic": "<ul><li>enclosure 囗 turning around something else 口</li></ul>",
+    "radicals": [
+      "囗",
+      "口"
+    ]
+  },
+  "会": {
+    "definition": "assemble, meet together, meeting, organization",
+    "mnemonic": "<ul><li> gather 亼 under a roof 𠆢 to talk 云 with each other 云</li></ul>",
+    "radicals": [
+      "亼",
+      "𠆢",
+      "云"    ]
+  },
+  "几": {
+    "definition": "small table,rad.16",
+    "mnemonic": "<ul><li>con.: upturned container, hive</li></ul>",
+    "radicals": ["几"]
+  }, 
+  "家": {
+    "definition": "house, home, residence, family, specialist",
+    "mnemonic": "<ul><li>animals 豕 are kept at house 宀 so they are not stolen and cared for by a specialist</li></ul>",
+    "radicals": [
+      "豕",
+      "宀"
+    ]
+  },
+  "叫": {
+    "definition": "cry, shout, hail, greet, call",
+    "mnemonic": "<ul><li>hook 丩 in one's mouth 口: one cries it out in pain<li>hooked 丩 salute in greeting 口 somebody</li></li></ul>",
+    "radicals": [
+      "丩",
+      "口",
+      "丩",
+      "口"
+    ]
+  },
+  "今": {
+    "definition": "now, today, modern era",
+    "mnemonic": "<ul><li>I'm standing on my right foot 亍 holding a person 人 in my arms  → 今: I'm not going to do this for much longer<li>lit. people gathering 亼 and extending the arm 乁 to each other: soon they will part again</li></li></ul>",
+    "radicals": [
+      "亍",
+      "人",
+      "今",
+      "亼",
+      "乁"
+    ]
+  },
+  "天": {
+    "definition": "sky, heaven, god, celestial",
+    "mnemonic": "<ul><li>which is above 一 even the biggest man 大</li></ul>",
+    "radicals": [
+      "一",
+      "大"
+    ]
+  },
+  "九": {
+    "definition": "nine",
+    "mnemonic": "<ul><li>image of a hand bumping against something : nine bumps against ten when counting</li></ul>",
+    "radicals": []
+  },
+  "开": {
+    "definition": "open, initiate, begin, start",
+    "mnemonic": "<ul><li>two hands 开 pushing open the gate 門<li>ⓢ looks like two hands 廾 opening the latch 一 of a gate</li></li></ul>",
+    "radicals": [
+      "开",
+      "門",
+      "廾",
+      "一"
+    ]
+  },
+  "看": {
+    "definition": "look, see, examine, scrutinize",
+    "mnemonic": "<ul><li>RS. hand 龵 shading the eyes 目 to see</li></ul>",
+    "radicals": [
+      "龵",
+      "目"
+    ]
+  },
+  "见": {
+    "definition": "see, observe, behold, perceive",
+    "mnemonic": "<ul><li>the eyes 目 of somebody with legs 儿 can see<li>ⓢ rays 儿 of the sun come into my open eye 匚, so i can see that it appears 见 to be daylight, in my opinion it's a good idea to meet someone.</li></li></ul>",
+    "radicals": [
+      "目",
+      "儿",
+      "儿",
+      "匚",
+      "见"
+    ]
+  },
+  "块": {
+    "definition": "piece, lump, dollar, clod",
+    "mnemonic": "<ul><li>devil 鬼 playing with a clod of earth 土<li>ⓢ the leader 夬 divides the land 土 in pieces and assigns it to the people; they have to pay him money for rent</li></li></ul>",
+    "radicals": [
+      "鬼",
+      "土",
+      "夬",
+      "土"
+    ]
+  },
+  "来": {
+    "definition": "come, coming, return, returning",
+    "mnemonic": "<ul><li>modf. 來 → 来<li>looks like a grain of wheat with it's roots 人, ground 一, stem and spike丨, and leaves 一丷: Farmers keep coming back to the fields to plant grain</li></li></ul>",
+    "radicals": [
+      "來",
+      "来",
+      "人",
+      "一",
+      "丨",
+      "一",
+      "丷"
+    ]
+  },
+  "老": {
+    "definition": "old, aged, experienced,rad.125",
+    "mnemonic": "<ul><li>person eating with spoon 匕 (having no teeth) food he has cut ⼃ from the fields 土 (therefore his back is bent ⼃)<li>RS. old man with long hair 耂 leaning on a cane 匕</li></li></ul>",
+    "radicals": [
+      "匕",
+      "⼃",
+      "土",
+      "⼃",
+      "耂",
+      "匕"
+    ]
+  },
+  "师": {
+    "definition": "teacher, master, military specialist",
+    "mnemonic": "<ul><li>irritable individual storing 𠂤 his one 一  flag 巾 carrying his family's emblem very carefully<li>ⓢ master swordsman carrying his one 一 sword 刂 and his flag 巾</li></li></ul>",
+    "radicals": [
+      "𠂤",
+      "一",
+      "巾",
+      "一",
+      "刂",
+      "巾"
+    ]
+  },
+  "了": {
+    "definition": "finish, particle of completed action",
+    "mnemonic": "<ul><li>baby 子 without supporting arm 一: a life coming to fruition, one doesn't need to be supported anymore</li></ul>",
+    "radicals": [
+      "子",
+      "一"
+    ]
+  },
+  "冷": {
+    "definition": "cold, cool, lonely",
+    "mnemonic": "<ul><li>the rule 令 of the ice 冫</li></ul>",
+    "radicals": [
+      "令",
+      "冫"
+    ]
+  },
+  "里": {
+    "definition": "unit of distance, village, lane",
+    "mnemonic": "<ul><li>place 土 with/between nearby rice fields 田</li></ul>",
+    "radicals": [
+      "土",
+      "田"
+    ]
+  },
+  "六": {
+    "definition": "six",
+    "mnemonic": "<ul><li> → 六 : eight 八 without 2 入<li>1 head + 1 torso +\r\n2 arms outstretched sideways 亠 + 2 legs 八= six</li></li></ul>",
+    "radicals": [
+      "六",
+      "八",
+      "入",
+      "亠",
+      "八"
+    ]
+  },
+  "妈": {
+    "definition": "mother, mama",
+    "mnemonic": "<ul><li>a woman 女 who acts very fast 馬 when her child is in danger</li></ul>",
+    "radicals": [
+      "女",
+      "馬"
+    ]
+  },
+  "吗": {
+    "definition": "final interrogative particle",
+    "mnemonic": "<ul><li>who looks into the mouth 口 of the horse 馬 shouldn't expect any answers</li></ul>",
+    "radicals": [
+      "口",
+      "馬"
+    ]
+  },
+  "买": {
+    "definition": "buy, purchase, bribe, persuade",
+    "mnemonic": "<ul><li>put money 貝 in your pocket ⺲ to go shopping or put money 貝 in someone elses pocket ⺲ to bribe him<li>ⓢ you can't buy a second 乛 head 头.</li></li></ul>",
+    "radicals": [
+      "貝",
+      "⺲",
+      "貝",
+      "⺲",
+      "乛",
+      "头"
+    ]
+  },
+  "猫": {
+    "definition": "cat",
+    "mnemonic": "<ul><li>animal the size of a dog 犭 with whiskers like seedlings 苗; it is easily mistaken for a dog 犭 when it runs through the sprouting fields 苗</li></ul>",
+    "radicals": [
+      "犭",
+      "苗",
+      "犭",
+      "苗"
+    ]
+  },
+  "没": {
+    "definition": "not, have not, none, drown, sink",
+    "mnemonic": "<ul><li>killed 殳 by water 氵: drown, sink; it's not fun<li>you throw your weapon 殳 in the water 氵, it sinks. You do not have it anymore.<li>walking 又 around with an axe 几 on a slippery 氵floor ,\r\nmakes you fall on your own weapon 殳 and die. \r\nDo not do it, because it's negative.</li></li></li></ul>",
+    "radicals": [
+      "殳",
+      "氵",
+      "殳",
+      "氵",
+      "又",
+      "几",
+      "氵",
+      "殳"
+    ]
+  },
+  "关": {
+    "definition": "frontier pass, close, relation",
+    "mnemonic": "<ul><li>passing 𢇅 gate 門<li>gate 門 closed with threads 𢇅<li>ⓢ place where the sky 天 is divided 丷 between two countries<li>ⓢ looks like a gate (with it's doorknobs 丷 and two halves 人) closed with threads 二</li></li></li></li></ul>",
+    "radicals": [
+      "𢇅",
+      "門",
+      "門",
+      "𢇅",
+      "天",
+      "丷",
+      "丷",
+      "人",
+      "二"
+    ]
+  },
+  "系": {
+    "definition": "system, line, link, connection, lineage",
+    "mnemonic": "<ul><li>hand 丿 holding twisted long line 糸</li></ul>",
+    "radicals": [
+      "丿",
+      "糸"
+    ]
+  },
+  "有": {
+    "definition": "have, own, possess, exist",
+    "mnemonic": "<ul><li>hand 𠂇 holding something for months 月 or hand 𠂇 holding something close to the body ⺼: one possesses it<li>a hand 𠂇 holding a piece of flesh ⺼: he owns the flesh that exists</li></li></ul>",
+    "radicals": [
+      "𠂇",
+      "月",
+      "𠂇",
+      "⺼",
+      "𠂇",
+      "⺼"
+    ]
+  },
+  "米": {
+    "definition": "hulled or husked uncooked rice",
+    "mnemonic": "<ul><li> → 米: rice plant 木 stalk with many 丷 grains</li></ul>",
+    "radicals": [
+      "米",
+      "木",
+      "丷"
+    ]
+  },
+  "名": {
+    "definition": "name, rank, title, position",
+    "mnemonic": "<ul><li>lit. in the dark 夕 one has to use the mouth 口 to identify oneself</li></ul>",
+    "radicals": [
+      "夕",
+      "口"
+    ]
+  },
+  "字": {
+    "definition": "letter, character, word",
+    "mnemonic": "<ul><li>child 子 studying characters and words at school 宀; also: 𥤪 𡥜</li></ul>",
+    "radicals": [
+      "子",
+      "宀",
+      "𥤪",
+      "𡥜"
+    ]
+  },
+  "明": {
+    "definition": "bright, light, brilliant, clear",
+    "mnemonic": "<ul><li>the sun 日 and the moon 月 are the brightest objects in the sky</li></ul>",
+    "radicals": [
+      "日",
+      "月"
+    ]
+  },
+  "哪": {
+    "definition": "how, which",
+    "mnemonic": "<ul><li>how can a tender 冄 mouth 口 defeat a fortified city 阝? this 那 is not obvious</li></ul>",
+    "radicals": [
+      "冄",
+      "口",
+      "阝",
+      "那"
+    ]
+  },
+  "那": {
+    "definition": "that, those, then (in that case)",
+    "mnemonic": "<ul><li>how can a tender 冄 one defeat a fortified city 阝? that is not obvious; see 哪</li></ul>",
+    "radicals": [
+      "冄",
+      "阝",
+      "哪"
+    ]
+  },
+  "呢": {
+    "definition": "interrogative or emphatic final, (Cant.) this, wool, woollen cloth",
+    "mnemonic": "<ul><li>old nun 尼 with an inquisitive mouth 口; she can't do anything but knit woolen things</li></ul>",
+    "radicals": [
+      "尼",
+      "口"
+    ]
+  },
+  "能": {
+    "definition": "to be able, can, permitted to, ability,Noh",
+    "mnemonic": "<ul><li>many individual 厶 people 匕匕⺼ together are able to do great things; one needs many abilities to perform on stage<li>RS. A bear with four feet and meat in its mouth:  →  →  → 能</li></li></ul>",
+    "radicals": [
+      "厶",
+      "匕",
+      "匕",
+      "⺼",
+      "能"
+    ]
+  },
+  "你": {
+    "definition": "you, second person pronoun",
+    "mnemonic": "<ul><li>a person 亻 like you 尔</li></ul>",
+    "radicals": [
+      "亻",
+      "尔"
+    ]
+  },
+  "年": {
+    "definition": "year, new-years, person's age",
+    "mnemonic": "<ul><li>a tree 禾/生 may live a thousand 千 years: 秊 → 年<li>person with a hat 午 carrying stalks of grain: the year end harvest</li></li></ul>",
+    "radicals": [
+      "禾",
+      "生",
+      "千",
+      "秊",
+      "年",
+      "午"
+    ]
+  },
+  "女": {
+    "definition": "woman, girl, feminine,rad.38",
+    "mnemonic": "<ul><li>person 人 holding a baby:  → 女<li>looks like a woman sitting down with legs crossed</li></li></ul>",
+    "radicals": [
+      "人",
+      "女"
+    ]
+  },
+  "朋": {
+    "definition": "friend, buddy, pal, acquaintance",
+    "mnemonic": "<ul><li>two persons 月月 having a conversation with each other<li>con.: horizontal relationship: 崩 棚<li>two strings of cowries  → 朋: cowries can make a good gift for a friend</li></li></li></ul>",
+    "radicals": [
+      "月",
+      "月",
+      "崩",
+      "棚",
+      "朋"
+    ]
+  },
+  "友": {
+    "definition": "friend, companion, fraternity",
+    "mnemonic": "<ul><li>friends joining their hands 𠂇 又</li></ul>",
+    "radicals": [
+      "𠂇",
+      "又"
+    ]
+  },
+  "漂": {
+    "definition": "float, drift, tossed about",
+    "mnemonic": "<ul><li>after voting in the evening the ballot box is put on the altar 票 but some slips get in the water 氵<li>person 小 takes 2 showers 氵with a bar of soap on his bath mitten 覀: the person is polished, bleached and will look elegant</li></li></ul>",
+    "radicals": [
+      "票",
+      "氵",
+      "小",
+      "氵",
+      "覀"
+    ]
+  },
+  "亮": {
+    "definition": "bright, brilliant, radiant, light",
+    "mnemonic": "<ul><li>a brilliant man 儿 stands high above  everybody else<li>man with his arms outstretched sideways 亠 standing on a pedestal 几 with cover cloth 冖: you can hear him loud and clear from his mouth 口, you see him bright, radiant and shine and he reveals to be the highlight, he is epic</li></li></ul>",
+    "radicals": [
+      "儿",
+      "亠",
+      "几",
+      "冖",
+      "口"
+    ]
+  },
+  "苹": {
+    "definition": "artemisia, duckweed, apple",
+    "mnemonic": "<ul><li>fruit 艹 in the shape of a head 頁 one can eat while walking 歩<li>ⓢ weed or fruit 艹 growing in peaceful 平 countryside 平 gardens</li></li></ul>",
+    "radicals": [
+      "艹",
+      "頁",
+      "歩",
+      "艹",
+      "平",
+      "平"
+    ]
+  },
+  "果": {
+    "definition": "fruit, result",
+    "mnemonic": "<ul><li>growing on the trees 木 or on the fields 田, the result of hard labor</li></ul>",
+    "radicals": [
+      "木",
+      "田"
+    ]
+  },
+  "七": {
+    "definition": "seven",
+    "mnemonic": "<ul><li>con.: several<li>do not confuse with 𠤎: 匕<li>inverted written 7</li></li></li></ul>",
+    "radicals": [
+      "𠤎",
+      "匕"
+    ]
+  },
+  "前": {
+    "definition": "in front, forward, preceding",
+    "mnemonic": "<ul><li>one cuts his food (vegetables 䒑 and meat 月) with a knife 刂 on the plate in front of him<li>RS. boat 月(舟) on the water 刂 going 止 forward: 𠝣 → 前</li></li></ul>",
+    "radicals": [
+      "䒑",
+      "月",
+      "刂",
+      "月",
+      "舟",
+      "刂",
+      "止",
+      "𠝣",
+      "前"
+    ]
+  },
+  "钱": {
+    "definition": "money, currency, coins",
+    "mnemonic": "<ul><li>a small amount 戔/㦮 of gold or metal 金 serves as currency<li>metal 金 used to pay soldiers 戔/㦮<li>small 戋 metal 钅 coins are money</li></li></li></ul>",
+    "radicals": [
+      "戔",
+      "㦮",
+      "金",
+      "金",
+      "戔",
+      "㦮",
+      "戋",
+      "钅"
+    ]
+  },
+  "请": {
+    "definition": "ask, request, invite, please",
+    "mnemonic": "<ul><li>young people 青 ask 言/讠inquisitively</li></ul>",
+    "radicals": [
+      "青",
+      "言",
+      "讠"
+    ]
+  },
+  "去": {
+    "definition": "go away, leave, depart",
+    "mnemonic": "<ul><li>a man 土 leaving secretly 厶</li></ul>",
+    "radicals": [
+      "土",
+      "厶"
+    ]
+  },
+  "热": {
+    "definition": "heat, fever, zeal, hot heated",
+    "mnemonic": "<ul><li>pottery 埶 being fired 灬 in a kiln<li>ⓢ hand 扌  holding round 丸 objects which are put into the fire 灬</li></li></ul>",
+    "radicals": [
+      "埶",
+      "灬",
+      "扌",
+      "丸",
+      "灬"
+    ]
+  },
+  "人": {
+    "definition": "man, people, mankind, someone else,rad.9",
+    "mnemonic": "<ul><li>person standing wide legged → 人</li></ul>",
+    "radicals": [
+      "人"
+    ]
+  },
+  "认": {
+    "definition": "recognize, know, understand",
+    "mnemonic": "<ul><li>words 言 of understanding touch the heart deeply 忍<li>ⓢ person 人 recognising something speaks 讠 about it</li></li></ul>",
+    "radicals": [
+      "言",
+      "忍",
+      "人",
+      "讠"
+    ]
+  },
+  "识": {
+    "definition": "know, discriminate",
+    "mnemonic": "<ul><li>the master swordsman handles his sword 戈 without saying a word 言 nor uttering a sound 音<li>ⓢ only 只 words 讠 allow us to know what others know<li>a person who has gathered 戠 a lot of words 言 knows a lot</li></li></li></ul>",
+    "radicals": [
+      "戈",
+      "言",
+      "音",
+      "只",
+      "讠",
+      "戠",
+      "言"
+    ]
+  },
+  "三": {
+    "definition": "three",
+    "mnemonic": "<ul><li>three times one 一</li></ul>",
+    "radicals": [
+      "一"
+    ]
+  },
+  "商": {
+    "definition": "commerce, business, trade, make a deal, selling",
+    "mnemonic": "<ul><li>modf. 𠹧 → 商: big man 大/儿 standing 立 at the market 冂 selling with a loud mouth 口</li></ul>",
+    "radicals": [
+      "𠹧",
+      "商",
+      "大",
+      "儿",
+      "立",
+      "冂",
+      "口"
+    ]
+  },
+  "上": {
+    "definition": "above, up, top, superior, highest, go up, send up",
+    "mnemonic": "<ul><li>something above the ground 一: 𠄞 → stake 丨 standing above the ground 丄 → 上</li></ul>",
+    "radicals": [
+      "一",
+      "𠄞",
+      "丨",
+      "丄",
+      "上"
+    ]
+  },
+  "午": {
+    "definition": "noon, 7th terrestrial branch, horse",
+    "mnemonic": "<ul><li>when many 十 people 𠂉 gather to eat<li>horsehead  → 午<li>looks like a pestle 十 with it's rounded end 𠂉: At noon, I use the pestle to make myself some food for lunch</li></li></li></ul>",
+    "radicals": [
+      "十",
+      "𠂉",
+      "午",
+      "十",
+      "𠂉"
+    ]
+  },
+  "谁": {
+    "definition": "who? whom? whose? anyone?",
+    "mnemonic": "<ul><li>who's words 言 have we heard, but has fled 隹 so we don't see him anymore?</li></ul>",
+    "radicals": [
+      "言",
+      "隹"
+    ]
+  },
+  "什": {
+    "definition": "file of ten soldiers; mixed, miscellaneous",
+    "mnemonic": "<ul><li>ten 十 people 亻, their belongings get mixed up during the military campaign</li></ul>",
+    "radicals": [
+      "十",
+      "亻"
+    ]
+  },
+  "么": {
+    "definition": "interrogative final particle; insignificant, small, tiny",
+    "mnemonic": "<ul><li>if you ask a question, the answers hangs 幺 in the air by a thread 麻<li>tiny things can be hung by threads 幺麻<li>modf. 幺 → 么: one 一 tiny individual 厶 thing</li></li></li></ul>",
+    "radicals": [
+      "幺",
+      "麻",
+      "幺",
+      "麻",
+      "幺",
+      "么",
+      "一",
+      "厶"
+    ]
+  },
+  "十": {
+    "definition": "ten, tenth, complete, perfect",
+    "mnemonic": "<ul><li>direction east west 一 and direction north south 丨 refers to everything which is under the four wind directions; perfect in all directions; con.: many, high intensity</li></ul>",
+    "radicals": [
+      "一",
+      "丨"
+    ]
+  },
+  "时": {
+    "definition": "time, season, era, age, period, hour",
+    "mnemonic": "<ul><li>time 日 it takes the temple 寺 to do something<li>ⓢ small 寸 part  of the day 日<li>al. 旹: time of the day 日 one arrives 㞢</li></li></li></ul>",
+    "radicals": [
+      "日",
+      "寺",
+      "寸",
+      "日",
+      "日",
+      "㞢"
+    ]
+  },
+  "候": {
+    "definition": "wait, expect, visit, greet, period, time, season",
+    "mnemonic": "<ul><li>person 亻 fingering ユ an arrow 矢 waiting to put it on his bow 丨; the time this takes: period</li></ul>",
+    "radicals": [
+      "亻",
+      "ユ",
+      "矢",
+      "丨"
+    ]
+  },
+  "是": {
+    "definition": "indeed, yes, right, to be, demonstrative pronoun, this, that",
+    "mnemonic": "<ul><li>a just person 𤴓 doing things in broad daylight 日</li></ul>",
+    "radicals": [
+      "𤴓",
+      "日"
+    ]
+  },
+  "书": {
+    "definition": "write, book, letter, document, writings",
+    "mnemonic": "<ul><li>writing with a brush  with sufficient light 日/hand 彐 holding a brush 丨:  → 书</li></ul>",
+    "radicals": [
+      "日",
+      "彐",
+      "丨",
+      "书"
+    ]
+  },
+  "水": {
+    "definition": "water, liquid, lotion, juice,rad.85",
+    "mnemonic": "<ul><li>taken at both sides of the river : 川<li>氵⺀: droplets of water</li></li></ul>",
+    "radicals": [
+      "川",
+      "氵",
+      "⺀"
+    ]
+  },
+  "睡": {
+    "definition": "sleep, doze",
+    "mnemonic": "<ul><li>hanging 垂 eyes 目</li></ul>",
+    "radicals": [
+      "垂",
+      "目"
+    ]
+  },
+  "觉": {
+    "definition": "to wake up from sleep; conscious, nap",
+    "mnemonic": "<ul><li>learning 𦥯/龸makes one fall asleep, visual 見/见 stimulation makes one wake up<li>ⓢ the open eye 见 with eyelid 冖 and upward eyelashes 𭕄 of one who woke up from sleep and now is conscious</li></li></ul>",
+    "radicals": [
+      "𦥯",
+      "龸",
+      "見",
+      "见",
+      "见",
+      "冖",
+      "𭕄"
+    ]
+  },
+  "说": {
+    "definition": "speak, say, talk, scold, explanation, rumor",
+    "mnemonic": "<ul><li>money 兑 speaks 言 boldest; it is usually the explanation for many actions of the mouth 言<li>many 八 brothers 兄 defending their family verbally 言<li>ⓢ looks like a comedian talking into a stand microphone</li></li></li></ul>",
+    "radicals": [
+      "兑",
+      "言",
+      "言",
+      "八",
+      "兄",
+      "言"
+    ]
+  },
+  "四": {
+    "definition": "four",
+    "mnemonic": "<ul><li>originally 𦉭 → 四, looks like something that is cut in four pieces<li>con. a few, small group</li></li></ul>",
+    "radicals": [
+      "𦉭",
+      "四"
+    ]
+  },
+  "岁": {
+    "definition": "year, age, harvest",
+    "mnemonic": "<ul><li>annual stop 止 after finishing a small 𣥂/小 part of a fortress 戌 built by farmers when they are not busy on the fields<li>ⓢ the new year according to the lunisolar 夕 calendar when the celestial objects are in the same position to the mountain 山 as last year</li></li></ul>",
+    "radicals": [
+      "止",
+      "𣥂",
+      "小",
+      "戌",
+      "夕",
+      "山"
+    ]
+  },
+  "他": {
+    "definition": "other, another, he, she, it",
+    "mnemonic": "<ul><li>a full grown person 亻 can't live in the womb 也; he 亻 or she 也</li></ul>",
+    "radicals": [
+      "亻",
+      "也",
+      "亻",
+      "也"
+    ]
+  },
+  "她": {
+    "definition": "she, her",
+    "mnemonic": "<ul><li>definitely 也 a woman 女</li></ul>",
+    "radicals": [
+      "也",
+      "女"
+    ]
+  },
+  "太": {
+    "definition": "very, too, much, big, extreme, fat",
+    "mnemonic": "<ul><li>RS. pregnant adult 大 bearing a child 丶: a very big belly</li></ul>",
+    "radicals": [
+      "大",
+      "丶"
+    ]
+  },
+  "听": {
+    "definition": "hear, listen, understand, obey",
+    "mnemonic": "<ul><li>ethical 𢛳 king 王 listening 耳 to and understanding his subjects who obey him<li>ⓢ orders 口 should be listened to, understood and be \"protected\" 斤: be obeyed<li>listening 耳 with ten 十 eyes 目 and your heart 心<li>ⓢ listen to and obey the one who speaks 口 with an ax 斤</li></li></li></li></ul>",
+    "radicals": [
+      "𢛳",
+      "王",
+      "耳",
+      "口",
+      "斤",
+      "耳",
+      "十",
+      "目",
+      "心",
+      "口",
+      "斤"
+    ]
+  },
+  "同": {
+    "definition": "same, similar, together with",
+    "mnemonic": "<ul><li>all 𠔼 mouths 口 agree on the same thing</li></ul>",
+    "radicals": [
+      "𠔼",
+      "口"
+    ]
+  },
+  "学": {
+    "definition": "learning, knowledge, school",
+    "mnemonic": "<ul><li>a child 子 learns 龸; also 學</li></ul>",
+    "radicals": [
+      "子",
+      "龸",
+      "學"
+    ]
+  },
+  "喂": {
+    "definition": "interjection to call attention",
+    "mnemonic": "<ul><li>the mouth 口 of one 一 scarecrow  has to call out loud when guarding the fields 田</li></ul>",
+    "radicals": [
+      "口",
+      "一",
+      "田"
+    ]
+  },
+  "我": {
+    "definition": "our, us, i, me, my, we",
+    "mnemonic": "<ul><li>hand 手 holding a spear 戈 (and a hanging banner 𠄒): he can defend his own people</li></ul>",
+    "radicals": [
+      "手",
+      "戈",
+      "𠄒"
+    ]
+  },
+  "们": {
+    "definition": "adjunct pronoun indicate plural",
+    "mnemonic": "<ul><li>many men 亻 waiting at the gate 門</li></ul>",
+    "radicals": [
+      "亻",
+      "門"
+    ]
+  },
+  "五": {
+    "definition": "five",
+    "mnemonic": "<ul><li>hand with five fingers  → 五<li>con.: hand</li></li></ul>",
+    "radicals": [
+      "五"
+    ]
+  },
+  "喜": {
+    "definition": "like, love, enjoy, joyful thing",
+    "mnemonic": "<ul><li>everyone loves singing 口 and making music 壴</li></ul>",
+    "radicals": [
+      "口",
+      "壴"
+    ]
+  },
+  "欢": {
+    "definition": "happy, pleased, glad, joy, to enjoy",
+    "mnemonic": "<ul><li>man with open mouth 欠 like a noisy bird 雚: he's happy and enjoying himself<li>modf. 歡 → 歓<li>ⓢ hand 又 which lacks 欠 nothing</li></li></li></ul>",
+    "radicals": [
+      "欠",
+      "雚",
+      "歡",
+      "歓",
+      "又",
+      "欠"
+    ]
+  },
+  "下": {
+    "definition": "under, underneath, below, down, inferior, bring down",
+    "mnemonic": "<ul><li>something below the ground 一: 𠄟 → 丅 → 下</li></ul>",
+    "radicals": [
+      "一",
+      "𠄟",
+      "丅",
+      "下"
+    ]
+  },
+  "雨": {
+    "definition": "rain, rainy,rad.173",
+    "mnemonic": "<ul><li>water ⺀⺀ falling in the countryside 冂 straight 丨 from the sky 一</li></ul>",
+    "radicals": [
+      "⺀",
+      "⺀",
+      "冂",
+      "丨",
+      "一"
+    ]
+  },
+  "先": {
+    "definition": "first, former, previous",
+    "mnemonic": "<ul><li>person 儿 wielding a weapon 𠂒 ahead of him:  → 先; previous encounters have yielded many deaths<li>an ox 𠂒 was first son 儿 of an ox 𠂒</li></li></ul>",
+    "radicals": [
+      "儿",
+      "𠂒",
+      "先",
+      "𠂒",
+      "儿",
+      "𠂒"
+    ]
+  },
+  "生": {
+    "definition": "life, living, lifetime, birth",
+    "mnemonic": "<ul><li>branches of a plant or tree  → 𤯓 being slashed ⼃ off: the branch grows back and if you plant the cut off part it becomes a new plant</li></ul>",
+    "radicals": [
+      "𤯓",
+      "⼃"
+    ]
+  },
+  "现": {
+    "definition": "appear, manifest, become visible",
+    "mnemonic": "<ul><li>the king 王 is seen 見 by everyone in public: a manifest appearance</li></ul>",
+    "radicals": [
+      "王",
+      "見"
+    ]
+  },
+  "在": {
+    "definition": "exist, be at, in, on; consist in, rest",
+    "mnemonic": "<ul><li>something pierced through 才 stays at the same place 土:  → 在</li></ul>",
+    "radicals": [
+      "才",
+      "土",
+      "在"
+    ]
+  },
+  "想": {
+    "definition": "think, speculate, plan, consider",
+    "mnemonic": "<ul><li>when persons are mutually 相 in each others hearts 心, they think regularly of each other; thinking is related 相 to the mind 心</li></ul>",
+    "radicals": [
+      "相",
+      "心",
+      "相",
+      "心"
+    ]
+  },
+  "小": {
+    "definition": "small, tiny, insignificant",
+    "mnemonic": "<ul><li>small baby  → 小</li></ul>",
+    "radicals": [
+      "小"
+    ]
+  },
+  "姐": {
+    "definition": "elder sister, young lady",
+    "mnemonic": "<ul><li>the sister 女 with most privileges at the table 且</li></ul>",
+    "radicals": [
+      "女",
+      "且"
+    ]
+  },
+  "些": {
+    "definition": "little, few, rather, somewhat",
+    "mnemonic": "<ul><li>a man 匕 stops 止  walking after only two 二 paces<li>two 二 spoons 匕 stop 止 a little hunger</li></li></ul>",
+    "radicals": [
+      "匕",
+      "止",
+      "二",
+      "二",
+      "匕",
+      "止"
+    ]
+  },
+  "写": {
+    "definition": "write, draw, sketch, compose, copy",
+    "mnemonic": "<ul><li>writing is done under a roof 冖 giving 与 to future generations</li></ul>",
+    "radicals": [
+      "冖",
+      "与"
+    ]
+  },
+  "谢": {
+    "definition": "thank, decline",
+    "mnemonic": "<ul><li>words 言/讠being sent out 射 to somebody</li></ul>",
+    "radicals": [
+      "言",
+      "讠",
+      "射"
+    ]
+  },
+  "星": {
+    "definition": "a star, planet, any point of light",
+    "mnemonic": "<ul><li>living 生 light like the sun 日<li>planet born 生 from the sun 日</li></li></ul>",
+    "radicals": [
+      "生",
+      "日",
+      "生",
+      "日"
+    ]
+  },
+  "期": {
+    "definition": "period of time, date, time limit, hope",
+    "mnemonic": "<ul><li>a basket 其 of months 月<li>ⓢ a bunch 丌 of days 日: 𣅆<li>he 其 hopes for success and eat meat 月</li></li></li></ul>",
+    "radicals": [
+      "其",
+      "月",
+      "丌",
+      "日",
+      "𣅆",
+      "其",
+      "月"
+    ]
+  },
+  "习": {
+    "definition": "practice, flapping wings, learn",
+    "mnemonic": "<ul><li>practice to learn flying with feathers 羽 towards the sun 白/羽 → 习</li></ul>",
+    "radicals": [
+      "羽",
+      "白",
+      "羽",
+      "习"
+    ]
+  },
+  "校": {
+    "definition": "school, correction, exam, military field officer",
+    "mnemonic": "<ul><li>in the wooden 木 school building pupils come together 交 to study; the teacher corrects their exams</li></ul>",
+    "radicals": [
+      "木",
+      "交"
+    ]
+  },
+  "一": {
+    "definition": "one, a, an, alone",
+    "mnemonic": "<ul><li>one thing 一; ancient form 弌</li></ul>",
+    "radicals": [
+      "一",
+      "弌"
+    ]
+  },
+  "衣": {
+    "definition": "clothes, clothing, cover, skin",
+    "mnemonic": "<ul><li>person with spread arms wearing a garment:  → 衣<li>con.: scarecrow on the fields<li>衤: a person 礻wearing fancy clothing 丶</li></li></li></ul>",
+    "radicals": [
+      "衣",
+      "衤",
+      "礻",
+      "丶"
+    ]
+  },
+  "服": {
+    "definition": "clothes, wear, dress, taking medicine",
+    "mnemonic": "<ul><li>wrapped 𠬝 body ⺼ : sick person in need of medicine</li></ul>",
+    "radicals": [
+      "𠬝",
+      "⺼"
+    ]
+  },
+  "医": {
+    "definition": "cure, heal, doctor, medical",
+    "mnemonic": "<ul><li>person storing needles 矢 in a box 匚 ready for use and alcohol 酉 for treating wounds from weapons 殳</li></ul>",
+    "radicals": [
+      "矢",
+      "匚",
+      "酉",
+      "殳"
+    ]
+  },
+  "院": {
+    "definition": "courtyard, yard, court, school, temple",
+    "mnemonic": "<ul><li>place in a building 宀 where abundant 阝 people 元 may stay 完</li></ul>",
+    "radicals": [
+      "宀",
+      "阝",
+      "元",
+      "完"
+    ]
+  },
+  "椅": {
+    "definition": "chair, seat",
+    "mnemonic": "<ul><li>a piece of wood 木 so unusually shaped 奇 one can sit on it</li></ul>",
+    "radicals": [
+      "木",
+      "奇"
+    ]
+  },
+  "月": {
+    "definition": "moon, month,rad.74",
+    "mnemonic": "<ul><li> →  → 月; the moon is every month in the same position; don't confuse with ⺼</li></ul>",
+    "radicals": [
+      "月",
+      "⺼"
+    ]
+  },
+  "再": {
+    "definition": "again, twice, re-",
+    "mnemonic": "<ul><li>RS. two fish on a line  →  → 再: the fisher catches fish again and again</li></ul>",
+    "radicals": [
+      "再"
+    ]
+  },
+  "怎": {
+    "definition": "what? why? how?",
+    "mnemonic": "<ul><li>when the mind 心 comes across something for the first time 乍, it wonders what it is</li></ul>",
+    "radicals": [
+      "心",
+      "乍"
+    ]
+  },
+  "样": {
+    "definition": "shape, form, pattern, style",
+    "mnemonic": "<ul><li>a sheeps ⺷/羊 hide left to dry on a wooden 木 structure for a long time 永 has a distinct shape or form</li></ul>",
+    "radicals": [
+      "⺷",
+      "羊",
+      "木",
+      "永"
+    ]
+  },
+  "这": {
+    "definition": "this, these, crawl, trail",
+    "mnemonic": "<ul><li>when travelling ⻌ (crawling along the trail) one sees something (culture 文) along the way and talks 言 about it</li></ul>",
+    "radicals": [
+      "⻌",
+      "文",
+      "言"
+    ]
+  },
+  "中": {
+    "definition": "central, center, middle, in the midst of, hit (target), attain, China",
+    "mnemonic": "<ul><li>something 丨 right in the middle of something else 口; China once was the middle of the world</li></ul>",
+    "radicals": [
+      "丨",
+      "口"
+    ]
+  },
+  "国": {
+    "definition": "nation, country, nation-state",
+    "mnemonic": "<ul><li>people wielding spears 戈 with big mouths 口 protecting their one 一 king and borderline 囗<li>ⓢ a country holds it's precious 玉 treasures within it's borders 囗</li></li></ul>",
+    "radicals": [
+      "戈",
+      "口",
+      "一",
+      "囗",
+      "玉",
+      "囗"
+    ]
+  },
+  "住": {
+    "definition": "reside, live at, dwell, lodge, stop",
+    "mnemonic": "<ul><li>where a man 亻 can quietly put down his lamp 主 and stay</li></ul>",
+    "radicals": [
+      "亻",
+      "主"
+    ]
+  },
+  "桌": {
+    "definition": "table, desk, stand",
+    "mnemonic": "<ul><li>lofty 卓 wooden structure 木</li></ul>",
+    "radicals": [
+      "卓",
+      "木"
+    ]
+  },
+  "昨": {
+    "definition": "yesterday, in former times, past",
+    "mnemonic": "<ul><li>sudden 乍 end of the day 日</li></ul>",
+    "radicals": [
+      "乍",
+      "日"
+    ]
+  },
+  "坐": {
+    "definition": "sit, seat, ride, travel by",
+    "mnemonic": "<ul><li>persons 人人 sitting on the ground 土; if one person 人 wants to see the other 人 he needs to travel and eat a lot of dust 土</li></ul>",
+    "radicals": [
+      "人",
+      "人",
+      "土",
+      "人",
+      "人",
+      "土"
+    ]
+  }
+}

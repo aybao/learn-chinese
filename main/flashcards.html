@@ -34,6 +34,7 @@
               <div id="correctTranslation">Correct translation</div>
               <div id="revealInfo" class ="smallText">Press a button on the right to continue</div>
             </div>
+            <button id="revealExamples" class="btn secondary" style="margin-top:12px">Reveal Examples</button> 
             <div class="smallTextChin" id="exampleList"></div>
             <div style="margin-top:10px" class = "smallText">Choose whether you were correct:</div>
             <div class="buttonsRow">
@@ -45,27 +46,20 @@
         </div>
       </div>
 
-      <footer class="small">Sentences cover basic conversational topics: greetings, directions, shopping, time, family, transport.</footer>
+      <footer class="small">[any txt here?].</footer>
     </div>
 
     <div class="panel side">
       <div class="stats">
         <div class="statItem">
-          <div class="progress-label">Progress</div>
+          <div class = "pointsLabel"><div class="progress-label">Progress</div><div class="points" id="progressDisplay" >0 / 0</div></div>
           <div id="progressBar">
             <div id="progressFill"></div>
           </div>
         </div>
-        <div class="statItem statScore">
-          <div class = "smallText">Score</div><div id="scoreDisplay" >0 / 0</div>
+        <div class="statItem pointsLabel">
+          <div class = "smallText">Score</div><div class="points" id="scoreDisplay" >0 / 0</div>
         </div>
-        <div class="statItem">
-          <div class = "smallText">Upcoming</div>
-          <div id="upcomingList" class = "smallTextChin" style = "margin-top:8px"></div>
-        </div>
-      </div>
-      <div style="margin-top:12px">
-        <button id="newRandom" class="secondary">New random sentence</button>
       </div>
     </div>
   </div>

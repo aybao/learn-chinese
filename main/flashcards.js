@@ -1,11 +1,15 @@
 // Sentences dataset (character, pinyin, english, examples)
-filename = "./vocab-lists/hsk1_full_vocab_with_examples.json"
+vocabFile = "./vocab-lists/hsk1_full_vocab_with_examples.json"
+mnemonicsFile = "./vocab-lists/hsk1_mnemonics.json"
 
-fetch(filename) // "./" means same folder as script.js
-  .then(response => response.json())
-  .then(data => {
-    console.log(data);
-const SENTENCES = data;
+Promise.all([
+  fetch(vocabFile).then(res => res.json()),
+  fetch(mnemonicsFile).then(res => res.json())
+])
+.then(([vocabData, mnemonicsData]) => {
+
+const SENTENCES = vocabData
+const MNEMONICS = mnemonicsData
 let indexQueue = [];
 let current = null;
 let showChars = true;
@@ -20,6 +24,7 @@ const inputEl = document.getElementById('translationInput');
 const enterBtn = document.getElementById('enterBtn');
 const revealArea = document.getElementById('revealArea');
 const correctTranslationEl = document.getElementById('correctTranslation');
+const revealExamplesBtn = document.getElementById('revealExamples');
 const exampleListEl = document.getElementById('exampleList');
 const btnYes = document.getElementById('btnYes');
 const btnMixed = document.getElementById('btnMixed');
@@ -28,9 +33,8 @@ const toggleCharsBtn = document.getElementById('toggleChars');
 const togglePinyinBtn = document.getElementById('togglePinyin');
 const toggleLanguageBtn = document.getElementById('toggleLanguage');
 const progressFill = document.getElementById('progressFill');
+const progressDisplay = document.getElementById('progressDisplay');
 const scoreDisplay = document.getElementById('scoreDisplay');
-const upcomingList = document.getElementById('upcomingList');
-const newRandom = document.getElementById('newRandom');
 
 // Utilities
 function shuffle(a) {
@@ -47,13 +51,6 @@ function pickNext() {
   if (indexQueue.length === 0) buildQueue();
   const idx = indexQueue.shift();
   return SENTENCES[idx];
-}
-
-function renderUpcoming() {
-  upcomingList.innerHTML = indexQueue
-    .slice(0, 6)
-    .map(i => `<div>• ${SENTENCES[i].chars}</div>`)
-    .join('');
 }
 
 function showSentence(sent) {
@@ -75,17 +72,88 @@ function showSentence(sent) {
   document.getElementById('cardArea').classList.add('pop');
   setTimeout(() => document.getElementById('cardArea').classList.remove('pop'), 350);
 }
+function showChineseChars(sentence){
+  charsEl.innerHTML = '';
+  for (let char of sentence) {
+  const span = document.createElement("span");
+  span.textContent = char;
+  if (MNEMONICS[char]) {
+    const info = MNEMONICS[char];
+    const tooltip = document.createElement("div");
+    tooltip.className = "tooltip";
+    tooltip.innerHTML = `
+      <strong>${char}</strong><br>
+      <em>${info.definition}</em><br>
+      <b>Radicals:</b> ${info.radicals.join(", ")}<br>
+      <b>Mnemonic:</b> ${info.mnemonic}
+    `;
+    span.appendChild(tooltip);
+  }
+  charsEl.appendChild(span);
+}
+}
 
 function revealAnswer() {
   if(chinToEng){
     correctTranslationEl.textContent = `"${current.eng}"`;
+    showChineseChars(current.chars); 
   }else {
-    correctTranslationEl.textContent = `"${current.chars}"`;
+    correctTranslationEl.textContent = `"${current.chars}": ${current.pinyin}`;
   }
+  revealExamplesBtn.style.display = 'block';
+  revealArea.classList.remove('hidden');
+}
+
+function revealExamples(){
   exampleListEl.innerHTML =
     '<strong>Examples:</strong><br>' +
-    current.examples.map(e => `<div style="margin-top:6px">• ${e.chinese}<br>&nbsp&nbsp${e.pinyin}<br>&nbsp&nbsp${e.english}</div>`).join('');
-  revealArea.classList.remove('hidden');
+    current.examples.map(e => `<div style="margin-top:6px;" >
+      • ${highlightWordInSentence(current.chars,e.chinese,'span style="color: var(--accent)"')}<br>&nbsp&nbsp
+      ${highlightWordInSentence(current.pinyin,e.pinyin,'span style="color: var(--accent)"')}<br>&nbsp&nbsp${e.english}</div>`).join('');
+}
+
+function removeAccents(text) {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function highlightWordInSentence(word, sentence, tag) {
+  // Clean inputs
+  word = word.trim();
+
+  // Build regex pattern for multi-word phrases (space/apostrophe/nothing allowed)
+  const parts = word.split(/\s+/);
+  const first = parts[0];
+  const capFirst = first.charAt(0).toUpperCase() + first.slice(1);
+
+  // lowercase pattern
+  let basePattern = parts
+    .map((p, i) => (i === 0 ? p : `(?:\\s|'|)?${p}`))
+    .join("");
+
+  // capitalized-first-word pattern
+  let capPattern = [capFirst]
+    .concat(parts.slice(1).map(p => `(?:\\s|'|)?${p}`))
+    .join("");
+
+  // Accent-insensitive regex
+  const regex = new RegExp(`(${removeAccents(basePattern)}|${removeAccents(capPattern)})`, "i");
+
+  // Work on accent-free sentence
+  const plainSentence = removeAccents(sentence);
+
+  const match = plainSentence.match(regex);
+  if (!match) return sentence; // no match found
+
+  // Locate in original sentence
+  const index = match.index;
+  const found = sentence.slice(index, index + match[0].length);
+
+  const before = sentence.slice(0, index);
+  const after = sentence.slice(index + found.length);
+
+  return `${before}<${tag}>${found}</${tag}>${after}`;
 }
 
 function markResult(res) {
@@ -93,11 +161,11 @@ function markResult(res) {
   if (res === 'yes') correct++;
   else if (res === 'mixed') correct += 0.5;
   scoreDisplay.textContent = `${Math.round(correct * 10) / 10} / ${total}`;
-  const prog = Math.min(100, Math.round((total / (SENTENCES.length * 2)) * 100));
+  const prog = Math.min(100, ((total / (SENTENCES.length)) * 100));
   progressFill.style.width = prog + '%';
+  progressDisplay.textContent = `${total}/${SENTENCES.length}`;
   setTimeout(() => {
     const next = pickNext();
-    renderUpcoming();
     showSentence(next);
   }, 220);
 }
@@ -112,7 +180,11 @@ enterBtn.addEventListener('click', () => {
 inputEl.addEventListener('keydown', e => {
   if (e.key === 'Enter') {
     e.preventDefault();
-    if (revealArea.classList.contains('hidden')) revealAnswer();
+    if (revealArea.classList.contains('hidden')) {
+      revealAnswer(); 
+    }else{
+      markResult('yes');//auto - assume correct
+    }
   }
 });
 btnYes.addEventListener('click', () => markResult('yes'));
@@ -132,7 +204,8 @@ togglePinyinBtn.addEventListener('click', () => {
 toggleLanguageBtn.addEventListener('click', () => {
   chinToEng = !chinToEng;
   console.log(chinToEng);
-  toggleLanguageBtn.textContent = showPinyin ? 'English -> Chinese' : 'Chinese -> English';
+  toggleLanguageBtn.textContent = chinToEng ?  'Chinese -> English': 'English -> Chinese';
+  inputEl.placeholder = `Type the ${chinToEng? "English" : "Chinese"} translation and press Enter`;
   if(chinToEng){
     charsEl.textContent = current.chars;
     pinyinEl.textContent = current.pinyin;
@@ -140,13 +213,12 @@ toggleLanguageBtn.addEventListener('click', () => {
     charsEl.textContent = current.eng;
     pinyinEl.textContent = "";    
   }
+});
+revealExamplesBtn.addEventListener('click', () => {
+  revealExamplesBtn.style.display = 'none';
+  revealExamples();
+});
 
-});
-newRandom.addEventListener('click', () => {
-  const next = pickNext();
-  renderUpcoming();
-  showSentence(next);
-});
 document.addEventListener('keydown', e => {
   if (!revealArea.classList.contains('hidden')) {
     if (e.key.toLowerCase() === 'y') btnYes.click();
@@ -155,10 +227,20 @@ document.addEventListener('keydown', e => {
   }
 });
 
+function getQueryParams() {
+      const params = new URLSearchParams(window.location.search);
+      return {
+        audio: params.get("audio") === "true",
+        number: parseInt(params.get("number"), 10) || 30
+      };
+    }
+
+const settings = getQueryParams();
+console.log(settings)
 // Init
 buildQueue();
-renderUpcoming();
 const first = pickNext();
 showSentence(first);
-  })
-  .catch(err => console.error("Error loading JSON:", err));
+
+})
+.catch(err => console.error("Error loading files:", err));
