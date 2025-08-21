@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Mandarin Learning Studio — Single‑File App</title>
+<style>
+  :root{
+    --bg:#0f1226; --panel:#121735; --panel-2:#0d1330; --text:#e7ecf6; --muted:#98a1b3;
+    --brand:#86e2ff; --brand-2:#75f5c6; --warn:#f59e0b; --bad:#ef4444;
+    --ok:#10b981; --border:rgba(255,255,255,0.08); --glass:rgba(255,255,255,0.05);
+    --radius:14px; --shadow:0 14px 40px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:linear-gradient(180deg,#0a0e26,#0a1530 40%,#081c2a);color:var(--text);
+       font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+       min-height:100vh;}
+  header.appbar{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;position:sticky;top:0;
+    background:linear-gradient(180deg,rgba(0,0,0,.65),rgba(0,0,0,0));backdrop-filter:blur(6px);z-index:10;border-bottom:1px solid var(--border)}
+  .brand{display:flex;gap:10px;align-items:center}
+  .logo{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand-2));box-shadow:0 0 0 2px rgba(255,255,255,.06)}
+  h1{font-size:18px;margin:0}
+  .nav{display:flex;gap:8px;flex-wrap:wrap}
+  .tab{padding:8px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel-2);color:var(--text);cursor:pointer}
+  .tab.active{background:linear-gradient(135deg,rgba(134,226,255,.14),rgba(117,245,198,.10));border-color:rgba(134,226,255,.25)}
+
+  .wrap{max-width:1100px;margin:22px auto;padding:0 20px;display:grid;grid-template-columns:1fr 320px;gap:18px}
+  @media (max-width:980px){.wrap{grid-template-columns:1fr}}
+  .panel{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid var(--border);
+         border-radius:var(--radius);box-shadow:var(--shadow)}
+  .pane-body{padding:20px}
+  .header-row{display:flex;align-items:center;gap:10px;justify-content:space-between;margin-bottom:10px}
+  .muted{color:var(--muted)}
+  .btn{padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:var(--panel-2);color:var(--text);cursor:pointer}
+  .btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#06221b;border-color:transparent;font-weight:700}
+  .btn.ghost{background:transparent}
+  .btn.good{background:linear-gradient(90deg,#34d399,#10b981);color:#052216;border:0}
+  .btn.warn{background:linear-gradient(90deg,#fbbf24,#f59e0b);color:#2b1500;border:0}
+  .btn.bad{background:linear-gradient(90deg,#fb7185,#ef4444);color:#2b0505;border:0}
+  .btn.small{padding:7px 9px;border-radius:8px}
+  .kbd{background:rgba(255,255,255,.07);border:1px solid var(--border);padding:2px 6px;border-radius:6px;font-size:12px}
+
+  .bigCard{background:linear-gradient(180deg,#0e153b,#0a1736);border-radius:16px;border:1px solid var(--border);padding:26px;text-align:center;min-height:220px;display:flex;flex-direction:column;justify-content:center;align-items:center}
+  .chars{font-size:46px;letter-spacing:2px;text-shadow:0 10px 40px rgba(0,0,0,.55)}
+  .pinyin{font-size:18px;color:var(--muted);margin-top:6px}
+  .english{font-size:20px;color:var(--brand)}
+
+  input[type=text],input[type=number]{width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,.05);color:var(--text);font-size:16px}
+  .row{display:flex;gap:10px;align-items:center}
+  .row.wrap{flex-wrap:wrap}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media (max-width:720px){.split{grid-template-columns:1fr}}
+  .choices{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+
+  .reveal{margin-top:14px;background:linear-gradient(90deg,rgba(134,226,255,.12),rgba(117,245,198,.10));border:1px solid rgba(134,226,255,.25);padding:12px;border-radius:12px;width:100%}
+  .examples{color:var(--muted);font-size:14px;text-align:left;margin-top:10px}
+  .score-box{display:flex;gap:8px;align-items:center;justify-content:space-between}
+  .progress{height:10px;background:rgba(255,255,255,.05);border-radius:8px;overflow:hidden}
+  .progress>div{height:100%;width:0;background:linear-gradient(90deg,var(--brand),var(--brand-2))}
+
+  /* Animations */
+  .fade{animation:fade .45s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .flip{transition:transform .5s;transform-style:preserve-3d}
+  .flip .face{backface-visibility:hidden}
+  .flip .back{transform:rotateY(180deg)}
+  .flipped{transform:rotateY(180deg)}
+</style>
+</head>
+<body>
+  <header class="appbar">
+    <div class="brand"><div class="logo"></div><h1>Mandarin Learning Studio</h1></div>
+    <nav class="nav">
+      <button class="tab active" data-tab="tones">Recognise Tones</button>
+      <button class="tab" data-tab="pinyin">Recognise Pinyin</button>
+      <button class="tab" data-tab="flashcards">Flashcards</button>
+      <button class="tab" data-tab="sentences">Sentences</button>
+      <button class="tab" data-tab="produce">Produce Mandarin</button>
+    </nav>
+  </header>
+
+  <div class="wrap">
+    <main id="main" class="panel">
+      <div class="pane-body">
+        <!-- TONES MODE -->
+        <section id="tones" class="mode">
+          <div class="header-row">
+            <div>
+              <div class="muted">Audio only until answered</div>
+              <div class="muted">Keys: <span class="kbd">0–4</span> to answer, <span class="kbd">Enter</span> submit, <span class="kbd">P</span> play</div>
+            </div>
+            <div class="row">
+              <button id="tonesStart" class="btn primary">Start / Next</button>
+              <button id="tonesPlay" class="btn">Play</button>
+              <label class="row"><input id="tonesAutoplay" type="checkbox" checked /> Autoplay</label>
+            </div>
+          </div>
+          <div class="bigCard fade" id="tonesCard">
+            <div class="muted" id="tonesPrompt">Press Start. A single-syllable word will play.</div>
+            <div class="choices" style="margin-top:10px">
+              <button class="btn small" data-tone="0">0 (neutral)</button>
+              <button class="btn small" data-tone="1">1</button>
+              <button class="btn small" data-tone="2">2</button>
+              <button class="btn small" data-tone="3">3</button>
+              <button class="btn small" data-tone="4">4</button>
+            </div>
+            <div id="tonesReveal" class="reveal" style="display:none"></div>
+          </div>
+          <div class="score-box" style="margin-top:12px">
+            <div>Score: <strong id="tonesScore">0 / 0</strong></div>
+            <div class="progress" style="flex:1"><div id="tonesProg"></div></div>
+          </div>
+        </section>
+
+        <!-- PINYIN MODE -->
+        <section id="pinyin" class="mode" style="display:none">
+          <div class="header-row">
+            <div class="muted">Audio only until answered — type numbered or marked pinyin (e.g., <em>ni3 hao3</em> or <em>nǐ hǎo</em>).</div>
+            <div class="row">
+              <button id="pinyinStart" class="btn primary">Start / Next</button>
+              <button id="pinyinPlay" class="btn">Play</button>
+              <label class="row"><input id="pinyinAutoplay" type="checkbox" checked /> Autoplay</label>
+            </div>
+          </div>
+          <div class="bigCard fade">
+            <input id="pinyinInput" type="text" placeholder="Type pinyin and press Enter..." autocomplete="off" />
+            <div id="pinyinReveal" class="reveal" style="display:none"></div>
+          </div>
+          <div class="score-box" style="margin-top:12px">
+            <div>Score: <strong id="pinyinScore">0 / 0</strong></div>
+            <div class="progress" style="flex:1"><div id="pinyinProg"></div></div>
+          </div>
+        </section>
+
+        <!-- FLASHCARDS MODE -->
+        <section id="flashcards" class="mode" style="display:none">
+          <div class="header-row">
+            <div class="muted">Front shows characters & pinyin. Enter to flip; Enter again to next.</div>
+            <div class="row wrap">
+              <button id="fcPrev" class="btn">Prev</button>
+              <button id="fcNext" class="btn primary">Next</button>
+              <button id="fcShuffle" class="btn">Shuffle</button>
+              <button id="fcExport" class="btn ghost">Export Deck</button>
+              <label class="btn ghost"><input id="fcImportFile" type="file" accept="application/json" style="display:none"/>Import Deck</label>
+            </div>
+          </div>
+          <div class="flip bigCard" id="fcCard">
+            <div class="face front">
+              <div class="chars" id="fcChars">你好</div>
+              <div class="pinyin" id="fcPinyin">nǐ hǎo</div>
+              <div class="row" style="margin-top:14px">
+                <input id="fcAnswer" type="text" placeholder="Type English and press Enter..." autocomplete="off"/>
+              </div>
+            </div>
+            <div class="face back" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
+              <div class="english" id="fcEnglish">hello</div>
+              <div class="examples" id="fcExamples"></div>
+              <div class="choices" id="fcChoices"></div>
+            </div>
+          </div>
+          <div class="score-box" style="margin-top:12px">
+            <div>Deck size: <strong id="fcDeckSize">0</strong></div>
+            <div>Progress: <span id="fcIndex">1</span></div>
+          </div>
+        </section>
+
+        <!-- SENTENCES MODE -->
+        <section id="sentences" class="mode" style="display:none">
+          <div class="header-row">
+            <div class="muted">Characters & pinyin can be toggled. Enter reveals; Y/M/N to mark.</div>
+            <div class="row">
+              <button id="sNew" class="btn primary">New / Next</button>
+              <button id="sToggleChars" class="btn">Hide Characters</button>
+              <button id="sTogglePinyin" class="btn">Hide Pinyin</button>
+            </div>
+          </div>
+          <div class="bigCard">
+            <div class="chars" id="sChars">你好</div>
+            <div class="pinyin" id="sPinyin">nǐ hǎo</div>
+            <div class="row" style="margin-top:10px"><input id="sInput" type="text" placeholder="Type English translation and press Enter..." autocomplete="off"/></div>
+            <div id="sReveal" class="reveal" style="display:none"></div>
+            <div id="sButtons" class="choices" style="display:none">
+              <button id="sYes" class="btn good">Yes</button>
+              <button id="sMixed" class="btn warn">Mixed</button>
+              <button id="sNo" class="btn bad">No</button>
+            </div>
+          </div>
+          <div class="score-box" style="margin-top:12px">
+            <div>Score: <strong id="sScore">0 / 0</strong></div>
+            <div class="progress" style="flex:1"><div id="sProg"></div></div>
+          </div>
+        </section>
+
+        <!-- PRODUCE MODE (EN → ZH) -->
+        <section id="produce" class="mode" style="display:none">
+          <div class="header-row">
+            <div class="muted">Type Mandarin for the English prompt. Shows answer after submit. Optional SM‑2 review.</div>
+            <div class="row"><button id="prStart" class="btn primary">Start / Next</button></div>
+          </div>
+          <div class="bigCard">
+            <div class="muted" id="prPrompt">Press Start to begin.</div>
+            <div class="row" style="margin-top:12px"><input id="prInput" type="text" placeholder="Type Mandarin characters and press Enter..." autocomplete="off"/></div>
+            <div id="prReveal" class="reveal" style="display:none"></div>
+            <div class="choices" style="display:none" id="prBtns">
+              <button class="btn good" id="prKnew">Knew</button>
+              <button class="btn bad" id="prForgot">Forgot</button>
+            </div>
+          </div>
+          <div class="score-box" style="margin-top:12px">
+            <div>Due now: <strong id="prDue">0</strong></div>
+            <div class="progress" style="flex:1"><div id="prProg"></div></div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <aside class="panel">
+      <div class="pane-body">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div class="muted">Profile (local only)</div>
+          <button id="resetAll" class="btn ghost small">Reset All</button>
+        </div>
+        <div style="margin-top:8px">Session time: <span id="time">0:00</span></div>
+        <hr style="border:none;border-top:1px solid var(--border);margin:14px 0"/>
+        <div class="muted" style="margin-bottom:6px">Audio</div>
+        <div class="row">
+          <button id="testAudio" class="btn small">Test voice</button>
+          <label class="row" style="gap:6px"><input id="slowMode" type="checkbox"/> Slow</label>
+        </div>
+        <div class="muted" style="margin-top:12px">Tips</div>
+        <ul style="margin-top:6px;color:var(--muted);padding-left:18px">
+          <li>Use numbered tones (<span class="kbd">wo3</span>) or tone marks (<span class="kbd">wǒ</span>) in Pinyin mode.</li>
+          <li><span class="kbd">Enter</span> reveals, then mark your result.</li>
+          <li>All progress stays in your browser (localStorage).</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+<script>
+/**********************
+ * DATA
+ **********************/
+const WORDS = [
+  // single-syllable for tone recognition
+  {id:'w_ma1', chars:'妈', pinyin:'ma1', marked:'mā', tone:1},
+  {id:'w_ma2', chars:'麻', pinyin:'ma2', marked:'má', tone:2},
+  {id:'w_ma3', chars:'马', pinyin:'ma3', marked:'mǎ', tone:3},
+  {id:'w_ma4', chars:'骂', pinyin:'ma4', marked:'mà', tone:4},
+  {id:'w_ma0', chars:'吗', pinyin:'ma0', marked:'ma', tone:0},
+  {id:'w_ni3', chars:'你', pinyin:'ni3', marked:'nǐ', tone:3},
+  {id:'w_wo3', chars:'我', pinyin:'wo3', marked:'wǒ', tone:3},
+  {id:'w_shi4', chars:'是', pinyin:'shi4', marked:'shì', tone:4},
+];
+
+const FLASHCARDS = [
+  {id:'c1', chars:'你好', pinyin:'ni3 hao3', marked:'nǐ hǎo', eng:'hello', examples:['你好，我是学生。 - Hello, I am a student.','你好！今天过得怎么样？ - Hello! How is your day?'], options:['hello','goodbye','thank you','please']},
+  {id:'c2', chars:'谢谢', pinyin:'xie4 xie', marked:'xiè xie', eng:'thank you', examples:['谢谢你的帮助。 - Thank you for your help.','谢谢大家！ - Thanks everyone!'], options:['sorry','good night','thank you','yes']},
+  {id:'c3', chars:'对不起', pinyin:'dui4 bu4 qi3', marked:'duì bù qǐ', eng:'sorry', examples:['对不起，我来晚了。 - Sorry, I am late.','真对不起。 - I am truly sorry.'], options:['excuse me','sorry','please','cheers']},
+  {id:'c4', chars:'我不懂', pinyin:'wo3 bu4 dong3', marked:'wǒ bù dǒng', eng:"I don't understand", examples:['对不起，我听不懂。 - Sorry, I cannot understand what I hear.','我看不懂。 - I cannot understand what I read.'], options:["I don't understand",'I forgot','I want this','How much?']}
+];
+
+const SENTENCES = [
+  {chars:'请问，厕所在哪里？', pinyin:'qǐng wèn, cè suǒ zài nǎ lǐ?', eng:'Excuse me, where is the restroom?', examples:['请问，车站在哪里？','请问，这个怎么用？']},
+  {chars:'我要去火车站。', pinyin:'wǒ yào qù huǒ chē zhàn.', eng:'I want to go to the train station.', examples:['我要去机场。','我们要去饭店。']},
+  {chars:'我来自英国。', pinyin:'wǒ lái zì yīng guó.', eng:'I come from the UK.', examples:['我来自中国。','我来自伦敦。']},
+  {chars:'今天几号？', pinyin:'jīn tiān jǐ hào?', eng:'What is the date today?', examples:['明天是几号？','今天星期几？']},
+  {chars:'这个多少钱？', pinyin:'zhè ge duō shǎo qián?', eng:'How much is this?', examples:['打折后多少钱？','太贵了，可以便宜一点吗？']},
+];
+
+// Produce (EN->ZH) deck can reuse flashcards with eng as prompt
+const PRODUCE = FLASHCARDS.map(x=>({id:'p_'+x.id, eng:x.eng, chars:x.chars, pinyin:x.pinyin, marked:x.marked,
+  interval:0,repetitions:0,ease:2.5,due:Date.now(),lastReviewed:null}));
+
+/**********************
+ * UTILITIES
+ **********************/
+function $(sel){return document.querySelector(sel)}
+function $all(sel){return Array.from(document.querySelectorAll(sel))}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}}
+function msToHuman(ms){if(ms<=0) return 'now';const d=Math.floor(ms/86400000);if(d) return d+'d';const h=Math.floor(ms/3600000);if(h) return h+'h';const m=Math.floor(ms/60000);if(m) return m+'m';return Math.floor(ms/1000)+'s'}
+
+// Pinyin normalization
+const TONE_MARKS = { 'ā':['a',1], 'á':['a',2], 'ǎ':['a',3], 'à':['a',4],
+  'ē':['e',1], 'é':['e',2], 'ě':['e',3], 'è':['e',4],
+  'ī':['i',1], 'í':['i',2], 'ǐ':['i',3], 'ì':['i',4],
+  'ō':['o',1], 'ó':['o',2], 'ǒ':['o',3], 'ò':['o',4],
+  'ū':['u',1], 'ú':['u',2], 'ǔ':['u',3], 'ù':['u',4],
+  'ǖ':['v',1], 'ǘ':['v',2], 'ǚ':['v',3], 'ǜ':['v',4], 'ü':['v',0] };
+function toNumberedPinyin(marked){
+  // converts nǐ hǎo -> ni3 hao3 ; neutral -> 0 if explicitly ü (no tone) else no number
+  return (marked||'').toLowerCase().split(/\s+/).filter(Boolean).map(syl=>{
+    let tone=0; let base='';
+    for(const ch of syl){
+      if(TONE_MARKS[ch]){ base+=TONE_MARKS[ch][0]; tone=TONE_MARKS[ch][1]||tone; }
+      else if(/[a-zv]/.test(ch)) base+=ch; else base+=ch;
+    }
+    // if any digit present keep it
+    const digit = syl.match(/[0-5]/); if(digit) tone = parseInt(digit[0],10);
+    // if tone remains 0 and contains vowel but no explicit neutral indicator, keep 0 (neutral)
+    return base.replace(/v/g,'u:') + (/[aeiouv]/.test(base)? tone : '');
+  }).join(' ');
+}
+function normalizePinyin(s){ if(!s) return ''; const t = toNumberedPinyin(s); return t.replace(/\s+/g,' ').trim(); }
+function baseLetters(s){ return normalizePinyin(s).replace(/[0-5]/g,'').trim(); }
+
+// Speech synthesis (no external audio files)
+let userInteracted=false;
+function speak(text){
+  return new Promise((resolve)=>{
+    if(!text){resolve();return}
+    const synth = window.speechSynthesis;
+    if(synth){
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang='zh-CN';
+      if($('#slowMode').checked){ u.rate = 0.85; }
+      const tryVoices=()=>{
+        const vs = synth.getVoices();
+        const zh = vs.find(v=>v.lang&&v.lang.toLowerCase().startsWith('zh'))||vs.find(v=>/chinese|zh/i.test(v.name));
+        if(zh) u.voice = zh;
+        synth.cancel(); synth.speak(u);
+      };
+      u.onend=()=>resolve(); u.onerror=()=>resolve();
+      if(synth.getVoices().length) tryVoices(); else { synth.onvoiceschanged = tryVoices; tryVoices(); }
+    } else { resolve(); }
+  });
+}
+
+/**********************
+ * NAVIGATION
+ **********************/
+$all('.tab').forEach(b=>b.addEventListener('click',()=>{
+  $all('.tab').forEach(x=>x.classList.remove('active')); b.classList.add('active');
+  const id=b.dataset.tab; $all('.mode').forEach(m=>m.style.display='none'); $('#'+id).style.display='block';
+}));
+
+/**********************
+ * TONES MODE
+ **********************/
+let tonesQueue=[], tonesCurrent=null, tonesCorrect=0, tonesTotal=0;
+function buildTones(){ tonesQueue = WORDS.filter(w=>w.pinyin.replace(/[^\s]/g,'').length===0); shuffle(tonesQueue); }
+function tonesPresent(){ if(tonesQueue.length===0) buildTones(); tonesCurrent = tonesQueue.shift(); $('#tonesPrompt').textContent='Listen and pick a tone (0–4).'; $('#tonesReveal').style.display='none'; if(userInteracted && $('#tonesAutoplay').checked) speak(tonesCurrent.chars); }
+function tonesSubmit(n){ if(!tonesCurrent) return; tonesTotal++; const ok = (n===tonesCurrent.tone); if(ok) tonesCorrect++; const rev = $('#tonesReveal'); rev.style.display='block'; rev.innerHTML = `${ok?'<b>Correct.</b>':'<b>Wrong.</b>'} ${tonesCurrent.chars} (${tonesCurrent.marked}) — tone <b>${tonesCurrent.tone}</b>.`; $('#tonesScore').textContent=`${tonesCorrect} / ${tonesTotal}`; const p = Math.min(100, Math.round(100*(tonesTotal%20)/20)); $('#tonesProg').style.width=p+'%'; setTimeout(()=>tonesPresent(), 700); }
+$('#tonesStart').addEventListener('click',()=>{userInteracted=true; tonesPresent()});
+$('#tonesPlay').addEventListener('click',()=>{userInteracted=true; if(tonesCurrent) speak(tonesCurrent.chars)});
+$('#tonesCard').addEventListener('click',e=>{if(e.target.dataset && e.target.dataset.tone){ tonesSubmit(parseInt(e.target.dataset.tone,10)); }});
+document.addEventListener('keydown',e=>{ if($('#tones').style.display!=='none'){ if(e.key==='p'||e.key==='P'){ userInteracted=true; if(tonesCurrent) speak(tonesCurrent.chars); } const d=parseInt(e.key,10); if(d>=0&&d<=4){ tonesSubmit(d); } if(e.key==='Enter' && !tonesCurrent){ tonesPresent(); } }});
+
+/**********************
+ * PINYIN MODE
+ **********************/
+let pinQueue=[], pinCurrent=null, pinCorrect=0, pinTotal=0;
+function buildPinyin(){ pinQueue = FLASHCARDS.slice(); shuffle(pinQueue); }
+function pinyinPresent(){ if(pinQueue.length===0) buildPinyin(); pinCurrent = pinQueue.shift(); $('#pinyinInput').value=''; $('#pinyinReveal').style.display='none'; if(userInteracted && $('#pinyinAutoplay').checked) speak(pinCurrent.chars); }
+function pinyinSubmit(){ if(!pinCurrent) return; const guess = $('#pinyinInput').value.trim(); pinTotal++; const exp = normalizePinyin(pinCurrent.marked||pinCurrent.pinyin); const got = normalizePinyin(guess); const ok = got===exp && got.length>0; if(ok) pinCorrect++; const close = !ok && baseLetters(guess)===baseLetters(exp) && baseLetters(exp).length>0; const msg = ok? `<b>Correct.</b> ${pinCurrent.chars} = ${exp}` : (close? `Close — tones differ. Correct: <b>${exp}</b> (${pinCurrent.chars})` : `Wrong — correct: <b>${exp}</b> (${pinCurrent.chars})`); const r = $('#pinyinReveal'); r.style.display='block'; r.innerHTML=msg; $('#pinyinScore').textContent=`${pinCorrect} / ${pinTotal}`; const p = Math.min(100, Math.round(100*(pinTotal%20)/20)); $('#pinyinProg').style.width=p+'%'; setTimeout(()=>pinyinPresent(), 900); }
+$('#pinyinStart').addEventListener('click',()=>{userInteracted=true; pinyinPresent()});
+$('#pinyinPlay').addEventListener('click',()=>{userInteracted=true; if(pinCurrent) speak(pinCurrent.chars)});
+$('#pinyinInput').addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); pinyinSubmit(); }});
+
+/**********************
+ * FLASHCARDS MODE (Front: ZH + Pinyin → Type EN)
+ **********************/
+let fcIndex=0, fcFlipped=false, fcDeck=FLASHCARDS.slice();
+function fcRender(){ const c=fcDeck[fcIndex]; $('#fcChars').textContent=c.chars; $('#fcPinyin').textContent=c.marked||c.pinyin; $('#fcEnglish').textContent=c.eng; $('#fcExamples').innerHTML='<b>Examples</b>'+c.examples.map(x=>`<div style="margin-top:6px">${x}</div>`).join(''); $('#fcChoices').innerHTML='<b>Options</b><div class="choices">'+c.options.map(o=>`<button class="btn small">${o}</button>`).join('')+'</div>'; $('#fcDeckSize').textContent=fcDeck.length; $('#fcIndex').textContent=(fcIndex+1)+' / '+fcDeck.length; $('#fcAnswer').value=''; const card=$('#fcCard'); card.classList.remove('flipped'); fcFlipped=false; }
+$('#fcNext').addEventListener('click',()=>{ fcIndex=(fcIndex+1)%fcDeck.length; fcRender(); });
+$('#fcPrev').addEventListener('click',()=>{ fcIndex=(fcIndex-1+fcDeck.length)%fcDeck.length; fcRender(); });
+$('#fcShuffle').addEventListener('click',()=>{ shuffle(fcDeck); fcIndex=0; fcRender(); });
+$('#fcAnswer').addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); if(!fcFlipped){ $('#fcCard').classList.add('flipped'); fcFlipped=true; } else { $('#fcNext').click(); } }});
+$('#fcChoices').addEventListener('click',e=>{ if(e.target.classList.contains('btn')) $('#fcNext').click(); });
+// export/import deck
+$('#fcExport').addEventListener('click',()=>{ const data=JSON.stringify(fcDeck,null,2); const blob=new Blob([data],{type:'application/json'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='mandarin_deck.json'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); });
+$('#fcImportFile').addEventListener('change',e=>{ const f=e.target.files[0]; if(!f) return; const r=new FileReader(); r.onload=()=>{ try{ const deck=JSON.parse(r.result); if(!Array.isArray(deck)) throw new Error('Invalid deck'); fcDeck=deck; fcIndex=0; fcRender(); }catch(err){ alert('Import failed: '+err.message); } }; r.readAsText(f); });
+
+/**********************
+ * SENTENCES MODE
+ **********************/
+let sQueue=[], sCurrent=null, sCorrect=0, sTotal=0, sShowChars=true, sShowPinyin=true;
+function sBuild(){ sQueue=SENTENCES.slice(); shuffle(sQueue); }
+function sPresent(){ if(sQueue.length===0) sBuild(); sCurrent=sQueue.shift(); $('#sChars').textContent=sCurrent.chars; $('#sPinyin').textContent=sCurrent.pinyin; $('#sChars').style.display=sShowChars?'block':'none'; $('#sPinyin').style.display=sShowPinyin?'block':'none'; $('#sInput').value=''; $('#sReveal').style.display='none'; $('#sButtons').style.display='none'; $('#sInput').focus(); }
+function sReveal(){ const exp=sCurrent.eng; $('#sReveal').style.display='block'; $('#sReveal').innerHTML=`Correct: <b>${exp}</b><div class="examples"><b>Examples</b>${sCurrent.examples.map(x=>`<div style="margin-top:6px">${x}</div>`).join('')}</div>`; $('#sButtons').style.display='flex'; }
+function sMark(which){ sTotal++; if(which==='yes') sCorrect++; else if(which==='mixed') sCorrect+=0.5; $('#sScore').textContent=`${Math.round(sCorrect*10)/10} / ${sTotal}`; $('#sProg').style.width=Math.min(100,Math.round(100*(sTotal%20)/20))+'%'; setTimeout(sPresent, 220); }
+$('#sNew').addEventListener('click',()=>{ userInteracted=true; sPresent(); });
+$('#sToggleChars').addEventListener('click',()=>{ sShowChars=!sShowChars; $('#sToggleChars').textContent=sShowChars?'Hide Characters':'Show Characters'; $('#sChars').style.display=sShowChars?'block':'none'; });
+$('#sTogglePinyin').addEventListener('click',()=>{ sShowPinyin=!sShowPinyin; $('#sTogglePinyin').textContent=sShowPinyin?'Hide Pinyin':'Show Pinyin'; $('#sPinyin').style.display=sShowPinyin?'block':'none'; });
+$('#sInput').addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); if($('#sReveal').style.display==='none') sReveal(); }});
+$('#sYes').addEventListener('click',()=>sMark('yes'));
+$('#sMixed').addEventListener('click',()=>sMark('mixed'));
+$('#sNo').addEventListener('click',()=>sMark('no'));
+document.addEventListener('keydown',e=>{ if($('#sentences').style.display==='none') return; if($('#sReveal').style.display!=='none'){ if(e.key.toLowerCase()==='y') $('#sYes').click(); if(e.key.toLowerCase()==='m') $('#sMixed').click(); if(e.key.toLowerCase()==='n') $('#sNo').click(); } });
+
+/**********************
+ * PRODUCE MODE (EN → ZH) with simplified SM‑2
+ **********************/
+let prQueue=[], prCurrent=null, prCorrect=0, prTotal=0;
+function prLoad(){ const raw=localStorage.getItem('mls_produce'); if(raw){ try{ const arr=JSON.parse(raw); if(Array.isArray(arr)) return arr; }catch{} } return PRODUCE; }
+function prSave(deck){ localStorage.setItem('mls_produce', JSON.stringify(deck)); }
+let prDeck = prLoad();
+function prDueCount(){ const now=Date.now(); return prDeck.filter(c=>c.due<=now).length; }
+function prBuild(){ const now=Date.now(); prQueue = prDeck.filter(c=>c.due<=now); shuffle(prQueue); }
+function prPresent(){ if(prQueue.length===0){ prBuild(); if(prQueue.length===0){ $('#prPrompt').textContent='No cards due. (Use other modes meanwhile.)'; $('#prBtns').style.display='none'; return; } }
+  prCurrent = prQueue.shift(); $('#prPrompt').innerHTML = `Translate to Mandarin: <b>${prCurrent.eng}</b>`; $('#prInput').value=''; $('#prReveal').style.display='none'; $('#prBtns').style.display='none'; $('#prInput').focus(); $('#prDue').textContent=prDueCount(); $('#prProg').style.width=Math.min(100, Math.round(100*(prTotal%20)/20))+'%'; }
+function prShow(){ $('#prReveal').style.display='block'; $('#prReveal').innerHTML = `Answer: <b>${prCurrent.chars}</b> <span class="muted">(${prCurrent.marked||prCurrent.pinyin})</span>`; $('#prBtns').style.display='flex'; }
+function sm2Update(card, quality){ // quality: 5 (knew) or 2 (forgot)
+  if(quality<3){ card.repetitions=0; card.interval=1; }
+  else{
+    card.repetitions += 1;
+    if(card.repetitions===1) card.interval=1; else if(card.repetitions===2) card.interval=6; else card.interval=Math.round(card.interval*card.ease);
+    card.ease = Math.max(1.3, card.ease + 0.1 - (5-quality)*(0.08 + (5-quality)*0.02));
+  }
+  card.due = Date.now() + card.interval*24*60*60*1000;
+  card.lastReviewed = Date.now();
+}
+$('#prStart').addEventListener('click',()=>{ prPresent(); });
+$('#prInput').addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); prShow(); }});
+$('#prKnew').addEventListener('click',()=>{ prTotal++; prCorrect++; sm2Update(prCurrent,5); prSave(prDeck); prPresent(); });
+$('#prForgot').addEventListener('click',()=>{ prTotal++; sm2Update(prCurrent,2); prSave(prDeck); prPresent(); });
+
+/**********************
+ * SIDEBAR & GENERAL
+ **********************/
+$('#resetAll').addEventListener('click',()=>{ if(confirm('Reset local progress?')){ localStorage.removeItem('mls_produce'); prDeck = PRODUCE; prQueue=[]; prPresent(); tonesCorrect=tonesTotal=pinCorrect=pinTotal=sCorrect=sTotal=prCorrect=prTotal=0; $('#tonesScore').textContent='0 / 0'; $('#pinyinScore').textContent='0 / 0'; $('#sScore').textContent='0 / 0'; $('#prDue').textContent=prDueCount(); $all('.progress>div').forEach(x=>x.style.width='0'); }});
+$('#testAudio').addEventListener('click',()=>{ userInteracted=true; speak('你好'); });
+let secs=0; setInterval(()=>{ secs++; const m=Math.floor(secs/60), s=secs%60; $('#time').textContent=`${m}:${s.toString().padStart(2,'0')}` },1000);
+
+// Init default renders
+fcRender(); sBuild();
+
+</script>
+</body>
+</html>
