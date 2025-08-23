@@ -164,17 +164,24 @@ button.secondary {
   justify-content:space-between;
   align-items:center;
   gap:10px;
+  margin-top: 8px;
 }
 
 .optionsBtn {
   flex: 1;
-  background: var(--card-3);
+  background: var(--card-2);
   border: var(--border);
   color: var(--muted);
   padding:10px 20px;
   border-radius:10px;
 }
-
+.optionsBtn.selected {
+  background: var(--card-1);
+  color: var(--text-1);
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.6);
+}
+.left {width: 50%; }
+.right{width: 50%; }
 .reveal {
   margin-top: 14px;
   padding: 12px;

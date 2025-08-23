@@ -1,3 +1,30 @@
+function getQueryParams() {
+  const params = new URLSearchParams(window.location.search);
+
+  return {
+    display: {
+      chars: params.get("displaychars") === "true",
+      pinyin: params.get("displaypinyin") === "true",
+      audio: params.get("displayaudio") === "true",
+      english: params.get("displayenglish") === "true",
+    },
+    inputLang: {
+      chinese: params.get("inputchinese") === "true",
+      english: params.get("inputenglish") === "true",
+    },
+    inputType: {
+      mc: params.get("inputmc") === "true",
+      typein: params.get("inputtypein") === "true",
+    },
+    number: parseInt(params.get("number"), 10) || 30
+  };
+}
+
+
+//get settings
+const settings = getQueryParams();
+console.log(settings)
+
 // Sentences dataset (character, pinyin, english, examples)
 vocabFile = "./vocab-lists/hsk1_full_vocab_with_examples.json"
 mnemonicsFile = "./vocab-lists/hsk1_mnemonics.json"
@@ -7,31 +34,43 @@ Promise.all([
   fetch(mnemonicsFile).then(res => res.json())
 ])
 .then(([vocabData, mnemonicsData]) => {
-
+console.log(vocabData)
 const SENTENCES = vocabData
 const MNEMONICS = mnemonicsData
+
+let sessionResults = {};
+for (let i = 0; i < 150; i++) {
+  sessionResults[i] = 0;
+}
+
 let indexQueue = [];
-let current = null;
-let showChars = true;
-let showPinyin = true;
-let chinToEng = true;
-let correct = 0, total = 0;
+let current = null; let currentIdx = 0;
+let showChars = settings.display["chars"];
+let showPinyin = settings.display["pinyin"];
+let playAudio = settings.display["audio"];
+let correct = 0, doneSoFar = 0; total = settings.number;
 
 // DOM elements
 const charsEl = document.getElementById('chars');
 const pinyinEl = document.getElementById('pinyin');
+const englishEl = document.getElementById('english');
+
 const inputEl = document.getElementById('translationInput');
 const enterBtn = document.getElementById('enterBtn');
+
 const revealArea = document.getElementById('revealArea');
 const correctTranslationEl = document.getElementById('correctTranslation');
 const revealExamplesBtn = document.getElementById('revealExamples');
 const exampleListEl = document.getElementById('exampleList');
+
 const btnYes = document.getElementById('btnYes');
 const btnMixed = document.getElementById('btnMixed');
 const btnNo = document.getElementById('btnNo');
+
 const toggleCharsBtn = document.getElementById('toggleChars');
 const togglePinyinBtn = document.getElementById('togglePinyin');
 const toggleLanguageBtn = document.getElementById('toggleLanguage');
+
 const progressFill = document.getElementById('progressFill');
 const progressDisplay = document.getElementById('progressDisplay');
 const scoreDisplay = document.getElementById('scoreDisplay');
@@ -50,20 +89,18 @@ function buildQueue() {
 function pickNext() {
   if (indexQueue.length === 0) buildQueue();
   const idx = indexQueue.shift();
+  currentIdx = idx;
   return SENTENCES[idx];
 }
 
 function showSentence(sent) {
+  console.log("sent:" +sent.chars)
   current = sent;
   charsEl.style.display = showChars ? 'block' : 'none';
   pinyinEl.style.display = showPinyin ? 'block' : 'none';
-  if(chinToEng){
-    charsEl.textContent = sent.chars;
-    pinyinEl.textContent = sent.pinyin;
-  } else {
-    charsEl.textContent = sent.eng;
-    pinyinEl.textContent = "";    
-  }
+  charsEl.textContent = sent.chars;
+  pinyinEl.textContent = sent.pinyin;
+  englishEl.textContent = settings.display["english"]? sent.eng : "";
   inputEl.value = '';
   revealArea.classList.add('hidden');
   correctTranslationEl.textContent = '';
@@ -72,32 +109,33 @@ function showSentence(sent) {
   document.getElementById('cardArea').classList.add('pop');
   setTimeout(() => document.getElementById('cardArea').classList.remove('pop'), 350);
 }
+
 function showChineseChars(sentence){
   charsEl.innerHTML = '';
   for (let char of sentence) {
-  const span = document.createElement("span");
-  span.textContent = char;
-  if (MNEMONICS[char]) {
-    const info = MNEMONICS[char];
-    const tooltip = document.createElement("div");
-    tooltip.className = "tooltip";
-    tooltip.innerHTML = `
-      <strong>${char}</strong><br>
-      <em>${info.definition}</em><br>
-      <b>Radicals:</b> ${info.radicals.join(", ")}<br>
-      <b>Mnemonic:</b> ${info.mnemonic}
-    `;
-    span.appendChild(tooltip);
+    const span = document.createElement("span");
+    span.textContent = char;
+    if (MNEMONICS[char]) {
+      const info = MNEMONICS[char];
+      const tooltip = document.createElement("div");
+      tooltip.className = "tooltip";
+      tooltip.innerHTML = `
+        <strong>${char}</strong><br>
+        <em>${info.definition}</em><br>
+        <b>Radicals:</b> ${info.radicals.join(", ")}<br>
+        <b>Mnemonic:</b> ${info.mnemonic}
+      `;
+      span.appendChild(tooltip);
+    }
+    charsEl.appendChild(span);
   }
-  charsEl.appendChild(span);
-}
 }
 
 function revealAnswer() {
-  if(chinToEng){
+  if(settings.inputLang["chinese"]){
     correctTranslationEl.textContent = `"${current.eng}"`;
     showChineseChars(current.chars); 
-  }else {
+  }else if(settings.inputLang["english"]) {
     correctTranslationEl.textContent = `"${current.chars}": ${current.pinyin}`;
   }
   revealExamplesBtn.style.display = 'block';
@@ -157,18 +195,29 @@ function highlightWordInSentence(word, sentence, tag) {
 }
 
 function markResult(res) {
-  total++;
-  if (res === 'yes') correct++;
-  else if (res === 'mixed') correct += 0.5;
-  scoreDisplay.textContent = `${Math.round(correct * 10) / 10} / ${total}`;
-  const prog = Math.min(100, ((total / (SENTENCES.length)) * 100));
+  doneSoFar++;
+  if(doneSoFar >= total){
+    save("tempProg");
+    showFinalScore()
+  }
+  if (res === 'yes') { correct++; sessionResults[currentIdx] = 3; }
+  else if (res === 'mixed') { correct += 0.5; sessionResults[currentIdx] = 2; }
+  else{ sessionResults = 1; }
+  scoreDisplay.textContent = `${Math.round(correct * 10) / 10} / ${doneSoFar}`;
+  const prog = Math.min(100, ((doneSoFar / total) * 100));
   progressFill.style.width = prog + '%';
-  progressDisplay.textContent = `${total}/${SENTENCES.length}`;
+  progressDisplay.textContent = `${doneSoFar}/${total}`;
+
   setTimeout(() => {
     const next = pickNext();
     showSentence(next);
   }, 220);
 }
+
+function save(filename) {
+  localStorage.setItem(filename, JSON.stringify(sessionResults));
+}
+
 
 // Event listeners
 enterBtn.addEventListener('click', () => {
@@ -201,19 +250,6 @@ togglePinyinBtn.addEventListener('click', () => {
   togglePinyinBtn.textContent = showPinyin ? 'Hide Pinyin' : 'Show Pinyin';
   pinyinEl.style.display = showPinyin ? 'block' : 'none';
 });
-toggleLanguageBtn.addEventListener('click', () => {
-  chinToEng = !chinToEng;
-  console.log(chinToEng);
-  toggleLanguageBtn.textContent = chinToEng ?  'Chinese -> English': 'English -> Chinese';
-  inputEl.placeholder = `Type the ${chinToEng? "English" : "Chinese"} translation and press Enter`;
-  if(chinToEng){
-    charsEl.textContent = current.chars;
-    pinyinEl.textContent = current.pinyin;
-  } else {
-    charsEl.textContent = current.eng;
-    pinyinEl.textContent = "";    
-  }
-});
 revealExamplesBtn.addEventListener('click', () => {
   revealExamplesBtn.style.display = 'none';
   revealExamples();
@@ -227,19 +263,10 @@ document.addEventListener('keydown', e => {
   }
 });
 
-function getQueryParams() {
-      const params = new URLSearchParams(window.location.search);
-      return {
-        audio: params.get("audio") === "true",
-        number: parseInt(params.get("number"), 10) || 30
-      };
-    }
-
-const settings = getQueryParams();
-console.log(settings)
 // Init
 buildQueue();
 const first = pickNext();
+console.log(first)
 showSentence(first);
 
 })

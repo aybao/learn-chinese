@@ -16,7 +16,6 @@
         <div class="controls">
           <button id="toggleChars" class="toggle">Hide Characters</button>
           <button id="togglePinyin" class="toggle">Hide Pinyin</button>
-          <button id="toggleLanguage" class="toggle">English -> Chinese</button>
         </div>
       </header>
 
@@ -24,6 +23,7 @@
         <div id="sentenceWrap" style="width:100%;max-width:720px;text-align:center">
           <div id="chars" class="sentenceChars fadeIn">你好</div>
           <div id="pinyin" class="sentencePinyin fadeIn">nǐ hǎo</div>
+          <div id="english" class="sentencePinyin fadeIn">Hello</div>
           <div class="inputRow" style="margin-top:8px">
             <input id="translationInput" type="text" placeholder="Type English translation and press Enter..." autocomplete="off" />
             <button id="enterBtn" class="btn">Enter</button>
@@ -63,6 +63,38 @@
       </div>
     </div>
   </div>
+<!-- Popup -->
+<div id="scorePopup" class="popup">
+  <div class="popup-content">
+    <span id="closePopup">&times;</span>
+    <h2>Final Score</h2>
+    <p id="scoreText"></p>
+  </div>
+</div>
+
+<style>
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+#closePopup {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+}
+</style>
 
   <script src="flashcards.js"></script>
 </body>
